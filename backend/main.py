@@ -11,8 +11,14 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 
 DATA_PATH = Path(__file__).parent / "data" / "raw" / "auctions.csv"
-
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
+SYSTEM_PROMPT = (
+    "You are a retail analytics advisor for Nellis Auction, a liquidation auction "
+    "company in Las Vegas. You analyze Amazon return pallet auction data to maximize "
+    "profit. Be specific, direct, and actionable. Always reference actual numbers "
+    "from the data."
+)
 
 app = FastAPI(title="Nellis Auction Analytics")
 
@@ -48,42 +54,83 @@ def metrics_for_group(group: pd.DataFrame) -> dict:
     }
 
 
-def aggregate_all(df: pd.DataFrame) -> dict:
-    def group_by(col, key):
-        rows = []
-        for val, grp in df.groupby(col):
-            rows.append({key: val, **metrics_for_group(grp)})
-        return sorted(rows, key=lambda r: r["profit"], reverse=True)
+def build_rich_context(df: pd.DataFrame) -> dict:
+    # Categories sorted by margin %
+    cat_rows = []
+    for cat, grp in df.groupby("category"):
+        cat_rows.append({"category": cat, **metrics_for_group(grp)})
+    cat_rows.sort(key=lambda r: r["margin"], reverse=True)
 
+    # Programs sorted by profit
+    prog_rows = []
+    for prog, grp in df.groupby("amazon_program"):
+        prog_rows.append({"amazon_program": prog, **metrics_for_group(grp)})
+    prog_rows.sort(key=lambda r: r["profit"], reverse=True)
+
+    # Locations sorted by profit
+    loc_rows = []
+    for loc, grp in df.groupby("location"):
+        loc_rows.append({"location": loc, **metrics_for_group(grp)})
+    loc_rows.sort(key=lambda r: r["profit"], reverse=True)
+
+    # Month-over-month trend
     df2 = df.copy()
     df2["month"] = df2["date"].dt.to_period("M").astype(str)
-
     month_rows = []
     for month, grp in df2.groupby("month"):
         m = metrics_for_group(grp)
-        month_rows.append({"month": month, "revenue": m["revenue"],
-                           "cost": m["cost"], "profit": m["profit"]})
+        month_rows.append({"month": month, "revenue": m["revenue"], "profit": m["profit"]})
+    month_rows.sort(key=lambda r: r["month"])
 
-    revenue = df["total_revenue"].sum()
-    cost    = df["total_cost"].sum()
-    profit  = df["profit"].sum()
+    if len(month_rows) >= 6:
+        recent = sum(r["revenue"] for r in month_rows[-3:])
+        prior  = sum(r["revenue"] for r in month_rows[-6:-3])
+        delta  = (recent - prior) / prior * 100 if prior else 0.0
+        mom_trend = {
+            "direction":           "growing" if delta > 0 else "declining",
+            "pct_change":          round(delta, 1),
+            "recent_3m_revenue":   round(recent, 2),
+            "prior_3m_revenue":    round(prior, 2),
+        }
+    else:
+        mom_trend = {"direction": "insufficient_data"}
+
+    # Program + category combos sorted by margin
+    combo_rows = []
+    for (prog, cat), grp in df.groupby(["amazon_program", "category"]):
+        m = metrics_for_group(grp)
+        combo_rows.append({"program": prog, "category": cat, **m})
+    combo_rows.sort(key=lambda r: r["margin"], reverse=True)
 
     return {
-        "summary": {
-            "total_auctions": len(df),
-            "total_revenue":  round(revenue, 2),
-            "total_cost":     round(cost, 2),
-            "total_profit":   round(profit, 2),
-            "avg_margin_pct": round(profit / revenue * 100 if revenue else 0, 2),
-        },
-        "by_category":  group_by("category", "category"),
-        "by_program":   group_by("amazon_program", "amazon_program"),
-        "by_location":  group_by("location", "location"),
-        "by_month":     sorted(month_rows, key=lambda r: r["month"]),
+        "top3_categories_by_margin":    cat_rows[:3],
+        "bottom3_categories_by_margin": cat_rows[-3:],
+        "best_program":                 prog_rows[0] if prog_rows else None,
+        "worst_program":                prog_rows[-1] if prog_rows else None,
+        "all_programs":                 prog_rows,
+        "best_location":                loc_rows[0] if loc_rows else None,
+        "all_locations":                loc_rows,
+        "mom_trend":                    mom_trend,
+        "monthly_data":                 month_rows,
+        "top5_combos_by_margin":        combo_rows[:5],
+        "bottom5_combos_by_margin":     combo_rows[-5:],
     }
 
 
-# ─── endpoints ────────────────────────────────────────────────────────────────
+def call_claude(user: str, max_tokens: int = 1200) -> str:
+    try:
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=max_tokens,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user}],
+        )
+        return msg.content[0].text
+    except anthropic.APIError as e:
+        raise HTTPException(status_code=502, detail=str(e))
+
+
+# ─── chart endpoints ───────────────────────────────────────────────────────────
 
 @app.get("/api/summary")
 def summary():
@@ -139,26 +186,77 @@ def by_month():
     return sorted(rows, key=lambda r: r["month"])
 
 
+# ─── insights endpoints ────────────────────────────────────────────────────────
+
 @app.get("/api/insights")
 def insights():
+    df  = load_df()
+    ctx = build_rich_context(df)
+    prompt = (
+        "Based on this auction performance data, give me:\n"
+        "1. TOP 3 IMMEDIATE ACTIONS — what to do this week to increase profit\n"
+        "2. BEST PRODUCT MIX — which category + Amazon program combinations to prioritize\n"
+        "3. AVOID LIST — what to stop buying or deprioritize and why\n"
+        "4. CAMPAIGN IDEA — one specific promotion or auction strategy to test next month\n"
+        "5. LOCATION INSIGHT — how to optimize across the three warehouse locations\n\n"
+        f"Data: {json.dumps(ctx)}"
+    )
+    return {"insights": call_claude(prompt, max_tokens=1500)}
+
+
+@app.get("/api/insights/buying-guide")
+def insights_buying_guide():
     df = load_df()
-    data = aggregate_all(df)
+    combo_rows = []
+    for (prog, cat), grp in df.groupby(["amazon_program", "category"]):
+        m = metrics_for_group(grp)
+        combo_rows.append({"program": prog, "category": cat, **m})
+    combo_rows.sort(key=lambda r: r["margin"], reverse=True)
 
     prompt = (
-        "You are a data analyst for Nellis Auction, a liquidation auction company.\n"
-        "Analyze this auction performance data and give 5 specific, actionable insights\n"
-        "for maximizing profit. Focus on: which Amazon programs to prioritize, which\n"
-        "product categories have the best margins, and any patterns worth exploiting.\n"
-        "Be direct and specific — dollar amounts and percentages where possible.\n\n"
-        f"Data: {json.dumps(data)}"
+        "Based on the margin performance of every Amazon program + product category "
+        "combination, give me a ranked buying guide. For each top recommendation state: "
+        "expected margin %, why it outperforms, and the pallet cost range to target. "
+        "Also call out the 3 combos to avoid entirely. Format as a clear ranked list "
+        "with a BUY section and an AVOID section.\n\n"
+        f"All combinations sorted by margin %: {json.dumps(combo_rows)}"
     )
+    return {"insights": call_claude(prompt, max_tokens=1200)}
 
-    try:
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=1024,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return {"insights": message.content[0].text}
-    except anthropic.APIError as e:
-        raise HTTPException(status_code=502, detail=str(e))
+
+@app.get("/api/insights/weekly-focus")
+def insights_weekly_focus():
+    df  = load_df()
+    ctx = build_rich_context(df)
+    prompt = (
+        "Give the Nellis operations team a focused 3-bullet action plan for this week "
+        "only. Each bullet must be one specific action, name who should execute it, and "
+        "state the expected impact in dollars or percentage points. No background, no "
+        "fluff — just the 3 highest-leverage moves available right now.\n\n"
+        f"Data: {json.dumps(ctx)}"
+    )
+    return {"insights": call_claude(prompt, max_tokens=600)}
+
+
+@app.get("/api/insights/risk-flags")
+def insights_risk_flags():
+    df  = load_df()
+    ctx = build_rich_context(df)
+    combo_rows = []
+    for (prog, cat), grp in df.groupby(["amazon_program", "category"]):
+        m = metrics_for_group(grp)
+        combo_rows.append({"program": prog, "category": cat, **m})
+    combo_rows.sort(key=lambda r: r["margin"])  # worst first
+
+    prompt = (
+        "Audit this auction data for financial risk. Flag:\n"
+        "- Categories actively losing money (negative margin) and the exact dollar loss\n"
+        "- Amazon programs dragging down overall profit\n"
+        "- Locations underperforming vs the best location, with the gap in dollars\n"
+        "- The 5 worst program + category combinations and what they're costing per year\n"
+        "- Any systemic pattern suggesting a sourcing or pricing problem\n"
+        "Be blunt. Use dollar amounts throughout.\n\n"
+        f"Performance data: {json.dumps(ctx)}\n"
+        f"Worst 10 combinations: {json.dumps(combo_rows[:10])}"
+    )
+    return {"insights": call_claude(prompt, max_tokens=1200)}
