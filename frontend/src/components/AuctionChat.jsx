@@ -4,19 +4,19 @@ import axios from 'axios';
 const API = `${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api`;
 
 const C = {
-  bg:     '#1a1a2e',
-  card:   '#16213e',
-  panel:  '#0f3460',
-  accent: '#f5a623',
-  text:   '#e0e0e0',
-  muted:  '#9e9e9e',
-  grid:   '#2a2a4a',
-  red:    '#ef5350',
+  bg:     '#F5F5F5',
+  card:   '#FFFFFF',
+  panel:  '#F5F5F5',
+  accent: '#E8372C',
+  text:   '#222222',
+  muted:  '#666666',
+  border: '#E0E0E0',
+  shadow: '0 2px 8px rgba(0,0,0,0.08)',
 };
 
 const SUGGESTIONS = [
   'Which category makes the most profit?',
-  'Should we buy more Renewed pallets?',
+  'Should we buy more Phoenix 6 pallets?',
   'Dean Martin vs North Las Vegas?',
   "What's our worst product mix?",
   'Buying recommendation for next week?',
@@ -34,7 +34,7 @@ function Bubble({ msg }) {
       <div style={{
         maxWidth:     '82%',
         background:   isUser ? C.accent : C.panel,
-        color:        isUser ? '#1a1a2e' : C.text,
+        color:        isUser ? '#FFFFFF' : C.text,
         borderRadius: isUser ? '14px 14px 4px 14px' : '14px 14px 14px 4px',
         padding:      '10px 14px',
         fontSize:     13,
@@ -42,6 +42,7 @@ function Bubble({ msg }) {
         fontWeight:   isUser ? 500 : 400,
         whiteSpace:   'pre-wrap',
         wordBreak:    'break-word',
+        border:       isUser ? 'none' : `1px solid ${C.border}`,
       }}>
         {msg.content}
       </div>
@@ -54,6 +55,7 @@ function TypingIndicator() {
     <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
       <div style={{
         background: C.panel, borderRadius: '14px 14px 14px 4px',
+        border: `1px solid ${C.border}`,
         padding: '12px 18px', display: 'flex', gap: 5, alignItems: 'center',
       }}>
         {[0, 1, 2].map(i => (
@@ -92,7 +94,7 @@ export default function AuctionChat() {
     try {
       const res = await axios.post(`${API}/chat`, {
         message: text,
-        history: messages,   // full history including welcome; backend strips leading assistant
+        history: messages,
       });
       setMessages(prev => [...prev, { role: 'assistant', content: res.data.reply }]);
     } catch (e) {
@@ -121,11 +123,11 @@ export default function AuctionChat() {
           onClick={() => setOpen(true)}
           title="Open Nellis Assistant"
           style={{
-            position:      'fixed', bottom: 24, right: 24,
+            position:   'fixed', bottom: 24, right: 24,
             width: 56, height: 56, borderRadius: '50%',
             background: C.accent, border: 'none', cursor: 'pointer',
             fontSize: 24, display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 4px 20px rgba(245,166,35,0.45)',
+            boxShadow: '0 4px 20px rgba(232,55,44,0.45)',
             zIndex: 1000, transition: 'transform 0.15s',
           }}
           onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.1)'}
@@ -147,8 +149,8 @@ export default function AuctionChat() {
           0%, 80%, 100% { transform: scale(0.8); opacity: 0.5; }
           40%            { transform: scale(1.2); opacity: 1; }
         }
-        .chat-input::placeholder { color: #9e9e9e; }
-        .chat-input:focus { border-color: #f5a623 !important; }
+        .chat-input::placeholder { color: #999999; }
+        .chat-input:focus { border-color: #E8372C !important; outline: none; }
       `}</style>
 
       <div style={{
@@ -156,16 +158,16 @@ export default function AuctionChat() {
         width: 390, height: 530,
         display: 'flex', flexDirection: 'column',
         background: C.card, borderRadius: 16,
-        border: `1px solid ${C.grid}`,
-        boxShadow: '0 12px 48px rgba(0,0,0,0.6)',
+        border: `1px solid ${C.border}`,
+        boxShadow: '0 12px 48px rgba(0,0,0,0.18)',
         overflow: 'hidden',
       }}>
 
         {/* Header */}
         <div style={{
-          background: C.panel, padding: '13px 18px', flexShrink: 0,
+          background: C.card, padding: '13px 18px', flexShrink: 0,
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-          borderBottom: `1px solid ${C.grid}`,
+          borderBottom: `3px solid ${C.accent}`,
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <div style={{
@@ -174,7 +176,7 @@ export default function AuctionChat() {
               justifyContent: 'center', fontSize: 15, flexShrink: 0,
             }}>🤖</div>
             <div>
-              <div style={{ color: C.accent, fontWeight: 700, fontSize: 13, lineHeight: 1 }}>
+              <div style={{ color: C.text, fontWeight: 700, fontSize: 13, lineHeight: 1 }}>
                 Nellis Assistant
               </div>
               <div style={{ color: C.muted, fontSize: 11, marginTop: 3 }}>
@@ -196,6 +198,7 @@ export default function AuctionChat() {
         <div style={{
           flex: 1, overflowY: 'auto', padding: '14px 14px 8px',
           display: 'flex', flexDirection: 'column', gap: 10,
+          background: C.bg,
         }}>
           {messages.map((msg, i) => <Bubble key={i} msg={msg} />)}
           {loading && <TypingIndicator />}
@@ -205,21 +208,22 @@ export default function AuctionChat() {
         {/* Suggestion chips */}
         {showSuggestions && (
           <div style={{
-            padding: '4px 12px 10px', display: 'flex',
+            padding: '6px 12px 10px', display: 'flex',
             flexWrap: 'wrap', gap: 6, flexShrink: 0,
+            background: C.bg, borderTop: `1px solid ${C.border}`,
           }}>
             {SUGGESTIONS.map(q => (
               <button
                 key={q}
                 onClick={() => send(q)}
                 style={{
-                  background: C.bg, color: C.muted,
-                  border: `1px solid ${C.grid}`, borderRadius: 12,
+                  background: C.card, color: C.muted,
+                  border: `1px solid ${C.border}`, borderRadius: 12,
                   padding: '5px 10px', fontSize: 11, cursor: 'pointer',
                   transition: 'color 0.1s, border-color 0.1s',
                 }}
                 onMouseEnter={e => { e.currentTarget.style.color = C.accent; e.currentTarget.style.borderColor = C.accent; }}
-                onMouseLeave={e => { e.currentTarget.style.color = C.muted;  e.currentTarget.style.borderColor = C.grid; }}
+                onMouseLeave={e => { e.currentTarget.style.color = C.muted;  e.currentTarget.style.borderColor = C.border; }}
               >
                 {q}
               </button>
@@ -229,7 +233,7 @@ export default function AuctionChat() {
 
         {/* Input bar */}
         <div style={{
-          padding: '10px 12px', borderTop: `1px solid ${C.grid}`,
+          padding: '10px 12px', borderTop: `1px solid ${C.border}`,
           display: 'flex', gap: 8, flexShrink: 0, background: C.card,
         }}>
           <input
@@ -242,7 +246,7 @@ export default function AuctionChat() {
             disabled={loading}
             style={{
               flex: 1, background: C.bg,
-              border: `1px solid ${C.grid}`, borderRadius: 8,
+              border: `1px solid ${C.border}`, borderRadius: 8,
               padding: '9px 12px', color: C.text, fontSize: 13,
               outline: 'none', transition: 'border-color 0.15s',
             }}
@@ -251,13 +255,13 @@ export default function AuctionChat() {
             onClick={() => send()}
             disabled={loading || !input.trim()}
             style={{
-              background:   (!input.trim() || loading) ? C.grid : C.accent,
-              color:        (!input.trim() || loading) ? C.muted : '#1a1a2e',
-              border:       'none', borderRadius: 8,
-              padding:      '9px 16px', fontWeight: 700, fontSize: 13,
-              cursor:       (!input.trim() || loading) ? 'not-allowed' : 'pointer',
-              transition:   'background 0.15s',
-              flexShrink:   0,
+              background: (!input.trim() || loading) ? C.border : C.accent,
+              color:      (!input.trim() || loading) ? C.muted  : '#FFFFFF',
+              border:     'none', borderRadius: 8,
+              padding:    '9px 16px', fontWeight: 700, fontSize: 13,
+              cursor:     (!input.trim() || loading) ? 'not-allowed' : 'pointer',
+              transition: 'background 0.15s',
+              flexShrink: 0,
             }}
           >
             ↑

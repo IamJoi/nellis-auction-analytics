@@ -4,31 +4,31 @@ import axios from 'axios';
 const API = `${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api`;
 
 const C = {
-  bg:     '#1a1a2e',
-  card:   '#16213e',
-  panel:  '#0f3460',
-  accent: '#f5a623',
-  blue:   '#4fc3f7',
-  green:  '#66bb6a',
-  red:    '#ef5350',
-  text:   '#e0e0e0',
-  muted:  '#9e9e9e',
-  grid:   '#2a2a4a',
+  bg:     '#F5F5F5',
+  card:   '#FFFFFF',
+  accent: '#E8372C',
+  text:   '#222222',
+  muted:  '#666666',
+  border: '#E0E0E0',
+  shadow: '0 2px 8px rgba(0,0,0,0.08)',
 };
 
-const CARD_COLORS = [C.accent, C.blue, C.green, '#ab47bc', '#ff7043'];
+const CARD_COLORS = ['#E8372C', '#222222', '#2E7D32', '#7B1FA2', '#E64A19'];
 
 function RecommendationCard({ icon, title, description, index }) {
   const accent = CARD_COLORS[index % CARD_COLORS.length];
   return (
     <div style={{
-      background:   C.bg,
-      borderRadius: 10,
-      padding:      '20px 22px',
-      borderTop:    `3px solid ${accent}`,
-      display:      'flex',
+      background:    C.card,
+      borderRadius:  8,
+      padding:       '18px 20px',
+      borderTop:     `3px solid ${accent}`,
+      border:        `1px solid ${C.border}`,
+      borderTopColor: accent,
+      boxShadow:     C.shadow,
+      display:       'flex',
       flexDirection: 'column',
-      gap:          10,
+      gap:           10,
     }}>
       <div style={{ fontSize: 26, lineHeight: 1 }}>{icon}</div>
       <div style={{
@@ -51,20 +51,22 @@ function RecommendationCard({ icon, title, description, index }) {
 function SkeletonCard() {
   return (
     <div style={{
-      background:   C.bg,
-      borderRadius: 10,
-      padding:      '20px 22px',
-      borderTop:    `3px solid ${C.grid}`,
-      display:      'flex',
+      background:    C.card,
+      borderRadius:  8,
+      padding:       '18px 20px',
+      borderTop:     `3px solid ${C.border}`,
+      border:        `1px solid ${C.border}`,
+      boxShadow:     C.shadow,
+      display:       'flex',
       flexDirection: 'column',
-      gap:          12,
+      gap:           12,
     }}>
-      <div style={{ width: 28, height: 26, background: C.grid, borderRadius: 4 }} />
-      <div style={{ width: '60%', height: 11, background: C.grid, borderRadius: 4 }} />
+      <div style={{ width: 28, height: 26, background: C.border, borderRadius: 4 }} />
+      <div style={{ width: '60%', height: 11, background: C.border, borderRadius: 4 }} />
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-        <div style={{ width: '100%', height: 11, background: C.grid, borderRadius: 4 }} />
-        <div style={{ width: '90%',  height: 11, background: C.grid, borderRadius: 4 }} />
-        <div style={{ width: '75%',  height: 11, background: C.grid, borderRadius: 4 }} />
+        <div style={{ width: '100%', height: 11, background: C.border, borderRadius: 4 }} />
+        <div style={{ width: '90%',  height: 11, background: C.border, borderRadius: 4 }} />
+        <div style={{ width: '75%',  height: 11, background: C.border, borderRadius: 4 }} />
       </div>
     </div>
   );
@@ -74,6 +76,7 @@ export default function AIInsights() {
   const [recommendations, setRecommendations] = useState([]);
   const [loading, setLoading]                 = useState(false);
   const [error,   setError]                   = useState(null);
+  const [hover,   setHover]                   = useState(false);
 
   const fetchInsights = useCallback(async () => {
     setLoading(true);
@@ -91,40 +94,42 @@ export default function AIInsights() {
   const hasResults = recommendations.length > 0;
 
   return (
-    <div style={{ background: C.card, borderRadius: 12, padding: '20px 24px', marginBottom: 16 }}>
+    <div style={{
+      background: C.card, borderRadius: 8, padding: '20px 24px', marginBottom: 16,
+      boxShadow: C.shadow, border: `1px solid ${C.border}`,
+    }}>
 
       {/* Header row */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
         <div>
-          <h2 style={{ margin: 0, color: C.accent, fontSize: 13, fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase' }}>
+          <h2 style={{
+            margin: 0, color: C.text, fontSize: 14, fontWeight: 700,
+            borderLeft: `4px solid ${C.accent}`, paddingLeft: 10,
+          }}>
             Executive Recommendations
           </h2>
-          <p style={{ margin: '4px 0 0', color: C.muted, fontSize: 12 }}>
-            Powered by Claude Sonnet · 3–5 immediately actionable moves
+          <p style={{ margin: '6px 0 0 14px', color: C.muted, fontSize: 12 }}>
+            Powered by Claude · 3–5 immediately actionable moves
           </p>
         </div>
         <button
           onClick={fetchInsights}
           disabled={loading}
+          onMouseEnter={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
           style={{
-            background:    loading ? C.grid : C.accent,
-            color:         loading ? C.muted : '#1a1a2e',
-            border:        'none',
-            borderRadius:  8,
-            padding:       '9px 20px',
-            fontSize:      12,
-            fontWeight:    700,
+            background:    loading ? C.border : hover ? '#C02E24' : C.accent,
+            color:         loading ? C.muted  : '#FFFFFF',
+            border:        'none', borderRadius: 6,
+            padding:       '9px 20px', fontSize: 12, fontWeight: 700,
             cursor:        loading ? 'not-allowed' : 'pointer',
-            letterSpacing: 0.3,
-            transition:    'background 0.15s',
-            whiteSpace:    'nowrap',
+            letterSpacing: 0.3, transition: 'background 0.15s', whiteSpace: 'nowrap',
           }}
         >
           {loading ? 'Generating…' : hasResults ? '↺ Refresh' : 'Generate Insights'}
         </button>
       </div>
 
-      {/* Loading skeleton */}
       {loading && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 14 }}>
           <SkeletonCard />
@@ -133,14 +138,15 @@ export default function AIInsights() {
         </div>
       )}
 
-      {/* Error */}
       {error && !loading && (
-        <div style={{ color: C.red, fontSize: 13, padding: '12px 16px', background: 'rgba(239,83,80,0.1)', borderRadius: 8 }}>
+        <div style={{
+          color: C.accent, fontSize: 13, padding: '12px 16px',
+          background: '#FFF5F5', borderRadius: 6, border: `1px solid #F5C0BC`,
+        }}>
           Error: {error}
         </div>
       )}
 
-      {/* Recommendation cards */}
       {!loading && hasResults && (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 14 }}>
           {recommendations.map((rec, i) => (
@@ -149,7 +155,6 @@ export default function AIInsights() {
         </div>
       )}
 
-      {/* Empty state */}
       {!loading && !error && !hasResults && (
         <div style={{ color: C.muted, fontSize: 13, padding: '24px 0', textAlign: 'center', lineHeight: 1.6 }}>
           Click <strong style={{ color: C.accent }}>Generate Insights</strong> for Claude's executive action plan.
