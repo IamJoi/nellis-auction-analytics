@@ -57,7 +57,7 @@ function StatCard({ label, value, color }) {
   return (
     <div style={{
       background: C.card, borderRadius: 8, padding: '18px 24px',
-      flex: 1, minWidth: 160,
+      flex: 1, minWidth: 140,
       boxShadow: C.shadow, border: `1px solid ${C.border}`,
       borderTop: `3px solid ${color || C.accent}`,
     }}>
@@ -93,7 +93,7 @@ function ChartTooltip({ active, payload, label }) {
 
 function CategoryChart({ data }) {
   return (
-    <ResponsiveContainer width="100%" height={270}>
+    <ResponsiveContainer width="100%" height={240}>
       <BarChart data={data} margin={{ top: 4, right: 8, left: 8, bottom: 44 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="category" tick={TICK} angle={-35} textAnchor="end" interval={0} />
@@ -109,7 +109,7 @@ function CategoryChart({ data }) {
 
 function ProgramChart({ data }) {
   return (
-    <ResponsiveContainer width="100%" height={270}>
+    <ResponsiveContainer width="100%" height={240}>
       <BarChart data={data} margin={{ top: 4, right: 8, left: 8, bottom: 44 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="amazon_program" tick={TICK} angle={-20} textAnchor="end" interval={0} />
@@ -126,7 +126,7 @@ function ProgramChart({ data }) {
 
 function TrendChart({ data }) {
   return (
-    <ResponsiveContainer width="100%" height={270}>
+    <ResponsiveContainer width="100%" height={240}>
       <LineChart data={data} margin={{ top: 4, right: 16, left: 8, bottom: 4 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="month" tick={TICK} tickFormatter={(v) => v.slice(5)} />
@@ -142,7 +142,7 @@ function TrendChart({ data }) {
 
 function LocationChart({ data }) {
   return (
-    <ResponsiveContainer width="100%" height={200}>
+    <ResponsiveContainer width="100%" height={180}>
       <BarChart data={data} layout="vertical" margin={{ top: 4, right: 16, left: 8, bottom: 4 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis type="number" tick={TICK} tickFormatter={fmtK} />
@@ -156,7 +156,7 @@ function LocationChart({ data }) {
   );
 }
 
-// ─── AI insight renderer ──────────────────────────────────────────────────────
+// ─── insight renderer ─────────────────────────────────────────────────────────
 
 function InsightBody({ text, style }) {
   const lines = text.split('\n');
@@ -234,12 +234,12 @@ function ActionBtn({ onClick, disabled, children }) {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       style={{
-        background:   disabled ? C.border : hover ? '#C02E24' : C.accent,
-        color:        disabled ? C.muted  : '#FFFFFF',
-        border:       'none', borderRadius: 6,
-        padding:      '9px 20px', fontSize: 13, fontWeight: 600,
-        cursor:       disabled ? 'not-allowed' : 'pointer',
-        transition:   'background 0.15s',
+        background: disabled ? C.border : hover ? '#C02E24' : C.accent,
+        color:      disabled ? C.muted  : '#FFFFFF',
+        border: 'none', borderRadius: 6,
+        padding: '9px 20px', fontSize: 13, fontWeight: 600,
+        cursor: disabled ? 'not-allowed' : 'pointer',
+        transition: 'background 0.15s',
       }}
     >
       {children}
@@ -271,7 +271,7 @@ function InsightsSection() {
 
   return (
     <Card style={{ marginBottom: 16 }}>
-      <SectionTitle>AI Insights</SectionTitle>
+      <SectionTitle>Insights</SectionTitle>
 
       {/* Tab bar */}
       <div style={{ display: 'flex', gap: 4, marginBottom: 20, borderBottom: `1px solid ${C.border}` }}>
@@ -285,7 +285,7 @@ function InsightsSection() {
                 background:   active ? C.accent : 'transparent',
                 color:        active ? '#FFFFFF' : C.muted,
                 border:       'none', borderRadius: '6px 6px 0 0',
-                padding:      '8px 16px', fontSize: 12,
+                padding:      '8px 14px', fontSize: 12,
                 fontWeight:   active ? 700 : 500, cursor: 'pointer',
                 marginBottom: -1,
                 borderBottom: active ? `2px solid ${C.accent}` : '2px solid transparent',
@@ -298,19 +298,19 @@ function InsightsSection() {
         })}
       </div>
 
-      {/* Generate */}
+      {/* Button row */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20 }}>
         <ActionBtn onClick={generate} disabled={current.loading}>
-          {current.loading ? 'Generating…' : `Generate ${meta.label}`}
+          {current.loading ? 'Analyzing…' : 'Get Recommendations'}
         </ActionBtn>
         {current.text && !current.loading && (
-          <span style={{ color: C.muted, fontSize: 12 }}>Click to regenerate</span>
+          <span style={{ color: C.muted, fontSize: 12 }}>Click to refresh</span>
         )}
       </div>
 
       {current.loading && (
-        <div style={{ color: C.muted, fontSize: 13, padding: '20px 0', textAlign: 'center' }}>
-          Asking Claude for {meta.label.toLowerCase()}…
+        <div style={{ color: C.muted, fontSize: 13, padding: '20px 0', textAlign: 'center', fontStyle: 'italic' }}>
+          Analyzing {meta.label.toLowerCase()}…
         </div>
       )}
 
@@ -321,14 +321,14 @@ function InsightsSection() {
       )}
 
       {current.text && !current.loading && (
-        <div style={{ background: C.panel, borderRadius: 8, padding: '20px 24px', maxHeight: 520, overflowY: 'auto', border: `1px solid ${C.border}` }}>
+        <div style={{ background: C.panel, borderRadius: 8, padding: '20px 24px', maxHeight: 480, overflowY: 'auto', border: `1px solid ${C.border}` }}>
           <InsightText text={current.text} />
         </div>
       )}
 
       {!current.text && !current.loading && !current.error && (
         <div style={{ color: C.muted, fontSize: 13, padding: '24px 0', textAlign: 'center' }}>
-          Click <strong style={{ color: C.accent }}>Generate {meta.label}</strong> to get Claude's analysis.
+          Click <strong style={{ color: C.accent }}>Get Recommendations</strong> to view insights.
         </div>
       )}
     </Card>
@@ -336,6 +336,41 @@ function InsightsSection() {
 }
 
 // ─── root ─────────────────────────────────────────────────────────────────────
+
+const LAYOUT_CSS = `
+  .app-shell {
+    background: #F5F5F5;
+    color: #222222;
+    font-family: system-ui, -apple-system, Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .app-body {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .app-left {
+    flex: 0 0 70%;
+    overflow-y: auto;
+    padding: 20px 20px 20px 32px;
+    min-width: 0;
+  }
+  .app-right {
+    flex: 0 0 30%;
+    overflow: hidden;
+    min-width: 0;
+  }
+  @media (max-width: 768px) {
+    .app-shell { height: auto; overflow: visible; }
+    .app-body  { flex-direction: column; overflow: visible; }
+    .app-left  { flex: none; width: 100%; overflow-y: visible; padding: 16px; }
+    .app-right { flex: none; width: 100%; height: 70vh; overflow: hidden; }
+  }
+`;
 
 export default function App() {
   const [summary,    setSummary]    = useState(null);
@@ -365,82 +400,90 @@ export default function App() {
       .catch((e) => { setErrMsg(e.message); setStatus('error'); });
   }, []);
 
-  const page = {
-    background: C.bg, minHeight: '100vh',
-    fontFamily: 'system-ui, -apple-system, Arial, sans-serif', color: C.text,
-  };
-
   if (status === 'loading') return (
-    <div style={{ ...page, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <span style={{ color: C.muted, fontSize: 16 }}>Loading data…</span>
-    </div>
+    <>
+      <style>{LAYOUT_CSS}</style>
+      <div className="app-shell" style={{ alignItems: 'center', justifyContent: 'center' }}>
+        <span style={{ color: C.muted, fontSize: 16 }}>Loading data…</span>
+      </div>
+    </>
   );
 
   if (status === 'error') return (
-    <div style={{ ...page, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
-      <span style={{ color: C.accent, fontSize: 18, fontWeight: 600 }}>Could not reach the API</span>
-      <span style={{ color: C.muted, fontSize: 14 }}>{errMsg}</span>
-    </div>
+    <>
+      <style>{LAYOUT_CSS}</style>
+      <div className="app-shell" style={{ alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+        <span style={{ color: C.accent, fontSize: 18, fontWeight: 600 }}>Could not reach the API</span>
+        <span style={{ color: C.muted, fontSize: 14 }}>{errMsg}</span>
+      </div>
+    </>
   );
 
   const totalProfitLabel =
     `${summary.total_profit >= 0 ? '' : '−'}$${Math.abs(summary.total_profit / 1000).toFixed(1)}k`;
 
   return (
-    <div style={page}>
+    <>
+      <style>{LAYOUT_CSS}</style>
+      <div className="app-shell">
 
-      {/* Header */}
-      <div style={{ background: '#FFFFFF', borderBottom: `3px solid ${C.accent}`, padding: '14px 36px' }}>
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
-          <span style={{ fontSize: 22, fontWeight: 700, color: C.text, letterSpacing: -0.5 }}>
-            Nellis Auction
-          </span>
-          <span style={{ fontSize: 15, fontWeight: 600, color: C.accent }}>
-            Analytics Dashboard
-          </span>
+        {/* Header — full width */}
+        <div style={{ background: '#FFFFFF', borderBottom: `3px solid ${C.accent}`, padding: '13px 32px', flexShrink: 0 }}>
+          <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
+            <span style={{ fontSize: 21, fontWeight: 700, color: C.text, letterSpacing: -0.5 }}>Nellis Auction</span>
+            <span style={{ fontSize: 14, fontWeight: 600, color: C.accent }}>Analytics Dashboard</span>
+          </div>
+        </div>
+
+        {/* Two-column body */}
+        <div className="app-body">
+
+          {/* Left — charts & insights */}
+          <div className="app-left">
+
+            {/* Summary cards */}
+            <div style={{ display: 'flex', gap: 14, marginBottom: 20, flexWrap: 'wrap' }}>
+              <StatCard label="Total Revenue"  value={`$${(summary.total_revenue / 1000).toFixed(1)}k`}  color={C.accent} />
+              <StatCard label="Total Profit"   value={totalProfitLabel}                                   color={summary.total_profit >= 0 ? C.accent : '#999999'} />
+              <StatCard label="Total Auctions" value={summary.total_auctions.toLocaleString()}           color={C.text} />
+              <StatCard label="Avg Margin"     value={`${summary.avg_margin_pct.toFixed(2)}%`}           color={summary.avg_margin_pct >= 0 ? C.accent : '#999999'} />
+            </div>
+
+            {/* Category + Program */}
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 14 }}>
+              <Card title="Profit by Category">
+                <CategoryChart data={byCategory} />
+              </Card>
+              <Card title="Profit & Margin by Program">
+                <ProgramChart data={byProgram} />
+              </Card>
+            </div>
+
+            {/* Trend + Location */}
+            <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 14, marginBottom: 14 }}>
+              <Card title="Monthly Revenue & Profit Trend">
+                <TrendChart data={byMonth} />
+              </Card>
+              <Card title="Profit by Location">
+                <LocationChart data={byLocation} />
+              </Card>
+            </div>
+
+            <InsightsSection />
+            <AIInsights />
+
+            <div style={{ textAlign: 'center', color: C.muted, fontSize: 12, marginTop: 4, paddingBottom: 16 }}>
+              Nellis Auction Analytics · 2024 · {summary.total_auctions} auctions
+            </div>
+          </div>
+
+          {/* Right — question panel */}
+          <div className="app-right">
+            <AuctionChat />
+          </div>
+
         </div>
       </div>
-
-      {/* Content */}
-      <div style={{ padding: '24px 36px' }}>
-
-        {/* Summary row */}
-        <div style={{ display: 'flex', gap: 16, marginBottom: 24, flexWrap: 'wrap' }}>
-          <StatCard label="Total Revenue"  value={`$${(summary.total_revenue / 1000).toFixed(1)}k`}  color={C.accent} />
-          <StatCard label="Total Profit"   value={totalProfitLabel}                                   color={summary.total_profit >= 0 ? C.accent : '#999999'} />
-          <StatCard label="Total Auctions" value={summary.total_auctions.toLocaleString()}           color={C.text} />
-          <StatCard label="Avg Margin"     value={`${summary.avg_margin_pct.toFixed(2)}%`}           color={summary.avg_margin_pct >= 0 ? C.accent : '#999999'} />
-        </div>
-
-        {/* Category + Program */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
-          <Card title="Profit by Category">
-            <CategoryChart data={byCategory} />
-          </Card>
-          <Card title="Profit & Margin by Program">
-            <ProgramChart data={byProgram} />
-          </Card>
-        </div>
-
-        {/* Trend + Location */}
-        <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 16, marginBottom: 16 }}>
-          <Card title="Monthly Revenue & Profit Trend">
-            <TrendChart data={byMonth} />
-          </Card>
-          <Card title="Profit by Location">
-            <LocationChart data={byLocation} />
-          </Card>
-        </div>
-
-        <InsightsSection />
-        <AIInsights />
-
-        <div style={{ textAlign: 'center', color: C.muted, fontSize: 12, marginTop: 8, paddingBottom: 8 }}>
-          Nellis Auction Analytics · 2024 · {summary.total_auctions} auctions
-        </div>
-      </div>
-
-      <AuctionChat />
-    </div>
+    </>
   );
 }

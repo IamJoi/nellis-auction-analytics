@@ -109,7 +109,7 @@ export default function AIInsights() {
             Executive Recommendations
           </h2>
           <p style={{ margin: '6px 0 0 14px', color: C.muted, fontSize: 12 }}>
-            Powered by Claude · 3–5 immediately actionable moves
+            3–5 immediately actionable moves based on your data
           </p>
         </div>
         <button
@@ -126,7 +126,7 @@ export default function AIInsights() {
             letterSpacing: 0.3, transition: 'background 0.15s', whiteSpace: 'nowrap',
           }}
         >
-          {loading ? 'Generating…' : hasResults ? '↺ Refresh' : 'Generate Insights'}
+          {loading ? 'Analyzing…' : hasResults ? '↺ Refresh' : 'Get Recommendations'}
         </button>
       </div>
 
@@ -157,7 +157,7 @@ export default function AIInsights() {
 
       {!loading && !error && !hasResults && (
         <div style={{ color: C.muted, fontSize: 13, padding: '24px 0', textAlign: 'center', lineHeight: 1.6 }}>
-          Click <strong style={{ color: C.accent }}>Generate Insights</strong> for Claude's executive action plan.
+          Click <strong style={{ color: C.accent }}>Get Recommendations</strong> for an executive action plan.
         </div>
       )}
     </div>
