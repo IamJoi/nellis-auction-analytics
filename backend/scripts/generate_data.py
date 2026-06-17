@@ -6,7 +6,7 @@ from pathlib import Path
 random.seed(42)
 
 LOCATIONS = ["Dean Martin", "North Las Vegas", "Nellis Outlet"]
-AMAZON_PROGRAMS = ["Warehouse Deals", "Renewed", "Returns", "Overstock"]
+AMAZON_PROGRAMS = ["Phoenix 6", "CVG", "Houston", "Other"]
 CATEGORIES = ["Electronics", "Home", "Clothing", "Baby", "Beauty", "Sports", "Tools", "Toys"]
 CONDITIONS = ["New", "Like New", "Good", "Acceptable"]
 ITEM_SIZES = ["Small", "Medium", "Large", "Oversized"]
@@ -38,10 +38,10 @@ CATEGORY_REVENUE_MULT = {
 }
 
 PROGRAM_REVENUE_BOOST = {
-    "Renewed":         1.20,
-    "Warehouse Deals": 1.20,
-    "Overstock":       1.00,
-    "Returns":         1.00,
+    "Phoenix 6": 1.20,   # was Warehouse Deals
+    "CVG":       1.20,   # was Renewed
+    "Houston":   1.00,   # was Returns
+    "Other":     1.00,   # was Overstock
 }
 
 CONDITION_REVENUE_MULT = {

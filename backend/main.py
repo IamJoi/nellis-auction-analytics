@@ -17,9 +17,9 @@ client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
 SYSTEM_PROMPT = (
     "You are a retail analytics advisor for Nellis Auction, a liquidation auction "
-    "company in Las Vegas. You analyze Amazon return pallet auction data to maximize "
-    "profit. Be specific, direct, and actionable. Always reference actual numbers "
-    "from the data."
+    "company in Las Vegas. You analyze pallet auction performance data to maximize "
+    "profit. The four sourcing programs are Phoenix 6, CVG, Houston, and Other. "
+    "Be specific, direct, and actionable. Always reference actual numbers from the data."
 )
 
 app = FastAPI(title="Nellis Auction Analytics")
@@ -197,7 +197,7 @@ def insights():
     prompt = (
         "Based on this auction performance data, give me:\n"
         "1. TOP 3 IMMEDIATE ACTIONS — what to do this week to increase profit\n"
-        "2. BEST PRODUCT MIX — which category + Amazon program combinations to prioritize\n"
+        "2. BEST PRODUCT MIX — which category + program (Phoenix 6, CVG, Houston, Other) combinations to prioritize\n"
         "3. AVOID LIST — what to stop buying or deprioritize and why\n"
         "4. CAMPAIGN IDEA — one specific promotion or auction strategy to test next month\n"
         "5. LOCATION INSIGHT — how to optimize across the three warehouse locations\n\n"
@@ -216,9 +216,9 @@ def insights_buying_guide():
     combo_rows.sort(key=lambda r: r["margin"], reverse=True)
 
     prompt = (
-        "Based on the margin performance of every Amazon program + product category "
-        "combination, give me a ranked buying guide. For each top recommendation state: "
-        "expected margin %, why it outperforms, and the pallet cost range to target. "
+        "Based on the margin performance of every sourcing program (Phoenix 6, CVG, Houston, Other) "
+        "+ product category combination, give me a ranked buying guide. For each top recommendation "
+        "state: expected margin %, why it outperforms, and the pallet cost range to target. "
         "Also call out the 3 combos to avoid entirely. Format as a clear ranked list "
         "with a BUY section and an AVOID section.\n\n"
         f"All combinations sorted by margin %: {json.dumps(combo_rows)}"
@@ -308,9 +308,9 @@ def insights_risk_flags():
     prompt = (
         "Audit this auction data for financial risk. Flag:\n"
         "- Categories actively losing money (negative margin) and the exact dollar loss\n"
-        "- Amazon programs dragging down overall profit\n"
+        "- Sourcing programs (Phoenix 6, CVG, Houston, Other) dragging down overall profit\n"
         "- Locations underperforming vs the best location, with the gap in dollars\n"
-        "- The 5 worst program + category combinations and what they're costing per year\n"
+        "- The 5 worst sourcing program + category combinations and what they're costing per year\n"
         "- Any systemic pattern suggesting a sourcing or pricing problem\n"
         "Be blunt. Use dollar amounts throughout.\n\n"
         f"Performance data: {json.dumps(ctx)}\n"
@@ -338,7 +338,8 @@ def chat(req: ChatRequest):
     system = (
         "You are an AI analyst for Nellis Auction. You have access to real auction "
         "performance data below. Answer questions concisely and always reference "
-        "specific numbers from the data. If asked for recommendations, be direct.\n\n"
+        "specific numbers from the data. If asked for recommendations, be direct. "
+        "The four sourcing programs are Phoenix 6, CVG, Houston, and Other.\n\n"
         f"Current Data: {json.dumps(ctx)}"
     )
 

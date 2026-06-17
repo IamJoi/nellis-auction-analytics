@@ -1,1001 +1,1001 @@
 auction_id,date,location,amazon_program,category,condition,item_size,pallet_cost,num_items,labor_hours,labor_cost_per_hour,total_revenue
-NLS-0001,2024-08-04,Nellis Outlet,Warehouse Deals,Electronics,Good,Medium,1067.85,23,5.75,18.5,1779.71
-NLS-0002,2024-08-02,Dean Martin,Warehouse Deals,Home,Like New,Medium,603.21,13,3.56,18.5,1141.21
-NLS-0003,2024-02-22,Dean Martin,Overstock,Beauty,New,Medium,479.26,53,10.09,18.5,630.67
-NLS-0004,2024-07-12,Dean Martin,Overstock,Home,Good,Large,662.24,15,4.2,18.5,870.89
-NLS-0005,2024-02-21,Dean Martin,Returns,Sports,Like New,Small,322.91,39,9.33,18.5,622.11
-NLS-0006,2024-02-06,North Las Vegas,Returns,Toys,Good,Medium,348.07,36,8.37,18.5,372.08
-NLS-0007,2024-01-29,Nellis Outlet,Renewed,Baby,Like New,Oversized,313.84,91,20.0,18.5,317.18
-NLS-0008,2024-07-21,Dean Martin,Warehouse Deals,Sports,Acceptable,Large,333.09,82,19.08,18.5,313.74
-NLS-0009,2024-10-25,Nellis Outlet,Overstock,Clothing,Good,Medium,273.99,81,16.65,18.5,256.08
-NLS-0010,2024-12-14,North Las Vegas,Returns,Baby,Like New,Oversized,227.27,16,6.94,18.5,176.54
-NLS-0011,2024-12-15,North Las Vegas,Warehouse Deals,Tools,Acceptable,Oversized,1234.94,80,20.0,18.5,1033.39
-NLS-0012,2024-09-13,Nellis Outlet,Returns,Sports,New,Large,517.38,68,11.15,18.5,900.7
-NLS-0013,2024-01-01,Dean Martin,Warehouse Deals,Beauty,Like New,Medium,349.57,30,6.81,18.5,603.67
-NLS-0014,2024-02-10,Nellis Outlet,Returns,Toys,New,Small,571.64,49,9.24,18.5,653.43
-NLS-0015,2024-04-18,Dean Martin,Overstock,Home,Like New,Medium,695.85,80,14.03,18.5,988.78
-NLS-0016,2024-01-11,Nellis Outlet,Renewed,Beauty,Acceptable,Large,375.24,76,15.14,18.5,224.81
-NLS-0017,2024-02-06,Nellis Outlet,Renewed,Baby,New,Small,412.35,17,3.77,18.5,691.93
-NLS-0018,2024-07-27,Nellis Outlet,Renewed,Beauty,Acceptable,Medium,415.69,83,17.28,18.5,283.46
-NLS-0019,2024-11-26,Dean Martin,Warehouse Deals,Home,Acceptable,Large,554.15,69,16.16,18.5,425.39
-NLS-0020,2024-08-24,Dean Martin,Warehouse Deals,Tools,Good,Small,898.39,34,7.57,18.5,1104.97
-NLS-0021,2024-05-01,Dean Martin,Warehouse Deals,Toys,New,Small,460.86,79,18.16,18.5,1000.06
-NLS-0022,2024-08-20,Dean Martin,Overstock,Toys,Acceptable,Medium,545.86,17,3.66,18.5,285.38
-NLS-0023,2024-01-30,North Las Vegas,Overstock,Toys,Like New,Medium,318.68,17,4.36,18.5,391.69
-NLS-0024,2024-03-02,Dean Martin,Overstock,Clothing,New,Small,455.4,18,4.59,18.5,560.34
-NLS-0025,2024-06-09,Nellis Outlet,Renewed,Electronics,New,Oversized,1588.85,82,20.0,18.5,3731.66
-NLS-0026,2024-02-21,Dean Martin,Returns,Tools,Like New,Large,1148.67,19,3.71,18.5,1973.53
-NLS-0027,2024-12-26,Dean Martin,Renewed,Beauty,Like New,Large,552.35,41,8.33,18.5,775.85
-NLS-0028,2024-04-17,North Las Vegas,Warehouse Deals,Beauty,New,Medium,305.79,23,5.89,18.5,374.91
-NLS-0029,2024-01-02,Nellis Outlet,Returns,Baby,Good,Oversized,275.34,16,5.07,18.5,206.05
-NLS-0030,2024-12-19,North Las Vegas,Renewed,Beauty,Like New,Oversized,420.67,64,20.0,18.5,549.55
-NLS-0031,2024-01-21,Dean Martin,Warehouse Deals,Sports,Like New,Oversized,363.72,49,14.63,18.5,852.37
-NLS-0032,2024-05-01,North Las Vegas,Renewed,Baby,New,Large,434.03,62,15.2,18.5,704.71
-NLS-0033,2024-05-07,Dean Martin,Renewed,Tools,New,Medium,1483.88,52,12.11,18.5,3209.96
-NLS-0034,2024-04-26,North Las Vegas,Renewed,Home,Acceptable,Small,815.16,38,7.23,18.5,771.11
-NLS-0035,2024-07-23,Dean Martin,Warehouse Deals,Baby,Acceptable,Large,283.58,18,5.25,18.5,193.79
-NLS-0036,2024-06-09,Nellis Outlet,Returns,Electronics,New,Large,1014.28,43,7.48,18.5,1815.92
-NLS-0037,2024-12-09,North Las Vegas,Warehouse Deals,Tools,Like New,Large,653.26,65,10.69,18.5,1390.14
-NLS-0038,2024-06-07,Dean Martin,Returns,Tools,New,Large,1347.79,94,20.0,18.5,2468.39
-NLS-0039,2024-03-30,Nellis Outlet,Overstock,Sports,Acceptable,Large,577.21,34,7.22,18.5,536.25
-NLS-0040,2024-08-14,Nellis Outlet,Returns,Tools,New,Large,944.3,65,14.88,18.5,1541.75
-NLS-0041,2024-04-30,North Las Vegas,Renewed,Toys,Like New,Small,313.51,94,19.86,18.5,433.1
-NLS-0042,2024-08-21,Nellis Outlet,Returns,Baby,Like New,Medium,207.33,41,10.49,18.5,230.76
-NLS-0043,2024-02-24,North Las Vegas,Renewed,Tools,Acceptable,Oversized,892.78,93,20.0,18.5,1142.58
-NLS-0044,2024-10-13,North Las Vegas,Renewed,Clothing,Acceptable,Small,367.22,25,5.65,18.5,301.0
-NLS-0045,2024-05-21,Nellis Outlet,Returns,Toys,Acceptable,Oversized,558.88,70,20.0,18.5,423.68
-NLS-0046,2024-02-11,Nellis Outlet,Overstock,Baby,Good,Oversized,223.25,46,13.06,18.5,193.61
-NLS-0047,2024-02-01,Dean Martin,Renewed,Baby,Acceptable,Medium,411.93,18,4.27,18.5,272.75
-NLS-0048,2024-08-02,Dean Martin,Overstock,Tools,New,Oversized,1172.38,55,15.79,18.5,2225.68
-NLS-0049,2024-03-25,Nellis Outlet,Renewed,Toys,Like New,Large,374.33,13,3.32,18.5,587.73
-NLS-0050,2024-07-13,North Las Vegas,Renewed,Electronics,Acceptable,Small,900.74,64,11.24,18.5,827.23
-NLS-0051,2024-02-11,North Las Vegas,Renewed,Toys,Good,Large,504.49,58,10.95,18.5,654.22
-NLS-0052,2024-01-11,North Las Vegas,Warehouse Deals,Electronics,Good,Medium,1580.17,93,15.24,18.5,1872.69
-NLS-0053,2024-07-07,Nellis Outlet,Renewed,Baby,Like New,Oversized,400.84,82,20.0,18.5,435.76
-NLS-0054,2024-04-11,Dean Martin,Warehouse Deals,Clothing,Good,Small,373.61,49,10.62,18.5,473.31
-NLS-0055,2024-07-08,Dean Martin,Renewed,Home,Good,Small,777.74,82,18.45,18.5,967.79
-NLS-0056,2024-08-10,Dean Martin,Returns,Electronics,Acceptable,Oversized,926.65,56,18.41,18.5,1096.49
-NLS-0057,2024-02-14,Dean Martin,Returns,Toys,Acceptable,Oversized,530.29,85,20.0,18.5,448.82
-NLS-0058,2024-05-12,North Las Vegas,Overstock,Baby,Acceptable,Oversized,300.92,73,20.0,18.5,133.72
-NLS-0059,2024-11-26,North Las Vegas,Returns,Beauty,New,Medium,234.25,62,12.72,18.5,360.3
-NLS-0060,2024-08-30,Nellis Outlet,Overstock,Toys,New,Small,317.69,61,13.56,18.5,375.29
-NLS-0061,2024-06-10,Nellis Outlet,Returns,Tools,Good,Large,1443.43,44,8.64,18.5,1687.07
-NLS-0062,2024-02-21,Dean Martin,Renewed,Baby,Like New,Oversized,282.95,85,20.0,18.5,342.44
-NLS-0063,2024-10-10,Dean Martin,Returns,Baby,Good,Medium,290.68,100,20.0,18.5,271.57
-NLS-0064,2024-05-09,North Las Vegas,Renewed,Toys,New,Small,429.63,70,14.18,18.5,687.64
-NLS-0065,2024-06-04,North Las Vegas,Warehouse Deals,Home,Acceptable,Oversized,344.45,90,20.0,18.5,269.13
-NLS-0066,2024-08-07,Dean Martin,Renewed,Home,Acceptable,Medium,765.42,58,11.78,18.5,750.53
-NLS-0067,2024-01-02,North Las Vegas,Warehouse Deals,Home,Like New,Medium,458.79,20,4.14,18.5,520.65
-NLS-0068,2024-04-29,North Las Vegas,Overstock,Toys,Good,Small,292.59,100,18.26,18.5,273.4
-NLS-0069,2024-06-06,North Las Vegas,Renewed,Tools,New,Medium,1377.16,44,10.58,18.5,2007.38
-NLS-0070,2024-08-12,Nellis Outlet,Returns,Toys,New,Oversized,475.47,99,20.0,18.5,546.67
-NLS-0071,2024-01-11,Dean Martin,Warehouse Deals,Tools,Good,Large,631.04,39,9.96,18.5,1182.4
-NLS-0072,2024-11-21,Nellis Outlet,Returns,Electronics,Like New,Oversized,1422.76,66,20.0,18.5,2029.24
-NLS-0073,2024-09-10,North Las Vegas,Warehouse Deals,Toys,Good,Oversized,333.32,95,20.0,18.5,315.52
-NLS-0074,2024-01-01,North Las Vegas,Overstock,Electronics,Acceptable,Small,1177.42,51,9.05,18.5,1318.1
-NLS-0075,2024-04-14,Nellis Outlet,Overstock,Tools,New,Medium,1222.13,89,19.75,18.5,2289.45
-NLS-0076,2024-10-09,North Las Vegas,Renewed,Beauty,Acceptable,Oversized,248.57,90,20.0,18.5,153.08
-NLS-0077,2024-05-29,Dean Martin,Overstock,Home,Like New,Small,576.87,25,6.09,18.5,755.37
-NLS-0078,2024-03-10,Nellis Outlet,Returns,Tools,Acceptable,Oversized,892.48,80,20.0,18.5,658.72
-NLS-0079,2024-12-03,Dean Martin,Returns,Tools,Good,Large,1584.66,46,10.62,18.5,2479.17
-NLS-0080,2024-12-23,North Las Vegas,Renewed,Toys,Acceptable,Large,332.98,79,15.22,18.5,325.46
-NLS-0081,2024-12-05,Dean Martin,Overstock,Baby,Acceptable,Small,295.45,70,15.47,18.5,188.69
-NLS-0082,2024-02-21,Nellis Outlet,Renewed,Toys,New,Medium,400.92,85,16.0,18.5,557.55
-NLS-0083,2024-11-15,Nellis Outlet,Overstock,Electronics,Like New,Oversized,1845.12,29,8.1,18.5,3126.02
-NLS-0084,2024-01-19,Nellis Outlet,Overstock,Home,Good,Oversized,872.48,90,20.0,18.5,1131.67
-NLS-0085,2024-02-21,Nellis Outlet,Warehouse Deals,Baby,Good,Medium,424.03,65,15.9,18.5,487.64
-NLS-0086,2024-09-28,North Las Vegas,Renewed,Beauty,New,Small,329.75,17,3.88,18.5,433.16
-NLS-0087,2024-03-14,North Las Vegas,Renewed,Clothing,Like New,Small,382.85,58,12.6,18.5,474.17
-NLS-0088,2024-08-14,Dean Martin,Overstock,Beauty,Acceptable,Large,466.74,69,16.37,18.5,318.14
-NLS-0089,2024-07-14,North Las Vegas,Returns,Tools,Good,Oversized,1614.36,35,13.77,18.5,2026.15
-NLS-0090,2024-01-26,Nellis Outlet,Returns,Beauty,Good,Small,591.18,94,18.07,18.5,494.33
-NLS-0091,2024-12-03,Nellis Outlet,Overstock,Beauty,Like New,Large,287.6,34,7.82,18.5,388.23
-NLS-0092,2024-05-31,Nellis Outlet,Renewed,Home,New,Large,773.17,14,3.78,18.5,1252.66
-NLS-0093,2024-05-11,North Las Vegas,Overstock,Clothing,Like New,Medium,435.95,56,11.78,18.5,585.1
-NLS-0094,2024-12-11,North Las Vegas,Returns,Sports,New,Oversized,781.45,28,10.44,18.5,1098.72
-NLS-0095,2024-10-26,North Las Vegas,Returns,Home,Acceptable,Small,458.68,25,5.65,18.5,362.69
-NLS-0096,2024-11-21,North Las Vegas,Returns,Home,Like New,Oversized,315.01,81,20.0,18.5,434.05
-NLS-0097,2024-10-02,North Las Vegas,Returns,Tools,New,Medium,654.42,14,3.37,18.5,946.34
-NLS-0098,2024-11-11,Dean Martin,Overstock,Toys,Good,Oversized,434.94,29,11.27,18.5,514.48
-NLS-0099,2024-10-05,North Las Vegas,Returns,Electronics,Good,Medium,1332.06,40,9.82,18.5,1560.41
-NLS-0100,2024-04-18,Nellis Outlet,Returns,Electronics,Acceptable,Large,1027.77,25,6.78,18.5,928.63
-NLS-0101,2024-10-27,Nellis Outlet,Warehouse Deals,Electronics,Good,Medium,1986.59,82,14.62,18.5,3750.04
-NLS-0102,2024-02-26,Dean Martin,Renewed,Sports,Like New,Small,438.64,28,7.55,18.5,849.62
-NLS-0103,2024-03-05,Nellis Outlet,Warehouse Deals,Clothing,New,Large,437.0,40,8.91,18.5,442.59
-NLS-0104,2024-11-10,Nellis Outlet,Overstock,Home,New,Oversized,568.97,56,17.55,18.5,663.86
-NLS-0105,2024-08-15,Dean Martin,Returns,Toys,New,Small,599.43,61,12.22,18.5,725.81
-NLS-0106,2024-11-01,Dean Martin,Warehouse Deals,Sports,Like New,Small,363.1,89,18.86,18.5,613.61
-NLS-0107,2024-04-20,Nellis Outlet,Returns,Toys,Acceptable,Small,517.24,24,6.34,18.5,370.45
-NLS-0108,2024-12-06,North Las Vegas,Overstock,Baby,Acceptable,Large,448.23,61,12.17,18.5,205.61
-NLS-0109,2024-03-07,North Las Vegas,Returns,Clothing,Acceptable,Small,227.37,20,4.02,18.5,115.53
-NLS-0110,2024-01-27,Nellis Outlet,Warehouse Deals,Sports,New,Oversized,476.8,95,20.0,18.5,935.55
-NLS-0111,2024-07-07,North Las Vegas,Returns,Sports,New,Medium,377.37,71,12.89,18.5,526.81
-NLS-0112,2024-12-25,Dean Martin,Returns,Baby,Acceptable,Small,382.7,94,20.0,18.5,188.15
-NLS-0113,2024-01-16,North Las Vegas,Returns,Sports,New,Medium,734.93,82,17.62,18.5,978.57
-NLS-0114,2024-11-01,Dean Martin,Renewed,Tools,Acceptable,Oversized,1009.08,57,16.41,18.5,1130.75
-NLS-0115,2024-07-31,Dean Martin,Warehouse Deals,Clothing,Like New,Small,402.19,44,9.15,18.5,538.42
-NLS-0116,2024-01-24,North Las Vegas,Renewed,Home,Good,Oversized,366.53,96,20.0,18.5,482.21
-NLS-0117,2024-03-02,Dean Martin,Overstock,Electronics,New,Medium,1161.7,37,8.89,18.5,2364.09
-NLS-0118,2024-06-30,Dean Martin,Overstock,Tools,Like New,Medium,1056.25,100,17.84,18.5,1823.75
-NLS-0119,2024-12-29,Dean Martin,Overstock,Electronics,Acceptable,Small,1351.71,19,5.28,18.5,1388.01
-NLS-0120,2024-12-19,Nellis Outlet,Overstock,Beauty,New,Oversized,208.34,51,13.93,18.5,322.88
-NLS-0121,2024-06-22,North Las Vegas,Warehouse Deals,Tools,New,Medium,1122.81,61,12.71,18.5,2003.91
-NLS-0122,2024-11-26,Dean Martin,Returns,Clothing,New,Small,359.18,34,8.67,18.5,445.32
-NLS-0123,2024-11-17,Dean Martin,Renewed,Home,Like New,Large,418.36,87,15.1,18.5,662.34
-NLS-0124,2024-10-29,North Las Vegas,Overstock,Toys,Good,Large,260.38,18,4.37,18.5,279.78
-NLS-0125,2024-02-16,Dean Martin,Returns,Home,Good,Oversized,571.15,17,6.01,18.5,614.13
-NLS-0126,2024-03-18,Nellis Outlet,Overstock,Toys,New,Oversized,563.62,83,20.0,18.5,649.45
-NLS-0127,2024-09-25,Dean Martin,Overstock,Home,Good,Small,602.73,32,5.77,18.5,853.95
-NLS-0128,2024-06-20,Nellis Outlet,Renewed,Sports,Good,Large,493.71,53,11.86,18.5,568.65
-NLS-0129,2024-02-11,Dean Martin,Returns,Home,Acceptable,Large,451.2,94,20.0,18.5,318.77
-NLS-0130,2024-06-17,Nellis Outlet,Renewed,Sports,Good,Oversized,364.48,100,20.0,18.5,437.75
-NLS-0131,2024-04-08,Dean Martin,Warehouse Deals,Tools,Good,Small,1035.12,33,8.58,18.5,1672.31
-NLS-0132,2024-09-26,Dean Martin,Renewed,Clothing,New,Large,453.33,22,5.2,18.5,736.53
-NLS-0133,2024-08-12,Dean Martin,Returns,Clothing,Acceptable,Medium,248.67,98,20.0,18.5,157.6
-NLS-0134,2024-08-28,Dean Martin,Overstock,Sports,Like New,Oversized,605.3,67,18.4,18.5,900.86
-NLS-0135,2024-11-05,Dean Martin,Returns,Toys,Acceptable,Large,511.25,74,15.23,18.5,448.38
-NLS-0136,2024-02-12,Dean Martin,Returns,Electronics,Acceptable,Large,1465.45,23,5.82,18.5,1272.97
-NLS-0137,2024-07-31,Dean Martin,Returns,Toys,Like New,Oversized,236.69,38,13.89,18.5,374.67
-NLS-0138,2024-12-31,Dean Martin,Overstock,Sports,Like New,Oversized,797.26,57,15.79,18.5,948.43
-NLS-0139,2024-08-17,Nellis Outlet,Returns,Clothing,Like New,Small,286.06,70,15.42,18.5,264.96
-NLS-0140,2024-02-26,Nellis Outlet,Warehouse Deals,Home,New,Large,429.39,29,6.64,18.5,798.22
-NLS-0141,2024-09-12,North Las Vegas,Renewed,Beauty,New,Small,295.38,91,20.0,18.5,398.94
-NLS-0142,2024-12-08,Nellis Outlet,Warehouse Deals,Baby,Like New,Large,328.77,88,16.68,18.5,363.04
-NLS-0143,2024-01-09,Dean Martin,Returns,Home,New,Oversized,824.0,15,6.09,18.5,1391.68
-NLS-0144,2024-11-25,North Las Vegas,Warehouse Deals,Sports,Like New,Small,685.75,52,9.28,18.5,994.65
-NLS-0145,2024-01-22,Dean Martin,Overstock,Toys,Like New,Medium,225.24,68,11.34,18.5,262.05
-NLS-0146,2024-12-01,North Las Vegas,Returns,Tools,Acceptable,Large,643.94,92,16.2,18.5,541.06
-NLS-0147,2024-09-11,North Las Vegas,Returns,Home,Good,Oversized,833.69,66,20.0,18.5,951.21
-NLS-0148,2024-05-30,Nellis Outlet,Overstock,Sports,Good,Small,663.54,20,4.67,18.5,808.58
-NLS-0149,2024-08-16,North Las Vegas,Warehouse Deals,Home,Good,Large,483.9,87,19.06,18.5,513.81
-NLS-0150,2024-03-22,Dean Martin,Returns,Tools,Good,Small,690.05,91,17.6,18.5,996.9
-NLS-0151,2024-11-05,Dean Martin,Renewed,Toys,New,Medium,226.89,92,17.49,18.5,357.41
-NLS-0152,2024-05-22,Dean Martin,Overstock,Sports,Good,Oversized,681.54,83,20.0,18.5,740.34
-NLS-0153,2024-04-19,Dean Martin,Warehouse Deals,Electronics,Like New,Oversized,1421.29,81,20.0,18.5,3553.67
-NLS-0154,2024-02-14,Nellis Outlet,Returns,Toys,Like New,Small,254.29,19,4.52,18.5,326.24
-NLS-0155,2024-07-04,Nellis Outlet,Returns,Sports,New,Large,745.67,30,7.27,18.5,1363.79
-NLS-0156,2024-10-09,Nellis Outlet,Renewed,Home,Like New,Medium,442.04,73,12.05,18.5,656.95
-NLS-0157,2024-02-07,Dean Martin,Warehouse Deals,Home,Good,Oversized,899.76,71,20.0,18.5,1498.1
-NLS-0158,2024-10-27,Dean Martin,Returns,Home,Acceptable,Oversized,708.07,54,14.38,18.5,620.19
-NLS-0159,2024-06-26,Dean Martin,Renewed,Tools,New,Small,1221.72,48,8.76,18.5,2567.7
-NLS-0160,2024-02-17,Nellis Outlet,Returns,Home,Good,Medium,681.03,80,14.74,18.5,779.26
-NLS-0161,2024-11-24,Nellis Outlet,Renewed,Clothing,Like New,Large,452.76,82,13.54,18.5,569.45
-NLS-0162,2024-05-05,Nellis Outlet,Returns,Baby,Acceptable,Small,349.41,90,18.43,18.5,190.09
-NLS-0163,2024-11-06,Nellis Outlet,Overstock,Beauty,Acceptable,Small,475.45,30,6.54,18.5,279.55
-NLS-0164,2024-03-03,Dean Martin,Returns,Sports,Good,Oversized,365.38,57,17.85,18.5,345.03
-NLS-0165,2024-03-22,North Las Vegas,Overstock,Baby,Like New,Small,215.18,59,13.99,18.5,235.38
-NLS-0166,2024-07-20,North Las Vegas,Returns,Baby,Like New,Oversized,498.79,69,20.0,18.5,393.7
-NLS-0167,2024-08-28,Nellis Outlet,Overstock,Baby,Like New,Large,214.6,46,9.72,18.5,253.19
-NLS-0168,2024-10-18,North Las Vegas,Warehouse Deals,Home,Acceptable,Medium,829.47,56,12.87,18.5,637.14
-NLS-0169,2024-12-14,Nellis Outlet,Renewed,Sports,Good,Small,493.17,67,15.18,18.5,696.2
-NLS-0170,2024-11-04,Nellis Outlet,Warehouse Deals,Clothing,New,Oversized,311.96,53,16.99,18.5,362.09
-NLS-0171,2024-09-20,Nellis Outlet,Overstock,Electronics,New,Small,964.44,52,12.2,18.5,1566.51
-NLS-0172,2024-09-07,Dean Martin,Returns,Sports,Like New,Oversized,795.31,48,15.75,18.5,1166.34
-NLS-0173,2024-12-18,Nellis Outlet,Returns,Toys,New,Large,332.5,24,6.63,18.5,467.78
-NLS-0174,2024-07-13,Nellis Outlet,Warehouse Deals,Toys,Good,Medium,488.56,84,16.83,18.5,591.78
-NLS-0175,2024-09-13,Dean Martin,Renewed,Electronics,New,Medium,822.72,50,10.16,18.5,1681.1
-NLS-0176,2024-08-23,Nellis Outlet,Overstock,Electronics,Like New,Medium,1473.06,94,18.7,18.5,2564.76
-NLS-0177,2024-06-01,Nellis Outlet,Returns,Sports,Good,Oversized,396.13,41,12.02,18.5,463.99
-NLS-0178,2024-07-21,North Las Vegas,Renewed,Toys,Good,Oversized,339.52,45,13.11,18.5,398.28
-NLS-0179,2024-09-02,North Las Vegas,Renewed,Beauty,New,Large,582.13,20,4.51,18.5,819.38
-NLS-0180,2024-04-25,Dean Martin,Renewed,Beauty,Good,Medium,243.69,85,15.36,18.5,273.75
-NLS-0181,2024-10-08,Nellis Outlet,Renewed,Electronics,New,Oversized,1196.35,70,18.02,18.5,2465.33
-NLS-0182,2024-02-15,Dean Martin,Overstock,Toys,Acceptable,Medium,502.36,46,9.04,18.5,402.8
-NLS-0183,2024-09-10,Nellis Outlet,Renewed,Electronics,Like New,Oversized,1858.69,32,12.46,18.5,3158.04
-NLS-0184,2024-11-24,Dean Martin,Returns,Electronics,New,Large,1481.55,23,6.29,18.5,2632.42
-NLS-0185,2024-04-05,Nellis Outlet,Overstock,Clothing,Acceptable,Large,257.84,24,5.18,18.5,170.41
-NLS-0186,2024-02-14,Dean Martin,Returns,Beauty,Like New,Medium,444.38,91,20.0,18.5,649.22
-NLS-0187,2024-05-16,North Las Vegas,Warehouse Deals,Clothing,Like New,Oversized,297.08,41,10.58,18.5,344.7
-NLS-0188,2024-12-17,North Las Vegas,Returns,Electronics,Good,Large,1631.32,17,4.51,18.5,1947.05
-NLS-0189,2024-11-06,Nellis Outlet,Returns,Home,Good,Large,668.78,38,9.72,18.5,686.26
-NLS-0190,2024-12-26,North Las Vegas,Overstock,Toys,Like New,Medium,472.14,86,19.93,18.5,435.25
-NLS-0191,2024-12-14,North Las Vegas,Warehouse Deals,Home,New,Medium,643.62,29,5.64,18.5,1223.82
-NLS-0192,2024-12-10,Dean Martin,Overstock,Home,Acceptable,Small,572.06,75,14.73,18.5,452.16
-NLS-0193,2024-10-04,North Las Vegas,Warehouse Deals,Tools,Good,Small,1494.97,84,14.06,18.5,2277.3
-NLS-0194,2024-08-03,Dean Martin,Warehouse Deals,Toys,New,Large,363.55,27,6.78,18.5,732.34
-NLS-0195,2024-03-01,North Las Vegas,Overstock,Toys,Acceptable,Oversized,232.1,94,20.0,18.5,137.14
-NLS-0196,2024-07-13,Dean Martin,Overstock,Clothing,Like New,Small,426.85,48,9.97,18.5,510.69
-NLS-0197,2024-01-09,Dean Martin,Renewed,Toys,Good,Medium,310.26,24,4.52,18.5,414.95
-NLS-0198,2024-07-24,Dean Martin,Renewed,Home,New,Small,567.86,96,20.0,18.5,891.0
-NLS-0199,2024-10-22,North Las Vegas,Renewed,Baby,New,Medium,351.17,47,8.87,18.5,545.92
-NLS-0200,2024-10-29,Nellis Outlet,Returns,Baby,Good,Medium,495.71,76,13.72,18.5,329.33
-NLS-0201,2024-08-01,Nellis Outlet,Renewed,Tools,Acceptable,Small,1766.75,92,19.75,18.5,1854.51
-NLS-0202,2024-03-14,North Las Vegas,Renewed,Beauty,Acceptable,Medium,501.77,70,12.82,18.5,378.43
-NLS-0203,2024-07-08,North Las Vegas,Warehouse Deals,Tools,Acceptable,Medium,1066.1,42,7.91,18.5,1263.14
-NLS-0204,2024-10-27,Dean Martin,Renewed,Electronics,Good,Oversized,1608.41,87,20.0,18.5,2488.11
-NLS-0205,2024-09-02,Nellis Outlet,Renewed,Toys,Like New,Large,321.28,11,2.73,18.5,407.47
-NLS-0206,2024-07-03,Dean Martin,Renewed,Tools,Like New,Large,1530.62,58,11.86,18.5,2951.64
-NLS-0207,2024-10-15,Nellis Outlet,Overstock,Toys,New,Oversized,504.65,50,18.36,18.5,582.74
-NLS-0208,2024-09-12,Dean Martin,Renewed,Electronics,Good,Oversized,1154.23,35,10.69,18.5,2102.77
-NLS-0209,2024-10-04,Nellis Outlet,Returns,Beauty,Acceptable,Oversized,384.33,55,14.9,18.5,274.25
-NLS-0210,2024-03-18,Nellis Outlet,Warehouse Deals,Electronics,New,Small,1717.21,62,10.93,18.5,3415.97
-NLS-0211,2024-01-09,Dean Martin,Renewed,Toys,Good,Small,447.13,95,20.0,18.5,663.2
-NLS-0212,2024-04-01,Dean Martin,Overstock,Electronics,New,Large,1442.89,46,7.86,18.5,3362.21
-NLS-0213,2024-07-10,Dean Martin,Warehouse Deals,Clothing,Like New,Medium,385.93,42,10.11,18.5,450.91
-NLS-0214,2024-02-17,North Las Vegas,Overstock,Baby,Like New,Large,405.21,20,5.1,18.5,488.72
-NLS-0215,2024-06-18,North Las Vegas,Overstock,Tools,Acceptable,Small,1364.1,99,17.21,18.5,1103.0
-NLS-0216,2024-02-08,Nellis Outlet,Warehouse Deals,Electronics,Like New,Medium,1881.53,98,20.0,18.5,3125.72
-NLS-0217,2024-07-22,Nellis Outlet,Returns,Electronics,Like New,Large,818.79,36,8.11,18.5,1569.29
-NLS-0218,2024-12-18,Dean Martin,Returns,Clothing,Like New,Oversized,403.11,79,20.0,18.5,446.59
-NLS-0219,2024-07-22,Nellis Outlet,Warehouse Deals,Sports,New,Small,518.54,19,4.32,18.5,1174.88
-NLS-0220,2024-12-04,North Las Vegas,Warehouse Deals,Beauty,Acceptable,Oversized,291.26,80,20.0,18.5,231.9
-NLS-0221,2024-07-18,North Las Vegas,Warehouse Deals,Beauty,Like New,Small,232.82,29,6.2,18.5,331.36
-NLS-0222,2024-04-05,North Las Vegas,Returns,Home,New,Small,865.78,66,12.78,18.5,972.05
-NLS-0223,2024-07-16,North Las Vegas,Overstock,Tools,New,Small,707.54,80,13.56,18.5,1151.95
-NLS-0224,2024-03-27,Dean Martin,Returns,Tools,Acceptable,Small,1469.81,81,19.05,18.5,1609.28
-NLS-0225,2024-06-02,Nellis Outlet,Overstock,Clothing,Like New,Large,290.34,73,12.76,18.5,239.75
-NLS-0226,2024-06-04,North Las Vegas,Warehouse Deals,Sports,Good,Medium,660.45,73,15.43,18.5,690.7
-NLS-0227,2024-03-10,Dean Martin,Overstock,Sports,Acceptable,Large,520.11,65,15.03,18.5,550.43
-NLS-0228,2024-09-08,North Las Vegas,Returns,Baby,Acceptable,Large,253.29,60,14.72,18.5,136.27
-NLS-0229,2024-10-06,Nellis Outlet,Renewed,Sports,Acceptable,Large,708.25,60,11.73,18.5,680.26
-NLS-0230,2024-12-10,Dean Martin,Warehouse Deals,Toys,Like New,Oversized,519.07,98,20.0,18.5,938.39
-NLS-0231,2024-09-02,North Las Vegas,Renewed,Beauty,Like New,Large,463.47,64,14.68,18.5,599.72
-NLS-0232,2024-05-07,Nellis Outlet,Overstock,Tools,New,Large,1441.96,78,16.41,18.5,2469.68
-NLS-0233,2024-05-12,Nellis Outlet,Returns,Clothing,New,Oversized,490.04,52,19.36,18.5,466.26
-NLS-0234,2024-01-13,Dean Martin,Renewed,Toys,Good,Oversized,385.23,96,20.0,18.5,446.37
-NLS-0235,2024-09-23,North Las Vegas,Warehouse Deals,Beauty,Acceptable,Small,246.43,28,5.94,18.5,193.5
-NLS-0236,2024-02-28,North Las Vegas,Returns,Toys,New,Oversized,488.8,67,19.1,18.5,614.5
-NLS-0237,2024-04-28,Dean Martin,Returns,Home,Like New,Medium,609.6,80,14.0,18.5,967.84
-NLS-0238,2024-01-03,North Las Vegas,Renewed,Clothing,Acceptable,Oversized,208.76,88,20.0,18.5,137.91
-NLS-0239,2024-05-14,Nellis Outlet,Renewed,Baby,Good,Small,373.2,78,13.84,18.5,341.68
-NLS-0240,2024-12-10,Nellis Outlet,Overstock,Sports,Acceptable,Oversized,593.5,54,15.89,18.5,394.63
-NLS-0241,2024-07-17,Nellis Outlet,Returns,Home,Like New,Large,370.72,49,8.73,18.5,394.22
-NLS-0242,2024-10-11,North Las Vegas,Renewed,Tools,Acceptable,Medium,1184.0,78,17.04,18.5,1431.02
-NLS-0243,2024-09-05,Dean Martin,Overstock,Beauty,Like New,Medium,325.83,67,14.39,18.5,546.4
-NLS-0244,2024-10-16,Dean Martin,Renewed,Tools,Acceptable,Oversized,1421.64,63,20.0,18.5,1335.69
-NLS-0245,2024-09-10,Dean Martin,Renewed,Beauty,New,Large,289.94,46,8.45,18.5,513.71
-NLS-0246,2024-08-05,Nellis Outlet,Warehouse Deals,Home,Good,Large,625.23,15,4.25,18.5,703.15
-NLS-0247,2024-05-01,Dean Martin,Renewed,Beauty,New,Oversized,305.13,21,7.3,18.5,683.48
-NLS-0248,2024-11-01,Dean Martin,Returns,Tools,Like New,Medium,1541.82,36,8.8,18.5,2570.94
-NLS-0249,2024-07-29,Nellis Outlet,Renewed,Sports,Good,Large,586.37,75,18.21,18.5,745.35
-NLS-0250,2024-09-07,Dean Martin,Returns,Clothing,Like New,Medium,243.87,51,12.09,18.5,319.64
-NLS-0251,2024-07-07,Dean Martin,Returns,Tools,Acceptable,Oversized,690.62,21,7.19,18.5,720.31
-NLS-0252,2024-09-30,North Las Vegas,Overstock,Sports,New,Small,665.47,68,14.67,18.5,1190.1
-NLS-0253,2024-09-05,North Las Vegas,Renewed,Tools,Like New,Oversized,922.24,46,13.66,18.5,1731.46
-NLS-0254,2024-04-13,North Las Vegas,Warehouse Deals,Electronics,New,Oversized,819.54,30,9.81,18.5,1566.62
-NLS-0255,2024-03-25,Nellis Outlet,Renewed,Beauty,Like New,Large,237.34,56,10.48,18.5,351.49
-NLS-0256,2024-10-30,Dean Martin,Overstock,Beauty,Like New,Oversized,462.19,100,20.0,18.5,442.61
-NLS-0257,2024-02-15,Dean Martin,Overstock,Electronics,New,Large,1780.53,64,14.18,18.5,3148.37
-NLS-0258,2024-11-24,Nellis Outlet,Warehouse Deals,Home,Good,Large,828.59,27,5.84,18.5,1317.28
-NLS-0259,2024-12-17,Nellis Outlet,Renewed,Home,New,Medium,564.06,37,8.44,18.5,784.69
-NLS-0260,2024-03-12,North Las Vegas,Renewed,Home,New,Medium,751.47,85,18.73,18.5,1157.1
-NLS-0261,2024-04-15,Dean Martin,Returns,Home,Like New,Large,767.38,98,15.91,18.5,1334.83
-NLS-0262,2024-10-31,Nellis Outlet,Renewed,Tools,Good,Small,1540.56,40,8.58,18.5,1911.64
-NLS-0263,2024-08-29,Dean Martin,Warehouse Deals,Sports,Good,Medium,493.42,82,16.06,18.5,660.81
-NLS-0264,2024-12-30,Dean Martin,Warehouse Deals,Home,New,Large,429.45,17,4.99,18.5,697.4
-NLS-0265,2024-09-18,Nellis Outlet,Overstock,Tools,Acceptable,Small,1368.64,78,16.55,18.5,964.22
-NLS-0266,2024-02-14,Dean Martin,Renewed,Sports,Acceptable,Small,455.08,65,14.58,18.5,436.84
-NLS-0267,2024-12-25,North Las Vegas,Warehouse Deals,Toys,New,Large,466.43,94,20.0,18.5,630.14
-NLS-0268,2024-03-01,Dean Martin,Renewed,Toys,Good,Large,266.79,26,6.53,18.5,398.61
-NLS-0269,2024-01-29,Dean Martin,Returns,Tools,Good,Small,915.54,83,17.63,18.5,1225.57
-NLS-0270,2024-01-02,North Las Vegas,Renewed,Sports,Like New,Large,686.66,83,17.94,18.5,1009.22
-NLS-0271,2024-12-31,Dean Martin,Warehouse Deals,Baby,New,Oversized,309.19,29,8.51,18.5,442.84
-NLS-0272,2024-09-14,Nellis Outlet,Overstock,Baby,Good,Medium,324.88,50,9.54,18.5,218.23
-NLS-0273,2024-06-08,Nellis Outlet,Warehouse Deals,Clothing,Like New,Small,486.22,18,5.09,18.5,757.43
-NLS-0274,2024-07-07,North Las Vegas,Warehouse Deals,Toys,New,Large,280.27,82,18.47,18.5,425.12
-NLS-0275,2024-12-21,Nellis Outlet,Overstock,Baby,Like New,Medium,201.91,62,10.35,18.5,211.19
-NLS-0276,2024-03-13,Dean Martin,Returns,Electronics,Acceptable,Large,924.74,77,18.65,18.5,986.74
-NLS-0277,2024-02-13,Nellis Outlet,Returns,Home,New,Medium,838.37,76,14.9,18.5,1355.59
-NLS-0278,2024-05-13,Nellis Outlet,Warehouse Deals,Clothing,Acceptable,Small,377.57,17,4.12,18.5,288.38
-NLS-0279,2024-02-25,North Las Vegas,Overstock,Sports,Good,Oversized,435.98,19,8.14,18.5,453.05
-NLS-0280,2024-06-06,Dean Martin,Warehouse Deals,Clothing,Acceptable,Oversized,294.21,25,8.75,18.5,240.42
-NLS-0281,2024-06-16,North Las Vegas,Returns,Home,New,Medium,784.56,48,11.44,18.5,1026.81
-NLS-0282,2024-07-26,Dean Martin,Warehouse Deals,Baby,Good,Oversized,354.04,96,20.0,18.5,381.25
-NLS-0283,2024-04-23,North Las Vegas,Renewed,Home,Acceptable,Small,782.34,27,5.2,18.5,578.7
-NLS-0284,2024-04-11,Dean Martin,Renewed,Tools,Good,Small,1298.79,43,10.7,18.5,1962.08
-NLS-0285,2024-07-21,Nellis Outlet,Overstock,Clothing,New,Large,236.76,69,11.57,18.5,316.02
-NLS-0286,2024-11-10,North Las Vegas,Warehouse Deals,Tools,Acceptable,Medium,1024.73,33,6.62,18.5,886.76
-NLS-0287,2024-04-12,Nellis Outlet,Renewed,Beauty,Acceptable,Oversized,553.11,71,17.92,18.5,345.4
-NLS-0288,2024-05-18,Nellis Outlet,Renewed,Electronics,Acceptable,Large,1375.62,72,13.76,18.5,1447.19
-NLS-0289,2024-10-26,Dean Martin,Warehouse Deals,Sports,Like New,Small,747.88,45,7.86,18.5,1579.58
-NLS-0290,2024-07-17,Dean Martin,Renewed,Home,Like New,Medium,459.92,17,4.68,18.5,915.49
-NLS-0291,2024-06-29,North Las Vegas,Renewed,Clothing,Like New,Large,441.86,99,18.69,18.5,605.47
-NLS-0292,2024-09-26,Nellis Outlet,Renewed,Baby,Acceptable,Large,252.67,14,3.06,18.5,137.85
-NLS-0293,2024-01-12,North Las Vegas,Warehouse Deals,Sports,Like New,Medium,470.38,32,8.27,18.5,821.07
-NLS-0294,2024-03-10,Dean Martin,Renewed,Home,Good,Small,524.15,94,18.07,18.5,556.14
-NLS-0295,2024-04-24,Dean Martin,Overstock,Toys,Good,Medium,482.87,81,17.66,18.5,622.09
-NLS-0296,2024-10-17,Nellis Outlet,Renewed,Tools,Good,Large,752.82,10,3.42,18.5,1287.47
-NLS-0297,2024-06-12,Dean Martin,Renewed,Sports,Like New,Small,768.34,28,5.89,18.5,1065.92
-NLS-0298,2024-01-01,Dean Martin,Warehouse Deals,Sports,Acceptable,Small,432.61,41,9.47,18.5,429.39
-NLS-0299,2024-09-02,Dean Martin,Overstock,Toys,Acceptable,Medium,553.82,73,17.14,18.5,338.44
-NLS-0300,2024-02-07,Nellis Outlet,Renewed,Clothing,Acceptable,Small,439.76,14,3.36,18.5,317.39
-NLS-0301,2024-12-26,North Las Vegas,Renewed,Tools,Like New,Small,1256.46,21,4.67,18.5,3018.48
-NLS-0302,2024-10-03,Dean Martin,Overstock,Clothing,Acceptable,Medium,216.07,52,9.6,18.5,122.96
-NLS-0303,2024-01-02,North Las Vegas,Returns,Beauty,Like New,Small,219.85,83,17.1,18.5,221.92
-NLS-0304,2024-02-29,North Las Vegas,Warehouse Deals,Beauty,Acceptable,Medium,238.79,36,6.81,18.5,147.24
-NLS-0305,2024-04-05,North Las Vegas,Overstock,Toys,Acceptable,Large,236.45,79,15.29,18.5,135.17
-NLS-0306,2024-02-19,North Las Vegas,Warehouse Deals,Beauty,Acceptable,Oversized,305.36,44,14.4,18.5,211.61
-NLS-0307,2024-08-31,Dean Martin,Returns,Tools,Like New,Small,1608.96,76,14.94,18.5,2907.63
-NLS-0308,2024-12-12,Nellis Outlet,Renewed,Toys,Good,Small,357.92,14,3.66,18.5,509.27
-NLS-0309,2024-08-04,Nellis Outlet,Renewed,Home,Acceptable,Medium,869.44,31,8.19,18.5,734.15
-NLS-0310,2024-05-21,Dean Martin,Overstock,Baby,Like New,Large,295.92,18,3.69,18.5,327.92
-NLS-0311,2024-02-21,Nellis Outlet,Overstock,Electronics,Acceptable,Small,1297.33,28,6.49,18.5,1379.3
-NLS-0312,2024-05-21,Dean Martin,Warehouse Deals,Beauty,Good,Oversized,305.65,93,20.0,18.5,349.36
-NLS-0313,2024-05-17,North Las Vegas,Renewed,Tools,New,Oversized,1667.49,52,17.56,18.5,2650.47
-NLS-0314,2024-04-26,North Las Vegas,Warehouse Deals,Sports,Good,Large,440.17,72,16.78,18.5,728.63
-NLS-0315,2024-07-27,Dean Martin,Returns,Toys,Good,Large,491.52,87,18.55,18.5,397.83
-NLS-0316,2024-10-18,Nellis Outlet,Overstock,Sports,New,Medium,332.81,100,20.0,18.5,471.4
-NLS-0317,2024-07-07,Dean Martin,Renewed,Baby,Like New,Small,274.85,68,11.42,18.5,304.52
-NLS-0318,2024-10-09,North Las Vegas,Overstock,Home,New,Medium,523.48,86,16.97,18.5,870.82
-NLS-0319,2024-04-19,North Las Vegas,Returns,Clothing,Good,Small,285.52,59,10.01,18.5,308.0
-NLS-0320,2024-11-03,Dean Martin,Renewed,Baby,Good,Oversized,353.98,97,20.0,18.5,454.35
-NLS-0321,2024-06-03,Dean Martin,Renewed,Beauty,Good,Large,369.52,58,13.71,18.5,419.36
-NLS-0322,2024-02-02,Nellis Outlet,Overstock,Home,New,Large,636.87,86,18.1,18.5,718.84
-NLS-0323,2024-01-30,North Las Vegas,Returns,Sports,Good,Large,628.06,93,17.17,18.5,656.02
-NLS-0324,2024-01-19,Nellis Outlet,Overstock,Sports,Like New,Small,627.7,47,8.97,18.5,792.31
-NLS-0325,2024-12-02,Nellis Outlet,Renewed,Sports,Like New,Oversized,753.26,95,20.0,18.5,1011.6
-NLS-0326,2024-12-14,Nellis Outlet,Renewed,Beauty,New,Oversized,251.18,43,14.99,18.5,452.34
-NLS-0327,2024-10-26,North Las Vegas,Warehouse Deals,Baby,Good,Medium,423.26,49,9.98,18.5,459.57
-NLS-0328,2024-04-09,North Las Vegas,Overstock,Home,Acceptable,Small,819.84,84,17.5,18.5,598.53
-NLS-0329,2024-10-18,Nellis Outlet,Warehouse Deals,Tools,Good,Oversized,664.87,29,8.35,18.5,838.32
-NLS-0330,2024-08-19,North Las Vegas,Renewed,Sports,Like New,Small,543.79,90,20.0,18.5,707.1
-NLS-0331,2024-08-07,North Las Vegas,Renewed,Clothing,Like New,Oversized,435.56,21,6.38,18.5,514.25
-NLS-0332,2024-01-10,North Las Vegas,Overstock,Electronics,New,Medium,1676.79,11,3.57,18.5,3394.07
-NLS-0333,2024-01-24,Nellis Outlet,Warehouse Deals,Baby,Like New,Large,293.63,23,5.12,18.5,324.11
-NLS-0334,2024-04-06,North Las Vegas,Returns,Toys,Good,Oversized,555.19,27,8.62,18.5,578.55
-NLS-0335,2024-03-04,Dean Martin,Overstock,Electronics,Like New,Medium,1672.6,26,5.25,18.5,2307.78
-NLS-0336,2024-12-19,North Las Vegas,Warehouse Deals,Tools,Good,Small,1312.71,16,4.3,18.5,1777.22
-NLS-0337,2024-01-05,Dean Martin,Overstock,Toys,Acceptable,Small,418.91,70,15.45,18.5,263.35
-NLS-0338,2024-02-24,North Las Vegas,Overstock,Home,Good,Medium,551.3,23,5.39,18.5,568.43
-NLS-0339,2024-04-16,North Las Vegas,Renewed,Baby,Good,Medium,307.38,62,11.73,18.5,253.06
-NLS-0340,2024-03-17,Nellis Outlet,Overstock,Sports,Like New,Small,306.37,21,5.8,18.5,492.84
-NLS-0341,2024-01-21,Dean Martin,Warehouse Deals,Home,Good,Medium,574.05,47,8.99,18.5,689.78
-NLS-0342,2024-06-17,North Las Vegas,Returns,Sports,Acceptable,Small,347.5,15,3.09,18.5,232.77
-NLS-0343,2024-07-16,North Las Vegas,Overstock,Beauty,New,Large,525.99,33,6.15,18.5,643.8
-NLS-0344,2024-10-29,Nellis Outlet,Overstock,Tools,Like New,Small,759.01,17,5.04,18.5,1138.21
-NLS-0345,2024-09-04,North Las Vegas,Overstock,Clothing,Acceptable,Large,383.41,97,20.0,18.5,270.72
-NLS-0346,2024-10-22,North Las Vegas,Warehouse Deals,Tools,Acceptable,Small,676.0,93,17.28,18.5,766.14
-NLS-0347,2024-03-17,Nellis Outlet,Renewed,Sports,New,Oversized,630.86,41,13.09,18.5,1261.23
-NLS-0348,2024-05-22,Nellis Outlet,Warehouse Deals,Electronics,Like New,Oversized,1822.25,31,8.58,18.5,3254.96
-NLS-0349,2024-08-16,Dean Martin,Renewed,Tools,Acceptable,Medium,694.6,66,15.17,18.5,804.01
-NLS-0350,2024-11-05,North Las Vegas,Warehouse Deals,Toys,New,Small,361.38,14,3.74,18.5,380.47
-NLS-0351,2024-11-13,Nellis Outlet,Returns,Baby,Acceptable,Large,309.0,16,4.55,18.5,181.59
-NLS-0352,2024-05-29,Nellis Outlet,Overstock,Sports,Acceptable,Small,348.72,94,16.76,18.5,269.18
-NLS-0353,2024-07-20,Nellis Outlet,Returns,Home,New,Medium,595.45,62,10.77,18.5,791.38
-NLS-0354,2024-08-18,Dean Martin,Overstock,Baby,Good,Small,427.14,15,4.51,18.5,438.67
-NLS-0355,2024-03-31,North Las Vegas,Renewed,Toys,New,Small,421.29,65,15.16,18.5,629.19
-NLS-0356,2024-11-07,Nellis Outlet,Renewed,Clothing,New,Oversized,397.26,87,20.0,18.5,530.2
-NLS-0357,2024-09-19,Nellis Outlet,Renewed,Beauty,Acceptable,Large,588.2,67,15.4,18.5,393.93
-NLS-0358,2024-12-29,North Las Vegas,Returns,Baby,Like New,Medium,387.25,47,10.67,18.5,393.38
-NLS-0359,2024-09-30,Nellis Outlet,Renewed,Sports,New,Large,581.14,84,17.44,18.5,1088.37
-NLS-0360,2024-03-23,North Las Vegas,Overstock,Electronics,New,Small,1257.04,16,4.32,18.5,2108.06
-NLS-0361,2024-12-11,North Las Vegas,Returns,Clothing,New,Large,261.2,79,13.01,18.5,300.68
-NLS-0362,2024-12-16,Nellis Outlet,Renewed,Tools,Like New,Large,1431.52,16,4.73,18.5,2762.11
-NLS-0363,2024-11-27,North Las Vegas,Warehouse Deals,Electronics,Good,Medium,1544.67,66,15.33,18.5,3141.72
-NLS-0364,2024-03-02,North Las Vegas,Renewed,Baby,Good,Oversized,253.23,97,20.0,18.5,313.51
-NLS-0365,2024-03-20,North Las Vegas,Warehouse Deals,Tools,Good,Large,756.08,84,19.31,18.5,878.34
-NLS-0366,2024-09-26,Dean Martin,Renewed,Sports,New,Large,545.28,83,17.11,18.5,933.68
-NLS-0367,2024-06-18,Dean Martin,Renewed,Home,Like New,Oversized,625.85,61,15.8,18.5,822.49
-NLS-0368,2024-11-24,North Las Vegas,Returns,Beauty,Like New,Oversized,598.65,93,20.0,18.5,742.73
-NLS-0369,2024-09-21,Nellis Outlet,Renewed,Electronics,Good,Oversized,1899.12,24,7.96,18.5,2927.57
-NLS-0370,2024-10-02,North Las Vegas,Overstock,Toys,New,Large,559.31,34,6.92,18.5,511.75
-NLS-0371,2024-08-10,Nellis Outlet,Warehouse Deals,Home,Like New,Medium,818.97,64,14.93,18.5,1188.75
-NLS-0372,2024-10-12,Nellis Outlet,Warehouse Deals,Clothing,New,Oversized,415.06,14,4.58,18.5,502.54
-NLS-0373,2024-09-30,Dean Martin,Renewed,Beauty,Acceptable,Oversized,380.45,61,18.38,18.5,261.98
-NLS-0374,2024-05-24,Dean Martin,Warehouse Deals,Electronics,New,Large,1913.66,23,4.92,18.5,4987.49
-NLS-0375,2024-10-06,North Las Vegas,Overstock,Tools,New,Oversized,787.59,38,10.54,18.5,1350.04
-NLS-0376,2024-07-20,North Las Vegas,Renewed,Beauty,Good,Small,421.41,81,14.04,18.5,397.26
-NLS-0377,2024-11-11,Nellis Outlet,Warehouse Deals,Beauty,Like New,Large,284.69,92,20.0,18.5,302.11
-NLS-0378,2024-02-04,North Las Vegas,Renewed,Home,Like New,Small,810.83,80,15.95,18.5,1173.43
-NLS-0379,2024-04-09,North Las Vegas,Warehouse Deals,Baby,Acceptable,Large,307.14,95,20.0,18.5,179.44
-NLS-0380,2024-08-07,North Las Vegas,Overstock,Toys,Good,Large,477.38,29,6.68,18.5,399.96
-NLS-0381,2024-06-18,Dean Martin,Warehouse Deals,Sports,Like New,Medium,656.1,92,18.01,18.5,1161.01
-NLS-0382,2024-03-12,North Las Vegas,Overstock,Toys,Good,Large,394.79,23,4.67,18.5,425.47
-NLS-0383,2024-10-29,Nellis Outlet,Renewed,Beauty,New,Small,556.84,74,15.85,18.5,1017.55
-NLS-0384,2024-03-09,Dean Martin,Warehouse Deals,Beauty,Acceptable,Medium,346.33,38,9.51,18.5,336.37
-NLS-0385,2024-03-22,North Las Vegas,Warehouse Deals,Tools,Good,Small,1395.21,88,19.03,18.5,2050.04
-NLS-0386,2024-12-08,Dean Martin,Renewed,Toys,Good,Small,287.53,72,13.1,18.5,291.17
-NLS-0387,2024-09-23,Dean Martin,Returns,Tools,Acceptable,Oversized,1657.86,15,6.89,18.5,1450.45
-NLS-0388,2024-05-08,Nellis Outlet,Returns,Beauty,Like New,Oversized,461.47,56,18.07,18.5,558.21
-NLS-0389,2024-08-13,North Las Vegas,Renewed,Tools,Good,Large,1184.23,71,16.73,18.5,1549.83
-NLS-0390,2024-04-27,Dean Martin,Renewed,Home,Good,Medium,390.14,30,6.33,18.5,513.9
-NLS-0391,2024-01-23,North Las Vegas,Returns,Home,Acceptable,Oversized,587.41,85,20.0,18.5,402.61
-NLS-0392,2024-10-15,Dean Martin,Renewed,Clothing,New,Medium,216.77,43,10.72,18.5,316.18
-NLS-0393,2024-11-03,Nellis Outlet,Warehouse Deals,Beauty,New,Medium,379.68,70,16.4,18.5,552.02
-NLS-0394,2024-02-25,Dean Martin,Renewed,Beauty,Like New,Large,568.94,86,17.97,18.5,729.17
-NLS-0395,2024-03-01,Dean Martin,Renewed,Tools,Like New,Small,812.91,88,18.43,18.5,1832.33
-NLS-0396,2024-09-03,Dean Martin,Overstock,Clothing,New,Oversized,356.61,57,20.0,18.5,470.72
-NLS-0397,2024-10-05,North Las Vegas,Returns,Home,Acceptable,Medium,452.71,39,9.79,18.5,268.05
-NLS-0398,2024-06-10,North Las Vegas,Returns,Baby,New,Small,373.4,25,5.8,18.5,357.43
-NLS-0399,2024-11-09,North Las Vegas,Returns,Home,Like New,Oversized,690.95,42,12.18,18.5,901.22
-NLS-0400,2024-06-25,North Las Vegas,Overstock,Baby,Acceptable,Oversized,253.62,81,20.0,18.5,119.64
-NLS-0401,2024-06-22,Nellis Outlet,Overstock,Clothing,New,Medium,333.98,99,20.0,18.5,318.12
-NLS-0402,2024-05-14,Nellis Outlet,Warehouse Deals,Clothing,Acceptable,Small,441.31,28,6.25,18.5,278.51
-NLS-0403,2024-11-01,Dean Martin,Returns,Home,New,Oversized,858.41,61,19.75,18.5,1392.74
-NLS-0404,2024-11-02,Dean Martin,Renewed,Toys,Acceptable,Small,280.68,94,20.0,18.5,208.03
-NLS-0405,2024-07-23,Nellis Outlet,Renewed,Clothing,New,Large,271.78,10,3.45,18.5,287.0
-NLS-0406,2024-10-13,North Las Vegas,Overstock,Tools,Like New,Small,1484.31,18,5.16,18.5,2403.26
-NLS-0407,2024-03-30,Nellis Outlet,Returns,Sports,Good,Medium,603.18,34,7.33,18.5,555.54
-NLS-0408,2024-10-21,North Las Vegas,Warehouse Deals,Home,Good,Large,868.21,75,18.04,18.5,1389.61
-NLS-0409,2024-09-03,North Las Vegas,Overstock,Tools,Acceptable,Medium,1508.97,68,14.93,18.5,1612.27
-NLS-0410,2024-10-01,Dean Martin,Returns,Home,Acceptable,Medium,706.15,39,9.42,18.5,491.17
-NLS-0411,2024-06-30,Dean Martin,Returns,Baby,Good,Small,319.68,53,9.19,18.5,327.2
-NLS-0412,2024-04-13,Dean Martin,Returns,Clothing,Like New,Oversized,421.13,40,14.11,18.5,498.91
-NLS-0413,2024-10-04,Dean Martin,Returns,Clothing,New,Small,476.06,96,20.0,18.5,502.14
-NLS-0414,2024-09-18,Dean Martin,Overstock,Sports,Good,Oversized,749.06,83,20.0,18.5,1038.53
-NLS-0415,2024-07-20,North Las Vegas,Overstock,Baby,Like New,Small,357.72,64,13.05,18.5,359.66
-NLS-0416,2024-06-15,Nellis Outlet,Renewed,Toys,New,Oversized,326.26,11,3.73,18.5,443.29
-NLS-0417,2024-08-02,North Las Vegas,Returns,Clothing,Good,Medium,280.82,88,16.61,18.5,204.15
-NLS-0418,2024-02-21,Nellis Outlet,Returns,Sports,Acceptable,Large,525.36,83,14.3,18.5,372.92
-NLS-0419,2024-03-09,Nellis Outlet,Returns,Baby,Acceptable,Oversized,258.82,29,9.66,18.5,114.22
-NLS-0420,2024-04-20,Nellis Outlet,Returns,Toys,Good,Large,424.86,82,13.58,18.5,300.64
-NLS-0421,2024-01-11,North Las Vegas,Overstock,Home,Acceptable,Large,455.86,56,11.92,18.5,350.67
-NLS-0422,2024-08-16,North Las Vegas,Warehouse Deals,Sports,Like New,Medium,789.69,46,9.18,18.5,1362.79
-NLS-0423,2024-10-19,Dean Martin,Overstock,Beauty,Acceptable,Medium,547.3,91,20.0,18.5,369.36
-NLS-0424,2024-07-21,North Las Vegas,Warehouse Deals,Home,Like New,Large,436.93,50,11.14,18.5,742.99
-NLS-0425,2024-12-24,North Las Vegas,Overstock,Sports,Acceptable,Oversized,383.66,12,4.18,18.5,238.04
-NLS-0426,2024-07-22,Nellis Outlet,Warehouse Deals,Baby,Like New,Oversized,230.9,18,7.79,18.5,235.28
-NLS-0427,2024-11-16,Nellis Outlet,Warehouse Deals,Home,Good,Medium,350.59,59,11.28,18.5,368.42
-NLS-0428,2024-05-19,Dean Martin,Renewed,Clothing,New,Small,399.06,51,12.25,18.5,651.51
-NLS-0429,2024-09-30,Nellis Outlet,Overstock,Clothing,Like New,Oversized,389.31,91,20.0,18.5,407.96
-NLS-0430,2024-09-24,North Las Vegas,Returns,Toys,Like New,Small,376.74,56,11.23,18.5,311.8
-NLS-0431,2024-08-08,Dean Martin,Returns,Beauty,Acceptable,Small,475.11,72,17.3,18.5,281.4
-NLS-0432,2024-11-26,North Las Vegas,Renewed,Electronics,Good,Medium,1294.08,81,15.98,18.5,1983.53
-NLS-0433,2024-12-21,North Las Vegas,Overstock,Baby,Good,Small,326.67,40,8.66,18.5,309.05
-NLS-0434,2024-11-12,Nellis Outlet,Returns,Beauty,Good,Oversized,275.2,18,5.79,18.5,252.21
-NLS-0435,2024-05-24,North Las Vegas,Returns,Toys,Like New,Large,207.76,16,4.8,18.5,215.84
-NLS-0436,2024-09-12,North Las Vegas,Renewed,Toys,New,Medium,236.08,11,3.08,18.5,312.98
-NLS-0437,2024-08-28,North Las Vegas,Overstock,Electronics,Good,Small,1812.26,28,5.2,18.5,2393.15
-NLS-0438,2024-01-18,Dean Martin,Renewed,Beauty,Acceptable,Small,248.78,41,8.38,18.5,236.13
-NLS-0439,2024-10-08,Dean Martin,Overstock,Home,Like New,Oversized,533.47,49,18.16,18.5,662.17
-NLS-0440,2024-11-20,Nellis Outlet,Warehouse Deals,Beauty,Acceptable,Large,279.49,16,4.63,18.5,167.59
-NLS-0441,2024-12-19,North Las Vegas,Returns,Electronics,Like New,Large,1501.64,60,13.83,18.5,1640.42
-NLS-0442,2024-11-16,North Las Vegas,Renewed,Sports,New,Medium,378.85,21,5.36,18.5,727.73
-NLS-0443,2024-06-26,Dean Martin,Warehouse Deals,Sports,Like New,Small,362.91,39,7.79,18.5,677.96
-NLS-0444,2024-05-30,North Las Vegas,Renewed,Electronics,Acceptable,Large,1669.28,42,10.41,18.5,1757.46
-NLS-0445,2024-10-10,Nellis Outlet,Overstock,Baby,Like New,Large,297.1,69,12.84,18.5,370.55
-NLS-0446,2024-07-13,Dean Martin,Warehouse Deals,Clothing,Acceptable,Large,445.83,79,15.16,18.5,270.88
-NLS-0447,2024-09-25,Nellis Outlet,Renewed,Electronics,Good,Medium,1184.83,18,4.7,18.5,1886.75
-NLS-0448,2024-03-07,Nellis Outlet,Overstock,Clothing,Good,Large,322.94,51,9.02,18.5,244.77
-NLS-0449,2024-09-26,Dean Martin,Warehouse Deals,Baby,New,Oversized,257.48,14,5.65,18.5,431.47
-NLS-0450,2024-02-10,Nellis Outlet,Returns,Electronics,Good,Medium,1527.14,19,3.71,18.5,2561.78
-NLS-0451,2024-02-06,North Las Vegas,Warehouse Deals,Sports,Acceptable,Large,697.12,17,4.78,18.5,490.28
-NLS-0452,2024-10-18,North Las Vegas,Warehouse Deals,Baby,New,Small,417.55,78,15.09,18.5,512.7
-NLS-0453,2024-04-02,Nellis Outlet,Renewed,Tools,New,Large,1409.39,99,20.0,18.5,2919.57
-NLS-0454,2024-07-30,Nellis Outlet,Overstock,Sports,Like New,Oversized,766.76,50,16.07,18.5,1369.22
-NLS-0455,2024-08-17,Nellis Outlet,Overstock,Sports,Like New,Medium,487.53,80,18.96,18.5,675.61
-NLS-0456,2024-06-10,North Las Vegas,Warehouse Deals,Electronics,Good,Small,1421.13,48,8.12,18.5,2558.5
-NLS-0457,2024-04-29,Dean Martin,Returns,Clothing,New,Small,338.11,29,5.57,18.5,405.42
-NLS-0458,2024-12-19,North Las Vegas,Returns,Home,Acceptable,Medium,740.56,51,11.94,18.5,489.27
-NLS-0459,2024-08-10,Nellis Outlet,Warehouse Deals,Beauty,New,Oversized,231.39,17,7.42,18.5,371.36
-NLS-0460,2024-09-14,North Las Vegas,Warehouse Deals,Baby,New,Oversized,216.24,77,19.14,18.5,259.14
-NLS-0461,2024-07-20,Nellis Outlet,Renewed,Clothing,New,Oversized,491.31,86,20.0,18.5,545.79
-NLS-0462,2024-08-10,Dean Martin,Renewed,Sports,New,Oversized,585.72,16,6.18,18.5,999.13
-NLS-0463,2024-09-25,Nellis Outlet,Renewed,Clothing,Acceptable,Medium,346.36,93,19.2,18.5,281.93
-NLS-0464,2024-06-27,Dean Martin,Renewed,Home,Good,Oversized,494.05,83,20.0,18.5,705.23
-NLS-0465,2024-03-15,Dean Martin,Returns,Sports,New,Large,384.63,54,11.78,18.5,732.35
-NLS-0466,2024-03-16,North Las Vegas,Warehouse Deals,Baby,Like New,Large,246.8,20,4.06,18.5,278.8
-NLS-0467,2024-10-06,North Las Vegas,Warehouse Deals,Sports,New,Large,525.03,12,3.06,18.5,946.25
-NLS-0468,2024-04-12,Nellis Outlet,Returns,Toys,Like New,Small,350.64,94,19.06,18.5,308.92
-NLS-0469,2024-02-25,Nellis Outlet,Returns,Electronics,Acceptable,Small,879.92,94,17.13,18.5,959.84
-NLS-0470,2024-09-29,Dean Martin,Returns,Tools,Like New,Oversized,1210.25,100,20.0,18.5,1985.89
-NLS-0471,2024-01-10,Dean Martin,Renewed,Baby,Acceptable,Small,211.93,77,14.41,18.5,161.55
-NLS-0472,2024-07-17,North Las Vegas,Returns,Sports,Good,Medium,798.0,74,13.71,18.5,686.64
-NLS-0473,2024-12-13,Dean Martin,Returns,Baby,Like New,Large,469.15,94,16.12,18.5,546.93
-NLS-0474,2024-04-15,Nellis Outlet,Renewed,Tools,Like New,Medium,1111.76,49,12.0,18.5,1860.96
-NLS-0475,2024-03-15,Nellis Outlet,Renewed,Baby,Like New,Large,406.56,77,18.19,18.5,528.47
-NLS-0476,2024-07-30,Nellis Outlet,Renewed,Sports,New,Small,392.07,28,6.89,18.5,869.68
-NLS-0477,2024-11-11,North Las Vegas,Returns,Toys,Good,Medium,511.64,23,4.58,18.5,445.43
-NLS-0478,2024-08-28,North Las Vegas,Renewed,Baby,Like New,Small,307.78,98,20.0,18.5,349.91
-NLS-0479,2024-01-08,Nellis Outlet,Returns,Clothing,Acceptable,Oversized,342.15,30,8.82,18.5,169.16
-NLS-0480,2024-08-22,North Las Vegas,Overstock,Baby,Like New,Medium,219.84,66,15.53,18.5,205.45
-NLS-0481,2024-09-25,Dean Martin,Overstock,Tools,New,Oversized,1464.24,60,19.43,18.5,2958.66
-NLS-0482,2024-01-21,Nellis Outlet,Warehouse Deals,Home,Acceptable,Oversized,796.21,15,6.65,18.5,602.7
-NLS-0483,2024-05-30,Nellis Outlet,Overstock,Electronics,Like New,Large,1327.46,48,11.23,18.5,1751.18
-NLS-0484,2024-12-22,Nellis Outlet,Warehouse Deals,Clothing,Acceptable,Oversized,227.13,74,19.09,18.5,198.79
-NLS-0485,2024-08-20,Nellis Outlet,Renewed,Tools,Acceptable,Large,1141.06,32,6.95,18.5,1476.43
-NLS-0486,2024-07-15,Dean Martin,Returns,Sports,Like New,Small,345.6,100,19.6,18.5,479.66
-NLS-0487,2024-03-15,Nellis Outlet,Renewed,Tools,Acceptable,Small,1521.91,52,11.17,18.5,1439.8
-NLS-0488,2024-04-13,Dean Martin,Warehouse Deals,Tools,Good,Large,1476.19,67,12.57,18.5,2291.53
-NLS-0489,2024-04-21,Dean Martin,Returns,Electronics,Acceptable,Oversized,1826.49,79,20.0,18.5,1856.91
-NLS-0490,2024-11-17,Nellis Outlet,Overstock,Toys,Acceptable,Oversized,231.76,86,20.0,18.5,155.88
-NLS-0491,2024-11-04,Nellis Outlet,Renewed,Electronics,Like New,Medium,866.08,54,9.17,18.5,2046.04
-NLS-0492,2024-12-24,North Las Vegas,Returns,Home,New,Small,550.17,32,6.12,18.5,732.81
-NLS-0493,2024-08-06,Nellis Outlet,Renewed,Toys,Good,Small,237.25,48,9.4,18.5,339.07
-NLS-0494,2024-04-17,Nellis Outlet,Warehouse Deals,Beauty,Acceptable,Medium,248.81,45,8.9,18.5,170.13
-NLS-0495,2024-11-07,Nellis Outlet,Warehouse Deals,Home,New,Oversized,734.44,87,20.0,18.5,1395.81
-NLS-0496,2024-04-29,North Las Vegas,Returns,Sports,Like New,Oversized,559.85,90,20.0,18.5,946.61
-NLS-0497,2024-11-11,Nellis Outlet,Returns,Baby,New,Small,207.2,90,20.0,18.5,225.86
-NLS-0498,2024-05-10,North Las Vegas,Overstock,Electronics,Good,Large,1472.5,91,16.19,18.5,2232.51
-NLS-0499,2024-01-15,Dean Martin,Returns,Beauty,Good,Small,245.53,52,10.19,18.5,295.25
-NLS-0500,2024-10-01,Dean Martin,Renewed,Sports,Good,Oversized,758.08,14,5.81,18.5,1138.97
-NLS-0501,2024-12-16,North Las Vegas,Overstock,Tools,New,Large,1277.93,96,17.82,18.5,1953.33
-NLS-0502,2024-10-19,North Las Vegas,Returns,Home,Like New,Large,804.44,53,13.21,18.5,1178.31
-NLS-0503,2024-05-01,Nellis Outlet,Overstock,Clothing,New,Large,411.58,50,11.38,18.5,373.45
-NLS-0504,2024-08-15,North Las Vegas,Overstock,Beauty,Like New,Large,270.01,57,13.18,18.5,400.61
-NLS-0505,2024-03-14,Nellis Outlet,Warehouse Deals,Toys,Like New,Medium,336.05,71,15.84,18.5,495.81
-NLS-0506,2024-10-31,Dean Martin,Renewed,Baby,New,Oversized,316.28,76,19.6,18.5,362.46
-NLS-0507,2024-11-23,Dean Martin,Returns,Toys,New,Small,408.23,94,20.0,18.5,480.42
-NLS-0508,2024-03-21,Dean Martin,Returns,Baby,Like New,Large,282.99,50,11.65,18.5,299.48
-NLS-0509,2024-05-25,North Las Vegas,Warehouse Deals,Electronics,New,Medium,1451.03,80,15.02,18.5,2796.45
-NLS-0510,2024-12-11,Nellis Outlet,Renewed,Clothing,New,Large,383.98,53,11.25,18.5,366.14
-NLS-0511,2024-12-19,Dean Martin,Warehouse Deals,Tools,New,Small,1111.76,32,7.66,18.5,2879.69
-NLS-0512,2024-08-26,Nellis Outlet,Overstock,Sports,Good,Large,708.72,95,20.0,18.5,746.98
-NLS-0513,2024-04-24,Nellis Outlet,Renewed,Home,Acceptable,Small,573.35,97,20.0,18.5,531.88
-NLS-0514,2024-09-06,Dean Martin,Returns,Sports,Acceptable,Medium,649.81,95,17.76,18.5,570.64
-NLS-0515,2024-09-17,Dean Martin,Warehouse Deals,Toys,New,Large,391.46,31,6.29,18.5,609.11
-NLS-0516,2024-05-04,Dean Martin,Overstock,Home,Good,Small,775.46,78,15.57,18.5,841.85
-NLS-0517,2024-06-24,Nellis Outlet,Renewed,Toys,Acceptable,Small,336.29,98,20.0,18.5,275.45
-NLS-0518,2024-03-31,Nellis Outlet,Renewed,Clothing,New,Oversized,234.3,86,20.0,18.5,363.06
-NLS-0519,2024-10-24,North Las Vegas,Overstock,Home,New,Oversized,496.44,92,20.0,18.5,627.55
-NLS-0520,2024-06-11,Nellis Outlet,Warehouse Deals,Clothing,Like New,Oversized,359.38,59,19.16,18.5,397.59
-NLS-0521,2024-05-30,North Las Vegas,Returns,Tools,Good,Small,1299.27,88,20.0,18.5,1370.15
-NLS-0522,2024-07-20,Dean Martin,Returns,Electronics,New,Large,931.64,46,11.16,18.5,1694.94
-NLS-0523,2024-07-15,Nellis Outlet,Returns,Tools,Acceptable,Oversized,1122.23,37,12.83,18.5,830.3
-NLS-0524,2024-12-02,North Las Vegas,Overstock,Clothing,Good,Medium,240.28,19,4.88,18.5,195.39
-NLS-0525,2024-09-17,North Las Vegas,Renewed,Home,Like New,Oversized,816.09,99,20.0,18.5,1079.88
-NLS-0526,2024-12-30,North Las Vegas,Overstock,Tools,Good,Medium,822.95,87,14.08,18.5,1088.1
-NLS-0527,2024-12-19,Nellis Outlet,Returns,Tools,Good,Small,1773.88,82,16.47,18.5,2122.7
-NLS-0528,2024-12-08,Dean Martin,Renewed,Beauty,Acceptable,Small,409.34,88,14.8,18.5,365.13
-NLS-0529,2024-06-29,Dean Martin,Returns,Electronics,Good,Small,1362.64,75,17.73,18.5,1948.32
-NLS-0530,2024-10-20,North Las Vegas,Returns,Clothing,New,Large,418.09,82,14.99,18.5,519.74
-NLS-0531,2024-11-11,Dean Martin,Returns,Electronics,Good,Oversized,899.01,74,18.77,18.5,1366.27
-NLS-0532,2024-03-30,North Las Vegas,Returns,Beauty,New,Small,441.53,85,18.79,18.5,592.08
-NLS-0533,2024-09-10,North Las Vegas,Renewed,Toys,Like New,Small,337.14,20,5.7,18.5,518.14
-NLS-0534,2024-01-27,North Las Vegas,Overstock,Baby,Acceptable,Medium,263.26,54,9.25,18.5,145.08
-NLS-0535,2024-05-14,Dean Martin,Overstock,Tools,Acceptable,Large,1171.52,78,14.13,18.5,1087.98
-NLS-0536,2024-09-29,Dean Martin,Overstock,Electronics,Good,Oversized,1258.4,50,18.66,18.5,1710.7
-NLS-0537,2024-12-11,Nellis Outlet,Returns,Tools,Good,Large,924.39,22,4.67,18.5,1170.96
-NLS-0538,2024-02-20,Nellis Outlet,Renewed,Baby,Good,Medium,293.98,11,3.3,18.5,278.39
-NLS-0539,2024-10-31,Nellis Outlet,Warehouse Deals,Toys,Good,Medium,490.1,42,7.88,18.5,391.68
-NLS-0540,2024-04-04,Nellis Outlet,Renewed,Home,New,Small,813.86,26,5.65,18.5,1589.43
-NLS-0541,2024-08-06,Dean Martin,Renewed,Beauty,Good,Oversized,464.19,19,7.3,18.5,653.96
-NLS-0542,2024-05-15,Nellis Outlet,Returns,Beauty,Like New,Small,310.91,17,4.03,18.5,291.37
-NLS-0543,2024-08-08,Dean Martin,Overstock,Home,Acceptable,Medium,666.18,32,7.49,18.5,424.22
-NLS-0544,2024-09-11,Dean Martin,Warehouse Deals,Toys,Good,Small,213.94,19,4.74,18.5,230.21
-NLS-0545,2024-09-08,Dean Martin,Warehouse Deals,Electronics,Acceptable,Large,981.93,52,12.64,18.5,1188.78
-NLS-0546,2024-07-02,North Las Vegas,Overstock,Tools,New,Medium,603.97,98,20.0,18.5,1008.92
-NLS-0547,2024-11-27,North Las Vegas,Returns,Tools,New,Small,1038.43,53,9.21,18.5,1818.72
-NLS-0548,2024-02-13,Dean Martin,Renewed,Electronics,Acceptable,Medium,1158.64,59,14.15,18.5,1369.52
-NLS-0549,2024-11-25,Nellis Outlet,Overstock,Baby,Like New,Small,257.93,85,15.36,18.5,266.54
-NLS-0550,2024-11-30,North Las Vegas,Overstock,Toys,New,Small,335.71,53,12.34,18.5,303.62
-NLS-0551,2024-11-12,Nellis Outlet,Overstock,Clothing,Like New,Small,211.06,28,6.29,18.5,193.87
-NLS-0552,2024-10-29,Dean Martin,Renewed,Clothing,New,Medium,389.8,49,11.63,18.5,495.23
-NLS-0553,2024-12-13,Dean Martin,Warehouse Deals,Home,Acceptable,Medium,337.87,35,7.42,18.5,397.7
-NLS-0554,2024-03-02,North Las Vegas,Returns,Home,Like New,Large,801.86,37,8.88,18.5,998.8
-NLS-0555,2024-11-19,North Las Vegas,Renewed,Tools,Like New,Large,1264.09,66,12.15,18.5,2074.58
-NLS-0556,2024-05-25,Nellis Outlet,Overstock,Clothing,New,Oversized,224.22,10,3.79,18.5,221.43
-NLS-0557,2024-12-20,North Las Vegas,Overstock,Clothing,Like New,Medium,391.95,76,15.13,18.5,324.56
-NLS-0558,2024-02-18,Dean Martin,Renewed,Toys,New,Large,339.14,10,2.97,18.5,552.02
-NLS-0559,2024-08-30,Nellis Outlet,Returns,Baby,Acceptable,Medium,282.93,34,6.3,18.5,149.76
-NLS-0560,2024-08-20,North Las Vegas,Renewed,Clothing,New,Small,393.46,46,8.61,18.5,501.25
-NLS-0561,2024-08-15,Dean Martin,Warehouse Deals,Electronics,Like New,Medium,1742.59,72,14.77,18.5,2725.68
-NLS-0562,2024-04-12,Nellis Outlet,Returns,Tools,Like New,Large,876.08,24,5.17,18.5,1156.11
-NLS-0563,2024-07-17,North Las Vegas,Renewed,Home,Acceptable,Oversized,332.6,65,17.18,18.5,326.15
-NLS-0564,2024-05-23,North Las Vegas,Renewed,Toys,Like New,Large,590.22,35,7.15,18.5,661.01
-NLS-0565,2024-11-22,Dean Martin,Warehouse Deals,Toys,Acceptable,Oversized,268.48,53,14.74,18.5,179.09
-NLS-0566,2024-08-24,Nellis Outlet,Renewed,Baby,New,Oversized,457.09,72,20.0,18.5,536.84
-NLS-0567,2024-10-20,North Las Vegas,Warehouse Deals,Tools,Like New,Medium,992.76,84,15.08,18.5,2369.72
-NLS-0568,2024-12-22,Dean Martin,Overstock,Electronics,New,Oversized,1680.17,74,18.38,18.5,3290.83
-NLS-0569,2024-07-02,Dean Martin,Overstock,Toys,Like New,Small,423.39,11,3.33,18.5,453.31
-NLS-0570,2024-01-13,North Las Vegas,Renewed,Home,New,Oversized,701.42,30,10.87,18.5,1459.97
-NLS-0571,2024-11-17,North Las Vegas,Overstock,Clothing,Acceptable,Medium,436.96,57,12.43,18.5,232.61
-NLS-0572,2024-04-16,Dean Martin,Overstock,Sports,New,Large,512.95,44,10.1,18.5,887.97
-NLS-0573,2024-07-06,Nellis Outlet,Warehouse Deals,Sports,New,Large,743.99,24,5.3,18.5,1138.72
-NLS-0574,2024-12-25,Dean Martin,Warehouse Deals,Baby,Like New,Large,271.59,24,5.89,18.5,407.19
-NLS-0575,2024-09-05,Dean Martin,Renewed,Sports,Good,Large,551.78,64,11.99,18.5,633.16
-NLS-0576,2024-02-03,Nellis Outlet,Warehouse Deals,Toys,Good,Oversized,448.38,96,20.0,18.5,641.69
-NLS-0577,2024-02-27,Dean Martin,Overstock,Home,New,Oversized,838.77,46,17.29,18.5,933.86
-NLS-0578,2024-03-08,Nellis Outlet,Renewed,Toys,Like New,Medium,408.28,90,14.64,18.5,561.93
-NLS-0579,2024-09-23,North Las Vegas,Returns,Tools,Acceptable,Small,949.82,18,3.57,18.5,972.82
-NLS-0580,2024-06-04,Nellis Outlet,Returns,Tools,Good,Large,1183.38,95,20.0,18.5,1649.31
-NLS-0581,2024-06-29,Nellis Outlet,Renewed,Beauty,Like New,Large,290.71,57,14.06,18.5,396.64
-NLS-0582,2024-03-19,North Las Vegas,Overstock,Clothing,Like New,Large,254.68,32,8.04,18.5,299.95
-NLS-0583,2024-01-18,Dean Martin,Renewed,Home,New,Large,644.72,66,12.24,18.5,1030.57
-NLS-0584,2024-09-12,Nellis Outlet,Returns,Sports,Like New,Large,524.21,30,6.79,18.5,514.95
-NLS-0585,2024-08-30,Dean Martin,Overstock,Sports,Like New,Small,785.08,79,19.06,18.5,1133.19
-NLS-0586,2024-07-24,North Las Vegas,Renewed,Toys,Good,Small,492.66,15,3.29,18.5,532.98
-NLS-0587,2024-05-22,Nellis Outlet,Renewed,Toys,Good,Small,330.55,87,18.52,18.5,352.25
-NLS-0588,2024-01-29,Dean Martin,Warehouse Deals,Home,Acceptable,Small,885.5,60,10.88,18.5,763.93
-NLS-0589,2024-08-16,Nellis Outlet,Returns,Tools,Like New,Oversized,1043.56,57,14.28,18.5,1364.38
-NLS-0590,2024-07-31,Nellis Outlet,Warehouse Deals,Baby,Acceptable,Oversized,441.11,46,12.65,18.5,352.89
-NLS-0591,2024-07-11,Dean Martin,Warehouse Deals,Clothing,Like New,Large,342.38,77,18.67,18.5,424.05
-NLS-0592,2024-04-05,Dean Martin,Warehouse Deals,Tools,Good,Oversized,809.87,69,20.0,18.5,1282.72
-NLS-0593,2024-01-02,North Las Vegas,Returns,Toys,New,Large,533.83,48,10.1,18.5,670.87
-NLS-0594,2024-05-05,Dean Martin,Returns,Beauty,Acceptable,Small,461.53,46,9.42,18.5,340.97
-NLS-0595,2024-11-17,Dean Martin,Warehouse Deals,Beauty,Acceptable,Small,439.56,56,12.02,18.5,423.65
-NLS-0596,2024-12-20,Nellis Outlet,Overstock,Home,Good,Small,807.17,30,6.92,18.5,710.59
-NLS-0597,2024-09-28,Dean Martin,Returns,Clothing,New,Large,308.35,91,20.0,18.5,336.36
-NLS-0598,2024-12-16,Nellis Outlet,Warehouse Deals,Baby,Like New,Small,379.63,31,7.01,18.5,562.29
-NLS-0599,2024-07-29,North Las Vegas,Returns,Sports,New,Large,711.66,11,2.64,18.5,1055.64
-NLS-0600,2024-09-26,North Las Vegas,Renewed,Home,Like New,Medium,602.03,34,8.34,18.5,986.24
-NLS-0601,2024-07-04,Nellis Outlet,Warehouse Deals,Tools,Acceptable,Small,739.88,26,6.95,18.5,685.07
-NLS-0602,2024-04-26,Dean Martin,Overstock,Sports,Like New,Large,314.38,25,5.11,18.5,467.59
-NLS-0603,2024-01-22,North Las Vegas,Renewed,Baby,Like New,Small,327.44,24,4.62,18.5,460.89
-NLS-0604,2024-02-19,Dean Martin,Warehouse Deals,Electronics,New,Oversized,942.71,42,11.01,18.5,1710.67
-NLS-0605,2024-06-27,Dean Martin,Renewed,Baby,Like New,Large,208.78,28,7.19,18.5,352.77
-NLS-0606,2024-03-28,North Las Vegas,Renewed,Baby,New,Small,445.88,11,3.13,18.5,723.16
-NLS-0607,2024-06-30,Nellis Outlet,Warehouse Deals,Home,Like New,Oversized,519.88,85,20.0,18.5,745.03
-NLS-0608,2024-07-03,North Las Vegas,Overstock,Baby,Like New,Oversized,233.85,50,13.38,18.5,177.0
-NLS-0609,2024-08-15,Nellis Outlet,Returns,Electronics,New,Large,1392.46,59,11.15,18.5,2470.59
-NLS-0610,2024-12-11,Dean Martin,Overstock,Beauty,Acceptable,Medium,542.71,70,16.81,18.5,305.39
-NLS-0611,2024-03-27,North Las Vegas,Warehouse Deals,Tools,Acceptable,Small,743.06,60,11.91,18.5,672.62
-NLS-0612,2024-05-22,Dean Martin,Returns,Baby,Good,Medium,378.49,61,10.69,18.5,404.28
-NLS-0613,2024-08-20,Nellis Outlet,Returns,Tools,Good,Oversized,1400.01,61,20.0,18.5,1556.74
-NLS-0614,2024-09-12,Dean Martin,Warehouse Deals,Beauty,Acceptable,Oversized,292.33,27,7.47,18.5,300.37
-NLS-0615,2024-09-23,Nellis Outlet,Warehouse Deals,Clothing,Acceptable,Large,245.82,89,18.79,18.5,197.93
-NLS-0616,2024-01-10,North Las Vegas,Overstock,Baby,Good,Oversized,347.08,43,13.99,18.5,322.44
-NLS-0617,2024-12-03,Dean Martin,Overstock,Home,Acceptable,Oversized,488.74,58,17.62,18.5,267.31
-NLS-0618,2024-12-03,North Las Vegas,Renewed,Toys,Acceptable,Medium,324.98,59,12.15,18.5,216.45
-NLS-0619,2024-05-25,Nellis Outlet,Overstock,Toys,Like New,Small,356.55,73,15.41,18.5,401.71
-NLS-0620,2024-11-16,North Las Vegas,Warehouse Deals,Electronics,New,Medium,1804.32,54,12.65,18.5,4364.41
-NLS-0621,2024-11-27,North Las Vegas,Overstock,Home,Acceptable,Large,895.17,62,12.02,18.5,619.2
-NLS-0622,2024-08-04,North Las Vegas,Warehouse Deals,Home,Good,Small,502.56,12,3.33,18.5,531.71
-NLS-0623,2024-09-07,Nellis Outlet,Overstock,Beauty,New,Oversized,435.2,50,14.98,18.5,548.8
-NLS-0624,2024-02-08,Dean Martin,Renewed,Sports,Acceptable,Large,383.31,48,9.57,18.5,362.71
-NLS-0625,2024-02-17,Nellis Outlet,Renewed,Beauty,Good,Small,318.93,83,16.11,18.5,349.69
-NLS-0626,2024-11-29,Nellis Outlet,Warehouse Deals,Sports,Good,Small,583.21,77,15.48,18.5,757.65
-NLS-0627,2024-04-02,North Las Vegas,Returns,Tools,Good,Medium,1097.18,42,9.43,18.5,1436.0
-NLS-0628,2024-08-10,Dean Martin,Renewed,Toys,Like New,Oversized,307.17,91,20.0,18.5,506.16
-NLS-0629,2024-07-29,Nellis Outlet,Warehouse Deals,Baby,Good,Oversized,244.32,29,10.73,18.5,292.61
-NLS-0630,2024-05-02,North Las Vegas,Warehouse Deals,Baby,Acceptable,Large,447.11,92,15.97,18.5,290.2
-NLS-0631,2024-11-27,Dean Martin,Renewed,Baby,New,Medium,439.11,49,10.16,18.5,627.36
-NLS-0632,2024-09-05,Dean Martin,Renewed,Clothing,Good,Medium,208.74,45,10.16,18.5,221.66
-NLS-0633,2024-07-22,Dean Martin,Warehouse Deals,Home,Good,Large,820.3,62,14.81,18.5,1337.06
-NLS-0634,2024-02-16,Nellis Outlet,Renewed,Baby,New,Small,356.59,84,20.0,18.5,504.02
-NLS-0635,2024-04-19,Dean Martin,Warehouse Deals,Sports,Good,Oversized,702.92,40,15.15,18.5,802.0
-NLS-0636,2024-08-31,North Las Vegas,Overstock,Tools,Good,Small,1188.43,57,12.77,18.5,1246.07
-NLS-0637,2024-11-06,Nellis Outlet,Renewed,Beauty,Like New,Large,390.09,57,13.35,18.5,486.37
-NLS-0638,2024-05-01,Dean Martin,Warehouse Deals,Baby,Good,Oversized,292.78,99,20.0,18.5,309.06
-NLS-0639,2024-08-12,North Las Vegas,Overstock,Electronics,Acceptable,Large,1161.07,40,7.9,18.5,1088.36
-NLS-0640,2024-08-04,Nellis Outlet,Returns,Tools,New,Large,1639.73,72,14.51,18.5,2872.34
-NLS-0641,2024-01-27,Dean Martin,Renewed,Beauty,New,Large,368.35,80,17.74,18.5,521.11
-NLS-0642,2024-05-07,Nellis Outlet,Renewed,Toys,Like New,Small,360.26,90,16.69,18.5,442.59
-NLS-0643,2024-05-24,Nellis Outlet,Renewed,Tools,Good,Oversized,1174.04,27,8.31,18.5,2066.61
-NLS-0644,2024-01-12,Dean Martin,Warehouse Deals,Tools,Good,Medium,1072.19,58,14.16,18.5,1834.66
-NLS-0645,2024-03-17,Nellis Outlet,Renewed,Home,Acceptable,Medium,457.07,31,5.65,18.5,415.5
-NLS-0646,2024-09-10,Dean Martin,Returns,Clothing,New,Small,415.58,65,14.81,18.5,672.37
-NLS-0647,2024-04-20,Dean Martin,Renewed,Baby,Like New,Large,286.39,73,14.17,18.5,326.74
-NLS-0648,2024-05-07,North Las Vegas,Renewed,Tools,Like New,Oversized,1550.96,13,4.77,18.5,2572.23
-NLS-0649,2024-07-15,North Las Vegas,Overstock,Home,New,Oversized,379.92,51,19.08,18.5,464.63
-NLS-0650,2024-11-06,Nellis Outlet,Overstock,Beauty,New,Small,422.8,16,3.77,18.5,541.45
-NLS-0651,2024-01-22,Nellis Outlet,Warehouse Deals,Electronics,Good,Oversized,1163.01,60,19.87,18.5,1761.58
-NLS-0652,2024-03-13,Nellis Outlet,Renewed,Beauty,Like New,Oversized,572.13,69,18.05,18.5,742.26
-NLS-0653,2024-05-14,North Las Vegas,Warehouse Deals,Sports,New,Medium,549.61,45,10.5,18.5,1082.56
-NLS-0654,2024-12-02,Nellis Outlet,Returns,Sports,Acceptable,Medium,457.77,72,16.23,18.5,326.72
-NLS-0655,2024-08-11,Nellis Outlet,Overstock,Electronics,Like New,Medium,865.48,33,5.92,18.5,1330.06
-NLS-0656,2024-03-16,Dean Martin,Overstock,Electronics,Acceptable,Large,1986.58,81,16.29,18.5,2124.65
-NLS-0657,2024-12-05,Dean Martin,Returns,Home,Like New,Large,408.39,31,7.58,18.5,644.57
-NLS-0658,2024-01-14,Nellis Outlet,Renewed,Electronics,Like New,Oversized,1904.5,41,14.6,18.5,4457.53
-NLS-0659,2024-09-02,North Las Vegas,Warehouse Deals,Tools,Good,Small,1604.37,29,5.28,18.5,2488.25
-NLS-0660,2024-10-18,North Las Vegas,Returns,Electronics,Good,Small,1587.41,67,12.77,18.5,2529.68
-NLS-0661,2024-05-10,Dean Martin,Renewed,Electronics,Good,Large,1757.78,19,4.7,18.5,2822.22
-NLS-0662,2024-11-30,Dean Martin,Renewed,Tools,New,Small,1622.81,30,6.4,18.5,3473.39
-NLS-0663,2024-02-19,Dean Martin,Warehouse Deals,Beauty,Acceptable,Oversized,494.36,49,17.96,18.5,417.89
-NLS-0664,2024-07-07,North Las Vegas,Renewed,Toys,Acceptable,Oversized,390.58,82,20.0,18.5,239.23
-NLS-0665,2024-12-31,Nellis Outlet,Renewed,Tools,Acceptable,Small,648.53,53,13.17,18.5,720.66
-NLS-0666,2024-06-02,Dean Martin,Overstock,Home,Good,Oversized,562.41,71,20.0,18.5,812.7
-NLS-0667,2024-12-04,Dean Martin,Overstock,Beauty,New,Small,566.92,75,12.86,18.5,674.9
-NLS-0668,2024-04-03,Nellis Outlet,Returns,Sports,Good,Small,684.32,12,2.77,18.5,740.82
-NLS-0669,2024-06-23,North Las Vegas,Warehouse Deals,Home,Acceptable,Large,488.37,68,15.35,18.5,438.5
-NLS-0670,2024-01-07,Dean Martin,Renewed,Clothing,New,Large,461.48,23,5.23,18.5,526.49
-NLS-0671,2024-07-21,Dean Martin,Overstock,Toys,Acceptable,Oversized,321.12,88,20.0,18.5,245.06
-NLS-0672,2024-09-03,North Las Vegas,Warehouse Deals,Clothing,Like New,Small,257.24,12,3.54,18.5,236.98
-NLS-0673,2024-03-19,Nellis Outlet,Renewed,Baby,Acceptable,Medium,225.83,69,12.12,18.5,128.15
-NLS-0674,2024-07-19,Nellis Outlet,Overstock,Toys,Acceptable,Small,543.92,84,15.21,18.5,342.89
-NLS-0675,2024-05-28,Dean Martin,Returns,Electronics,New,Oversized,1975.38,73,20.0,18.5,4068.94
-NLS-0676,2024-02-02,Dean Martin,Overstock,Tools,Acceptable,Oversized,878.29,17,6.42,18.5,714.86
-NLS-0677,2024-05-27,North Las Vegas,Overstock,Toys,New,Oversized,449.08,92,20.0,18.5,518.63
-NLS-0678,2024-12-02,Nellis Outlet,Renewed,Toys,Good,Oversized,292.84,38,12.76,18.5,398.59
-NLS-0679,2024-03-23,North Las Vegas,Renewed,Beauty,Acceptable,Oversized,533.23,96,20.0,18.5,385.86
-NLS-0680,2024-09-09,Nellis Outlet,Renewed,Beauty,New,Oversized,251.64,35,9.9,18.5,425.58
-NLS-0681,2024-09-14,North Las Vegas,Renewed,Baby,New,Small,307.64,43,8.65,18.5,390.66
-NLS-0682,2024-06-30,Dean Martin,Warehouse Deals,Sports,Acceptable,Small,608.78,25,5.89,18.5,675.66
-NLS-0683,2024-02-24,Dean Martin,Returns,Clothing,New,Small,477.99,66,15.16,18.5,767.79
-NLS-0684,2024-08-14,Nellis Outlet,Warehouse Deals,Electronics,New,Medium,1555.91,36,9.13,18.5,2670.84
-NLS-0685,2024-01-04,Nellis Outlet,Overstock,Home,Like New,Large,500.76,27,5.21,18.5,627.88
-NLS-0686,2024-05-05,Dean Martin,Overstock,Sports,Good,Medium,342.62,57,12.85,18.5,417.75
-NLS-0687,2024-12-15,Dean Martin,Overstock,Baby,Like New,Oversized,324.02,62,20.0,18.5,405.32
-NLS-0688,2024-03-25,North Las Vegas,Warehouse Deals,Toys,Like New,Small,487.05,76,18.18,18.5,517.85
-NLS-0689,2024-09-23,North Las Vegas,Warehouse Deals,Tools,New,Medium,1683.01,17,5.04,18.5,4370.89
-NLS-0690,2024-03-16,North Las Vegas,Overstock,Tools,Good,Large,1691.08,11,3.49,18.5,2529.1
-NLS-0691,2024-01-19,Nellis Outlet,Overstock,Toys,Like New,Oversized,478.99,93,20.0,18.5,445.42
-NLS-0692,2024-03-22,Nellis Outlet,Returns,Tools,Like New,Large,856.48,75,15.57,18.5,1382.35
-NLS-0693,2024-11-17,Dean Martin,Warehouse Deals,Beauty,Like New,Large,490.6,74,12.71,18.5,570.23
-NLS-0694,2024-10-24,Nellis Outlet,Returns,Home,New,Small,569.24,83,18.36,18.5,894.08
-NLS-0695,2024-05-06,Nellis Outlet,Renewed,Sports,Good,Large,633.46,83,17.93,18.5,933.97
-NLS-0696,2024-03-07,Dean Martin,Returns,Baby,Good,Oversized,229.4,64,20.0,18.5,150.56
-NLS-0697,2024-05-15,North Las Vegas,Renewed,Toys,New,Large,470.73,61,13.03,18.5,688.99
-NLS-0698,2024-12-30,Nellis Outlet,Overstock,Tools,Acceptable,Oversized,1478.06,63,20.0,18.5,919.59
-NLS-0699,2024-11-04,North Las Vegas,Renewed,Home,Like New,Oversized,584.01,30,11.84,18.5,946.56
-NLS-0700,2024-05-30,North Las Vegas,Warehouse Deals,Home,Good,Large,324.17,29,5.51,18.5,360.21
-NLS-0701,2024-09-07,North Las Vegas,Warehouse Deals,Clothing,Like New,Oversized,214.6,49,17.87,18.5,255.94
-NLS-0702,2024-07-12,Dean Martin,Warehouse Deals,Sports,New,Small,508.79,83,15.49,18.5,923.04
-NLS-0703,2024-12-06,North Las Vegas,Renewed,Clothing,Acceptable,Oversized,400.17,29,11.2,18.5,278.08
-NLS-0704,2024-11-26,Nellis Outlet,Overstock,Tools,Like New,Oversized,1006.8,15,6.83,18.5,1865.82
-NLS-0705,2024-01-28,Dean Martin,Renewed,Electronics,Good,Small,1572.7,20,4.21,18.5,2963.55
-NLS-0706,2024-05-05,Nellis Outlet,Renewed,Toys,New,Small,463.3,78,13.79,18.5,609.52
-NLS-0707,2024-07-31,Nellis Outlet,Overstock,Home,Good,Oversized,653.34,72,20.0,18.5,535.53
-NLS-0708,2024-02-15,Dean Martin,Returns,Tools,Good,Small,737.57,22,5.27,18.5,810.7
-NLS-0709,2024-02-20,Dean Martin,Returns,Tools,Like New,Small,1337.37,51,9.33,18.5,2197.24
-NLS-0710,2024-05-01,North Las Vegas,Renewed,Tools,Good,Large,1050.62,25,4.72,18.5,1428.22
-NLS-0711,2024-04-29,North Las Vegas,Overstock,Home,Good,Small,491.0,80,15.6,18.5,497.84
-NLS-0712,2024-03-13,Dean Martin,Returns,Home,Like New,Medium,482.77,62,12.5,18.5,754.55
-NLS-0713,2024-03-26,North Las Vegas,Renewed,Baby,Acceptable,Oversized,212.54,69,20.0,18.5,153.16
-NLS-0714,2024-09-18,Dean Martin,Warehouse Deals,Toys,Good,Large,535.8,58,14.42,18.5,676.38
-NLS-0715,2024-05-23,North Las Vegas,Warehouse Deals,Clothing,New,Large,226.91,99,16.82,18.5,268.55
-NLS-0716,2024-06-23,North Las Vegas,Renewed,Sports,Good,Large,789.82,100,19.62,18.5,1096.7
-NLS-0717,2024-03-29,Dean Martin,Overstock,Sports,New,Medium,623.22,10,3.03,18.5,690.33
-NLS-0718,2024-07-11,North Las Vegas,Overstock,Tools,New,Small,1246.38,95,18.63,18.5,1972.67
-NLS-0719,2024-01-11,Nellis Outlet,Returns,Tools,Like New,Small,749.72,57,13.89,18.5,996.33
-NLS-0720,2024-05-23,North Las Vegas,Returns,Baby,New,Large,442.52,38,7.35,18.5,465.71
-NLS-0721,2024-12-03,North Las Vegas,Renewed,Electronics,Like New,Oversized,933.14,45,14.72,18.5,1837.3
-NLS-0722,2024-05-20,Nellis Outlet,Renewed,Home,Like New,Small,376.46,82,18.94,18.5,707.62
-NLS-0723,2024-06-14,Dean Martin,Warehouse Deals,Beauty,Acceptable,Small,575.16,92,19.76,18.5,573.06
-NLS-0724,2024-05-22,North Las Vegas,Overstock,Beauty,New,Oversized,398.23,76,20.0,18.5,559.05
-NLS-0725,2024-04-25,North Las Vegas,Overstock,Sports,New,Oversized,397.3,20,8.29,18.5,767.73
-NLS-0726,2024-08-09,Nellis Outlet,Overstock,Home,Like New,Medium,398.69,49,8.51,18.5,454.35
-NLS-0727,2024-05-01,Dean Martin,Returns,Beauty,Like New,Small,389.43,53,12.54,18.5,568.47
-NLS-0728,2024-12-21,Dean Martin,Overstock,Home,Acceptable,Small,351.32,17,4.94,18.5,281.09
-NLS-0729,2024-01-27,Dean Martin,Renewed,Electronics,Acceptable,Small,1161.77,90,17.61,18.5,966.66
-NLS-0730,2024-08-25,North Las Vegas,Overstock,Tools,New,Oversized,879.73,86,20.0,18.5,1506.56
-NLS-0731,2024-02-04,North Las Vegas,Warehouse Deals,Sports,New,Oversized,558.61,85,20.0,18.5,869.85
-NLS-0732,2024-01-31,Nellis Outlet,Renewed,Clothing,Good,Large,326.3,89,17.51,18.5,326.74
-NLS-0733,2024-06-24,Dean Martin,Returns,Tools,Good,Large,1300.4,79,17.77,18.5,1393.18
-NLS-0734,2024-04-12,North Las Vegas,Returns,Electronics,Like New,Small,1084.86,81,18.74,18.5,1541.56
-NLS-0735,2024-10-23,Nellis Outlet,Renewed,Home,Good,Medium,700.72,98,20.0,18.5,920.83
-NLS-0736,2024-01-02,Nellis Outlet,Returns,Beauty,Acceptable,Large,264.91,68,16.01,18.5,204.57
-NLS-0737,2024-01-04,Nellis Outlet,Renewed,Baby,Acceptable,Medium,271.71,52,12.22,18.5,166.12
-NLS-0738,2024-07-03,North Las Vegas,Warehouse Deals,Home,Good,Small,632.81,28,5.79,18.5,710.72
-NLS-0739,2024-04-01,Dean Martin,Warehouse Deals,Baby,Like New,Large,252.24,43,9.97,18.5,309.77
-NLS-0740,2024-06-22,Dean Martin,Warehouse Deals,Clothing,Good,Small,206.3,96,16.45,18.5,274.56
-NLS-0741,2024-11-15,Dean Martin,Returns,Toys,Like New,Large,523.8,94,16.38,18.5,700.98
-NLS-0742,2024-08-07,North Las Vegas,Warehouse Deals,Home,Like New,Medium,776.94,34,7.56,18.5,1203.08
-NLS-0743,2024-03-05,Nellis Outlet,Renewed,Electronics,Like New,Large,1747.51,51,9.61,18.5,3355.59
-NLS-0744,2024-11-26,Nellis Outlet,Overstock,Baby,New,Oversized,437.3,88,20.0,18.5,518.92
-NLS-0745,2024-08-30,Nellis Outlet,Returns,Toys,Acceptable,Medium,328.73,57,11.95,18.5,231.99
-NLS-0746,2024-07-12,North Las Vegas,Overstock,Electronics,Like New,Medium,1873.86,67,15.72,18.5,2726.7
-NLS-0747,2024-01-22,Nellis Outlet,Renewed,Sports,Good,Small,367.17,20,4.41,18.5,458.99
-NLS-0748,2024-04-01,North Las Vegas,Returns,Tools,Acceptable,Oversized,1119.01,57,19.91,18.5,821.47
-NLS-0749,2024-05-21,North Las Vegas,Renewed,Beauty,New,Large,560.59,47,11.29,18.5,917.59
-NLS-0750,2024-12-15,Dean Martin,Warehouse Deals,Home,New,Large,322.97,35,7.14,18.5,582.73
-NLS-0751,2024-07-26,North Las Vegas,Renewed,Clothing,Good,Small,431.02,46,11.0,18.5,486.56
-NLS-0752,2024-08-27,Nellis Outlet,Warehouse Deals,Toys,Like New,Oversized,291.03,36,11.64,18.5,429.3
-NLS-0753,2024-08-18,Nellis Outlet,Overstock,Sports,New,Large,722.9,64,14.58,18.5,1068.25
-NLS-0754,2024-04-25,Nellis Outlet,Warehouse Deals,Sports,Like New,Medium,452.79,11,3.09,18.5,746.11
-NLS-0755,2024-06-18,North Las Vegas,Overstock,Tools,Good,Large,1304.35,82,18.47,18.5,1705.48
-NLS-0756,2024-08-19,Nellis Outlet,Overstock,Tools,Like New,Oversized,676.45,59,16.03,18.5,855.21
-NLS-0757,2024-04-05,Nellis Outlet,Returns,Home,Like New,Small,704.93,32,5.75,18.5,956.89
-NLS-0758,2024-01-06,Dean Martin,Warehouse Deals,Tools,Good,Medium,879.65,94,19.04,18.5,1329.13
-NLS-0759,2024-04-15,Dean Martin,Returns,Tools,Acceptable,Medium,1787.51,26,6.03,18.5,1373.83
-NLS-0760,2024-12-16,Dean Martin,Renewed,Beauty,Acceptable,Oversized,263.51,83,20.0,18.5,231.12
-NLS-0761,2024-10-18,North Las Vegas,Returns,Baby,New,Medium,333.72,61,13.12,18.5,316.19
-NLS-0762,2024-07-19,North Las Vegas,Overstock,Toys,New,Small,315.16,68,13.07,18.5,487.23
-NLS-0763,2024-10-18,Nellis Outlet,Renewed,Tools,Like New,Medium,1679.96,65,13.12,18.5,3181.61
-NLS-0764,2024-04-21,Dean Martin,Overstock,Electronics,Like New,Medium,1128.53,90,18.37,18.5,1845.08
-NLS-0765,2024-05-09,North Las Vegas,Overstock,Home,Good,Small,753.24,74,16.67,18.5,721.15
-NLS-0766,2024-04-09,Dean Martin,Warehouse Deals,Toys,New,Small,455.55,96,20.0,18.5,754.77
-NLS-0767,2024-02-04,North Las Vegas,Warehouse Deals,Electronics,Good,Small,1650.92,27,5.71,18.5,2956.5
-NLS-0768,2024-05-30,Dean Martin,Renewed,Toys,Like New,Oversized,528.17,30,8.73,18.5,547.12
-NLS-0769,2024-12-11,Dean Martin,Overstock,Clothing,New,Small,403.21,29,6.36,18.5,458.37
-NLS-0770,2024-07-12,Nellis Outlet,Renewed,Toys,New,Small,356.25,49,10.08,18.5,480.17
-NLS-0771,2024-12-14,Dean Martin,Renewed,Sports,Like New,Medium,345.69,63,10.52,18.5,534.24
-NLS-0772,2024-10-14,Nellis Outlet,Warehouse Deals,Baby,New,Medium,417.2,15,3.72,18.5,447.66
-NLS-0773,2024-11-30,Nellis Outlet,Renewed,Baby,Acceptable,Oversized,236.24,37,10.15,18.5,124.67
-NLS-0774,2024-02-04,North Las Vegas,Warehouse Deals,Tools,Like New,Oversized,864.12,94,20.0,18.5,1573.44
-NLS-0775,2024-11-19,Dean Martin,Overstock,Beauty,Acceptable,Small,485.01,82,14.4,18.5,424.97
-NLS-0776,2024-06-20,Nellis Outlet,Overstock,Clothing,Good,Medium,390.61,98,18.19,18.5,386.31
-NLS-0777,2024-08-07,Dean Martin,Overstock,Tools,Like New,Small,879.13,88,19.56,18.5,1091.36
-NLS-0778,2024-11-02,Dean Martin,Warehouse Deals,Electronics,Like New,Large,1398.47,35,6.58,18.5,2196.81
-NLS-0779,2024-05-27,North Las Vegas,Returns,Clothing,Good,Large,393.08,15,3.88,18.5,427.61
-NLS-0780,2024-12-17,Dean Martin,Renewed,Sports,Good,Medium,402.91,16,4.7,18.5,578.94
-NLS-0781,2024-01-27,Nellis Outlet,Renewed,Tools,Good,Medium,1130.83,10,2.39,18.5,1901.07
-NLS-0782,2024-02-10,Nellis Outlet,Renewed,Baby,Like New,Small,252.1,80,18.35,18.5,319.11
-NLS-0783,2024-11-21,North Las Vegas,Overstock,Beauty,Like New,Medium,297.97,32,7.38,18.5,324.21
-NLS-0784,2024-08-09,Dean Martin,Returns,Toys,New,Large,359.3,31,6.81,18.5,485.48
-NLS-0785,2024-05-11,Dean Martin,Overstock,Electronics,Acceptable,Oversized,1824.85,48,15.76,18.5,1602.04
-NLS-0786,2024-04-10,North Las Vegas,Overstock,Beauty,Acceptable,Large,350.06,87,17.4,18.5,223.56
-NLS-0787,2024-09-07,Dean Martin,Renewed,Electronics,New,Large,1389.74,63,15.25,18.5,3770.73
-NLS-0788,2024-06-27,North Las Vegas,Warehouse Deals,Tools,New,Small,1061.79,82,14.34,18.5,2657.32
-NLS-0789,2024-11-19,Nellis Outlet,Overstock,Sports,New,Oversized,763.26,41,11.83,18.5,1019.24
-NLS-0790,2024-03-23,Nellis Outlet,Warehouse Deals,Clothing,Good,Oversized,483.28,28,8.55,18.5,593.21
-NLS-0791,2024-08-06,Dean Martin,Warehouse Deals,Home,Acceptable,Oversized,723.64,20,7.25,18.5,555.78
-NLS-0792,2024-03-14,North Las Vegas,Returns,Tools,Good,Oversized,1502.95,21,6.32,18.5,2088.32
-NLS-0793,2024-09-25,North Las Vegas,Renewed,Tools,Good,Small,1784.43,72,11.75,18.5,2293.88
-NLS-0794,2024-02-26,North Las Vegas,Returns,Tools,Like New,Medium,1049.58,100,17.07,18.5,1550.9
-NLS-0795,2024-11-16,North Las Vegas,Renewed,Clothing,Like New,Small,424.97,34,6.74,18.5,603.16
-NLS-0796,2024-09-01,Nellis Outlet,Warehouse Deals,Clothing,New,Large,225.71,25,5.24,18.5,297.56
-NLS-0797,2024-04-18,North Las Vegas,Warehouse Deals,Electronics,New,Large,1702.16,10,3.09,18.5,3578.97
-NLS-0798,2024-06-24,Nellis Outlet,Warehouse Deals,Tools,Good,Oversized,1167.88,53,17.3,18.5,1702.1
-NLS-0799,2024-12-23,North Las Vegas,Renewed,Sports,Acceptable,Oversized,605.4,55,19.74,18.5,520.43
-NLS-0800,2024-08-31,North Las Vegas,Renewed,Electronics,New,Large,1941.27,41,8.33,18.5,4624.08
-NLS-0801,2024-12-13,Nellis Outlet,Overstock,Baby,New,Large,204.99,56,13.38,18.5,282.67
-NLS-0802,2024-07-16,North Las Vegas,Renewed,Toys,Acceptable,Small,339.33,70,17.08,18.5,326.21
-NLS-0803,2024-08-27,North Las Vegas,Renewed,Clothing,New,Medium,349.38,21,4.59,18.5,526.0
-NLS-0804,2024-08-10,Dean Martin,Overstock,Home,Acceptable,Medium,446.01,31,7.59,18.5,315.89
-NLS-0805,2024-12-09,Nellis Outlet,Warehouse Deals,Clothing,Good,Oversized,429.89,38,13.41,18.5,541.65
-NLS-0806,2024-07-12,Dean Martin,Renewed,Toys,New,Large,548.78,83,18.56,18.5,964.77
-NLS-0807,2024-04-06,Nellis Outlet,Overstock,Tools,Like New,Medium,910.91,47,8.29,18.5,1197.53
-NLS-0808,2024-04-07,Nellis Outlet,Warehouse Deals,Sports,Like New,Large,777.03,83,18.36,18.5,1194.96
-NLS-0809,2024-08-23,North Las Vegas,Overstock,Sports,Good,Medium,559.88,87,18.17,18.5,452.6
-NLS-0810,2024-12-25,North Las Vegas,Renewed,Beauty,Like New,Oversized,471.99,28,9.86,18.5,581.86
-NLS-0811,2024-05-29,Dean Martin,Returns,Beauty,New,Large,598.74,100,20.0,18.5,815.45
-NLS-0812,2024-01-27,Nellis Outlet,Overstock,Electronics,Good,Medium,1793.46,36,8.93,18.5,2650.4
-NLS-0813,2024-06-27,Dean Martin,Overstock,Tools,Good,Medium,1789.28,80,15.5,18.5,2294.24
-NLS-0814,2024-06-14,North Las Vegas,Overstock,Home,Good,Large,717.83,34,8.06,18.5,676.3
-NLS-0815,2024-04-21,Nellis Outlet,Warehouse Deals,Beauty,Acceptable,Medium,430.86,66,14.6,18.5,271.31
-NLS-0816,2024-03-27,Nellis Outlet,Renewed,Electronics,Good,Small,1613.98,28,6.01,18.5,3346.53
-NLS-0817,2024-03-17,Dean Martin,Warehouse Deals,Sports,Acceptable,Medium,772.53,25,6.85,18.5,818.28
-NLS-0818,2024-07-11,Nellis Outlet,Overstock,Baby,New,Small,272.26,72,13.52,18.5,279.5
-NLS-0819,2024-09-07,Nellis Outlet,Warehouse Deals,Toys,Acceptable,Large,452.93,66,12.82,18.5,252.0
-NLS-0820,2024-11-26,Nellis Outlet,Renewed,Electronics,Acceptable,Large,1632.47,22,5.79,18.5,1506.0
-NLS-0821,2024-10-11,Nellis Outlet,Overstock,Beauty,Like New,Small,330.09,78,13.83,18.5,378.3
-NLS-0822,2024-10-11,Nellis Outlet,Overstock,Home,New,Medium,879.41,25,5.02,18.5,1160.23
-NLS-0823,2024-01-18,North Las Vegas,Returns,Home,New,Medium,645.05,93,16.14,18.5,1025.02
-NLS-0824,2024-09-22,Dean Martin,Warehouse Deals,Beauty,Good,Medium,369.22,94,15.09,18.5,480.32
-NLS-0825,2024-12-05,North Las Vegas,Overstock,Clothing,Acceptable,Large,356.8,55,11.94,18.5,217.72
-NLS-0826,2024-07-02,Dean Martin,Renewed,Electronics,Like New,Medium,1159.65,37,9.5,18.5,2328.41
-NLS-0827,2024-05-10,North Las Vegas,Renewed,Tools,New,Large,912.81,93,20.0,18.5,1514.35
-NLS-0828,2024-07-09,Nellis Outlet,Overstock,Clothing,Like New,Small,388.87,44,11.21,18.5,396.63
-NLS-0829,2024-05-18,Nellis Outlet,Renewed,Tools,Like New,Large,1790.94,65,12.7,18.5,3530.37
-NLS-0830,2024-04-25,Dean Martin,Warehouse Deals,Tools,New,Large,1368.21,56,13.55,18.5,2923.88
-NLS-0831,2024-06-05,North Las Vegas,Warehouse Deals,Home,Acceptable,Medium,527.18,23,5.98,18.5,374.33
-NLS-0832,2024-07-18,Nellis Outlet,Overstock,Home,Good,Large,630.93,87,14.72,18.5,504.97
-NLS-0833,2024-07-12,Dean Martin,Returns,Tools,Acceptable,Medium,910.87,97,19.54,18.5,615.29
-NLS-0834,2024-08-27,Nellis Outlet,Returns,Electronics,Good,Medium,1613.86,63,14.04,18.5,2144.91
-NLS-0835,2024-02-16,Nellis Outlet,Returns,Beauty,Acceptable,Medium,322.07,21,5.88,18.5,189.06
-NLS-0836,2024-01-06,Nellis Outlet,Warehouse Deals,Home,Like New,Small,399.07,17,3.53,18.5,618.64
-NLS-0837,2024-08-05,North Las Vegas,Renewed,Toys,Acceptable,Small,362.19,88,15.52,18.5,262.18
-NLS-0838,2024-03-30,Nellis Outlet,Returns,Baby,New,Oversized,489.39,96,20.0,18.5,661.42
-NLS-0839,2024-12-13,Dean Martin,Returns,Clothing,Good,Small,326.82,58,10.44,18.5,348.79
-NLS-0840,2024-06-05,Dean Martin,Warehouse Deals,Beauty,Good,Oversized,317.42,37,9.65,18.5,411.8
-NLS-0841,2024-06-28,Nellis Outlet,Warehouse Deals,Toys,Acceptable,Small,342.3,88,17.44,18.5,208.2
-NLS-0842,2024-07-29,Nellis Outlet,Renewed,Tools,Good,Small,721.61,72,12.9,18.5,1214.51
-NLS-0843,2024-10-01,Dean Martin,Overstock,Electronics,Like New,Large,1071.31,60,11.78,18.5,1968.73
-NLS-0844,2024-02-26,North Las Vegas,Warehouse Deals,Toys,Acceptable,Medium,255.95,65,10.71,18.5,235.31
-NLS-0845,2024-09-02,Dean Martin,Returns,Electronics,Like New,Oversized,1305.27,52,18.94,18.5,1763.84
-NLS-0846,2024-07-23,Nellis Outlet,Returns,Home,Acceptable,Oversized,630.07,97,20.0,18.5,440.31
-NLS-0847,2024-05-01,Nellis Outlet,Overstock,Clothing,New,Small,437.81,26,5.12,18.5,543.87
-NLS-0848,2024-03-19,Dean Martin,Returns,Tools,New,Oversized,1176.23,46,14.53,18.5,2151.87
-NLS-0849,2024-12-27,Nellis Outlet,Renewed,Baby,Good,Small,459.25,99,17.81,18.5,461.73
-NLS-0850,2024-08-06,Dean Martin,Renewed,Baby,Like New,Medium,236.14,61,10.27,18.5,402.96
-NLS-0851,2024-08-06,Dean Martin,Renewed,Home,New,Oversized,544.38,49,16.7,18.5,1091.56
-NLS-0852,2024-06-12,North Las Vegas,Warehouse Deals,Tools,New,Large,732.07,56,10.62,18.5,1324.51
-NLS-0853,2024-02-21,Dean Martin,Renewed,Electronics,New,Small,1592.52,51,9.46,18.5,4118.5
-NLS-0854,2024-03-07,North Las Vegas,Renewed,Beauty,Acceptable,Large,333.71,24,4.66,18.5,205.0
-NLS-0855,2024-11-18,North Las Vegas,Returns,Sports,Good,Medium,625.12,36,8.1,18.5,517.81
-NLS-0856,2024-08-30,Nellis Outlet,Warehouse Deals,Electronics,Like New,Medium,1645.59,22,4.3,18.5,3111.36
-NLS-0857,2024-10-13,Dean Martin,Renewed,Electronics,Like New,Medium,1301.86,42,10.39,18.5,3364.84
-NLS-0858,2024-03-26,North Las Vegas,Returns,Toys,New,Oversized,227.08,63,19.64,18.5,364.47
-NLS-0859,2024-07-22,Nellis Outlet,Returns,Clothing,Good,Small,486.74,17,4.73,18.5,488.06
-NLS-0860,2024-03-22,North Las Vegas,Warehouse Deals,Clothing,Acceptable,Oversized,368.75,59,17.59,18.5,207.44
-NLS-0861,2024-04-24,Nellis Outlet,Renewed,Electronics,Acceptable,Large,1164.09,38,7.55,18.5,998.99
-NLS-0862,2024-11-24,Dean Martin,Renewed,Beauty,New,Medium,576.82,45,11.18,18.5,944.61
-NLS-0863,2024-05-15,Dean Martin,Renewed,Home,New,Large,679.61,57,11.0,18.5,1638.23
-NLS-0864,2024-05-23,Nellis Outlet,Renewed,Tools,Good,Large,1782.31,90,20.0,18.5,2756.93
-NLS-0865,2024-08-14,Dean Martin,Returns,Electronics,New,Oversized,1934.79,42,15.46,18.5,4046.58
-NLS-0866,2024-09-02,Dean Martin,Returns,Beauty,Like New,Oversized,262.26,39,13.77,18.5,287.39
-NLS-0867,2024-11-27,Dean Martin,Overstock,Clothing,Acceptable,Medium,444.68,32,6.2,18.5,293.94
-NLS-0868,2024-05-05,North Las Vegas,Warehouse Deals,Beauty,Like New,Medium,527.0,97,20.0,18.5,516.76
-NLS-0869,2024-11-25,North Las Vegas,Overstock,Home,Like New,Small,661.98,58,11.46,18.5,593.31
-NLS-0870,2024-02-24,Dean Martin,Renewed,Baby,New,Large,242.79,90,18.82,18.5,326.56
-NLS-0871,2024-09-02,Nellis Outlet,Returns,Home,Like New,Medium,588.26,82,19.18,18.5,792.8
-NLS-0872,2024-07-31,Dean Martin,Renewed,Electronics,Good,Small,825.45,15,3.24,18.5,1318.29
-NLS-0873,2024-12-16,Dean Martin,Warehouse Deals,Baby,New,Medium,328.14,28,5.95,18.5,486.13
-NLS-0874,2024-02-13,North Las Vegas,Warehouse Deals,Toys,Like New,Small,289.81,46,9.18,18.5,362.48
-NLS-0875,2024-11-15,Dean Martin,Renewed,Clothing,Acceptable,Large,379.88,96,18.66,18.5,350.08
-NLS-0876,2024-01-02,North Las Vegas,Returns,Home,Good,Oversized,697.04,43,15.46,18.5,696.73
-NLS-0877,2024-05-22,Dean Martin,Renewed,Sports,Like New,Oversized,523.35,71,20.0,18.5,757.13
-NLS-0878,2024-07-30,Dean Martin,Warehouse Deals,Sports,Like New,Medium,683.77,55,10.62,18.5,1227.18
-NLS-0879,2024-04-27,Nellis Outlet,Returns,Clothing,Like New,Oversized,325.6,73,20.0,18.5,339.56
-NLS-0880,2024-08-30,North Las Vegas,Warehouse Deals,Tools,Like New,Small,882.23,10,2.56,18.5,1731.42
-NLS-0881,2024-08-03,Dean Martin,Warehouse Deals,Electronics,Good,Large,1818.5,27,5.63,18.5,2962.34
-NLS-0882,2024-08-05,Dean Martin,Renewed,Baby,New,Medium,235.17,99,20.0,18.5,274.8
-NLS-0883,2024-02-09,North Las Vegas,Warehouse Deals,Home,New,Oversized,802.46,30,8.16,18.5,1109.84
-NLS-0884,2024-06-21,Dean Martin,Overstock,Clothing,Like New,Oversized,423.07,77,20.0,18.5,420.23
-NLS-0885,2024-01-06,North Las Vegas,Warehouse Deals,Beauty,New,Medium,224.0,92,15.02,18.5,390.33
-NLS-0886,2024-07-12,North Las Vegas,Overstock,Toys,Good,Large,483.74,64,15.43,18.5,361.66
-NLS-0887,2024-09-01,Dean Martin,Renewed,Tools,New,Medium,1070.75,81,17.08,18.5,1987.47
-NLS-0888,2024-07-04,North Las Vegas,Overstock,Tools,Like New,Small,1564.01,92,17.92,18.5,1847.12
-NLS-0889,2024-06-07,Nellis Outlet,Returns,Electronics,Like New,Large,995.31,23,4.44,18.5,1811.43
-NLS-0890,2024-01-24,Dean Martin,Renewed,Electronics,Like New,Large,902.05,82,17.01,18.5,2117.09
-NLS-0891,2024-07-19,Dean Martin,Returns,Home,Good,Small,888.32,46,11.53,18.5,951.38
-NLS-0892,2024-10-27,Nellis Outlet,Returns,Clothing,New,Large,322.19,74,12.66,18.5,375.97
-NLS-0893,2024-04-28,North Las Vegas,Overstock,Electronics,Good,Medium,981.85,69,11.73,18.5,1589.84
-NLS-0894,2024-01-21,Dean Martin,Renewed,Clothing,Good,Oversized,435.61,53,15.22,18.5,580.81
-NLS-0895,2024-03-14,Nellis Outlet,Overstock,Baby,Like New,Small,487.4,82,17.43,18.5,526.16
-NLS-0896,2024-02-15,North Las Vegas,Warehouse Deals,Toys,New,Oversized,325.49,47,12.88,18.5,427.04
-NLS-0897,2024-10-18,Dean Martin,Renewed,Toys,Good,Oversized,591.39,66,20.0,18.5,545.8
-NLS-0898,2024-11-15,North Las Vegas,Warehouse Deals,Sports,Good,Oversized,504.52,89,20.0,18.5,556.83
-NLS-0899,2024-05-05,North Las Vegas,Returns,Home,Acceptable,Oversized,457.7,97,20.0,18.5,334.66
-NLS-0900,2024-08-24,Nellis Outlet,Warehouse Deals,Clothing,New,Large,312.75,82,15.91,18.5,339.68
-NLS-0901,2024-07-22,Nellis Outlet,Warehouse Deals,Sports,Acceptable,Oversized,621.24,69,17.86,18.5,430.32
-NLS-0902,2024-05-22,North Las Vegas,Renewed,Tools,Good,Small,980.74,87,17.43,18.5,1570.11
-NLS-0903,2024-02-01,North Las Vegas,Warehouse Deals,Clothing,Acceptable,Medium,392.06,50,10.79,18.5,354.87
-NLS-0904,2024-11-21,North Las Vegas,Overstock,Toys,Like New,Small,284.6,12,3.87,18.5,319.97
-NLS-0905,2024-04-19,Dean Martin,Warehouse Deals,Clothing,New,Large,321.52,48,11.63,18.5,457.78
-NLS-0906,2024-06-27,Nellis Outlet,Returns,Clothing,New,Small,468.49,64,12.33,18.5,537.88
-NLS-0907,2024-11-01,North Las Vegas,Overstock,Toys,Like New,Oversized,341.88,98,20.0,18.5,442.25
-NLS-0908,2024-12-11,Dean Martin,Warehouse Deals,Clothing,Good,Large,204.26,68,16.34,18.5,215.69
-NLS-0909,2024-04-06,North Las Vegas,Returns,Electronics,Acceptable,Medium,1561.15,91,20.0,18.5,1056.27
-NLS-0910,2024-07-05,North Las Vegas,Renewed,Tools,Like New,Large,851.72,34,8.87,18.5,1338.91
-NLS-0911,2024-08-06,Dean Martin,Returns,Beauty,New,Oversized,459.56,68,20.0,18.5,660.25
-NLS-0912,2024-05-25,Nellis Outlet,Returns,Home,Like New,Oversized,557.03,32,10.84,18.5,588.84
-NLS-0913,2024-02-23,Nellis Outlet,Overstock,Beauty,New,Small,522.38,23,4.49,18.5,595.97
-NLS-0914,2024-04-10,North Las Vegas,Warehouse Deals,Toys,New,Large,540.68,37,7.14,18.5,767.89
-NLS-0915,2024-07-10,North Las Vegas,Warehouse Deals,Sports,Acceptable,Oversized,754.0,92,20.0,18.5,634.15
-NLS-0916,2024-01-17,Dean Martin,Returns,Beauty,Good,Large,535.39,63,13.87,18.5,488.1
-NLS-0917,2024-04-08,Dean Martin,Warehouse Deals,Clothing,Good,Large,300.53,83,20.0,18.5,340.59
-NLS-0918,2024-09-21,Nellis Outlet,Overstock,Electronics,Acceptable,Medium,1927.27,59,14.54,18.5,1662.83
-NLS-0919,2024-05-13,Dean Martin,Overstock,Baby,New,Medium,351.28,90,18.66,18.5,432.47
-NLS-0920,2024-11-12,Nellis Outlet,Renewed,Sports,Like New,Small,346.63,65,10.74,18.5,557.43
-NLS-0921,2024-04-23,Nellis Outlet,Warehouse Deals,Tools,New,Medium,1780.1,91,19.25,18.5,3053.8
-NLS-0922,2024-10-23,North Las Vegas,Renewed,Baby,Acceptable,Large,397.78,45,7.96,18.5,195.83
-NLS-0923,2024-07-04,Dean Martin,Warehouse Deals,Toys,New,Small,256.73,43,10.62,18.5,347.56
-NLS-0924,2024-07-11,Dean Martin,Overstock,Home,Acceptable,Small,548.25,72,17.38,18.5,358.28
-NLS-0925,2024-03-01,North Las Vegas,Overstock,Clothing,Like New,Large,203.04,32,7.53,18.5,245.78
-NLS-0926,2024-01-12,North Las Vegas,Returns,Toys,New,Medium,408.7,42,10.51,18.5,384.86
-NLS-0927,2024-03-05,Nellis Outlet,Renewed,Baby,Good,Small,469.57,13,3.23,18.5,446.03
-NLS-0928,2024-08-11,North Las Vegas,Returns,Toys,Like New,Small,339.42,80,17.18,18.5,411.75
-NLS-0929,2024-10-27,Nellis Outlet,Overstock,Baby,Good,Medium,259.36,45,11.31,18.5,199.17
-NLS-0930,2024-02-25,North Las Vegas,Renewed,Baby,Acceptable,Oversized,464.86,64,20.0,18.5,266.04
-NLS-0931,2024-09-18,Nellis Outlet,Overstock,Tools,Like New,Large,1048.75,90,20.0,18.5,1702.02
-NLS-0932,2024-05-05,North Las Vegas,Overstock,Beauty,Good,Oversized,211.98,33,12.25,18.5,181.1
-NLS-0933,2024-04-19,Dean Martin,Renewed,Sports,Good,Medium,689.76,25,4.62,18.5,1151.75
-NLS-0934,2024-11-07,North Las Vegas,Returns,Baby,New,Oversized,285.08,37,12.18,18.5,250.44
-NLS-0935,2024-05-20,Nellis Outlet,Warehouse Deals,Tools,Acceptable,Large,1576.07,35,6.72,18.5,1759.99
-NLS-0936,2024-11-25,North Las Vegas,Warehouse Deals,Home,Acceptable,Medium,660.86,85,16.35,18.5,536.33
-NLS-0937,2024-06-21,Nellis Outlet,Warehouse Deals,Toys,Good,Medium,536.66,61,10.26,18.5,616.87
-NLS-0938,2024-07-23,Nellis Outlet,Warehouse Deals,Home,Acceptable,Small,797.91,63,14.13,18.5,651.6
-NLS-0939,2024-07-10,Dean Martin,Returns,Toys,New,Oversized,319.38,68,20.0,18.5,511.59
-NLS-0940,2024-08-11,Nellis Outlet,Warehouse Deals,Electronics,Like New,Small,1790.55,27,5.16,18.5,3387.26
-NLS-0941,2024-05-12,Dean Martin,Renewed,Home,Like New,Large,789.69,78,18.92,18.5,1698.3
-NLS-0942,2024-03-28,Dean Martin,Warehouse Deals,Electronics,Good,Small,1116.47,98,20.0,18.5,2071.1
-NLS-0943,2024-08-16,Dean Martin,Overstock,Home,Like New,Large,817.14,84,19.59,18.5,1299.26
-NLS-0944,2024-05-31,Nellis Outlet,Warehouse Deals,Baby,Acceptable,Oversized,492.9,51,17.78,18.5,283.68
-NLS-0945,2024-04-20,Nellis Outlet,Warehouse Deals,Sports,Like New,Medium,647.48,19,5.48,18.5,738.16
-NLS-0946,2024-06-08,North Las Vegas,Overstock,Baby,Acceptable,Small,302.14,85,18.94,18.5,157.67
-NLS-0947,2024-04-13,Nellis Outlet,Overstock,Clothing,New,Medium,265.64,56,11.11,18.5,309.98
-NLS-0948,2024-08-24,North Las Vegas,Renewed,Home,Good,Oversized,398.52,49,18.26,18.5,456.83
-NLS-0949,2024-03-01,Dean Martin,Warehouse Deals,Baby,New,Oversized,256.11,13,5.16,18.5,352.81
-NLS-0950,2024-07-08,Nellis Outlet,Warehouse Deals,Sports,Acceptable,Medium,375.31,74,14.64,18.5,309.77
-NLS-0951,2024-09-22,Dean Martin,Warehouse Deals,Tools,Acceptable,Medium,952.81,61,10.96,18.5,951.62
-NLS-0952,2024-09-29,North Las Vegas,Warehouse Deals,Electronics,Like New,Small,1063.5,16,4.68,18.5,1969.13
-NLS-0953,2024-04-15,Dean Martin,Returns,Baby,Acceptable,Oversized,317.87,38,13.48,18.5,199.94
-NLS-0954,2024-06-05,Dean Martin,Renewed,Sports,Good,Large,666.94,22,4.53,18.5,1172.44
-NLS-0955,2024-08-30,Nellis Outlet,Renewed,Clothing,Good,Small,249.99,52,12.62,18.5,186.51
-NLS-0956,2024-08-30,North Las Vegas,Returns,Electronics,Like New,Large,1857.51,31,7.38,18.5,3579.57
-NLS-0957,2024-09-25,Nellis Outlet,Warehouse Deals,Toys,Like New,Oversized,243.75,12,5.05,18.5,433.21
-NLS-0958,2024-05-11,Nellis Outlet,Renewed,Clothing,New,Small,291.38,52,10.67,18.5,508.27
-NLS-0959,2024-12-05,Nellis Outlet,Overstock,Beauty,Good,Oversized,205.42,55,15.81,18.5,185.9
-NLS-0960,2024-09-11,Nellis Outlet,Overstock,Home,Good,Small,388.74,62,14.6,18.5,389.18
-NLS-0961,2024-05-20,Dean Martin,Renewed,Tools,Good,Medium,1493.24,34,8.72,18.5,2003.6
-NLS-0962,2024-04-07,Nellis Outlet,Overstock,Clothing,Good,Large,466.4,60,12.84,18.5,447.92
-NLS-0963,2024-12-16,Dean Martin,Returns,Home,Acceptable,Oversized,640.0,54,15.46,18.5,581.0
-NLS-0964,2024-04-21,Dean Martin,Overstock,Clothing,Good,Medium,291.09,46,8.04,18.5,243.53
-NLS-0965,2024-06-28,North Las Vegas,Warehouse Deals,Electronics,Acceptable,Large,806.11,55,12.18,18.5,626.87
-NLS-0966,2024-01-17,North Las Vegas,Renewed,Home,Good,Medium,897.55,35,7.44,18.5,1249.94
-NLS-0967,2024-03-29,North Las Vegas,Returns,Baby,Acceptable,Oversized,319.73,22,8.99,18.5,208.62
-NLS-0968,2024-10-17,Nellis Outlet,Overstock,Sports,Like New,Medium,425.01,63,13.25,18.5,462.45
-NLS-0969,2024-12-30,Nellis Outlet,Overstock,Clothing,Acceptable,Oversized,228.81,77,20.0,18.5,136.65
-NLS-0970,2024-08-03,North Las Vegas,Overstock,Sports,Acceptable,Oversized,510.25,62,18.87,18.5,382.5
-NLS-0971,2024-07-20,Dean Martin,Renewed,Beauty,Like New,Large,250.91,79,18.57,18.5,386.96
-NLS-0972,2024-06-19,Dean Martin,Overstock,Electronics,Acceptable,Oversized,1807.04,20,5.92,18.5,2104.53
-NLS-0973,2024-01-28,Nellis Outlet,Warehouse Deals,Beauty,Acceptable,Large,545.73,25,6.3,18.5,492.96
-NLS-0974,2024-01-04,Nellis Outlet,Renewed,Clothing,Acceptable,Medium,267.06,96,20.0,18.5,162.64
-NLS-0975,2024-01-13,North Las Vegas,Renewed,Home,New,Small,391.81,25,5.8,18.5,517.13
-NLS-0976,2024-10-06,Nellis Outlet,Overstock,Tools,New,Small,959.91,71,17.29,18.5,1983.49
-NLS-0977,2024-09-18,North Las Vegas,Overstock,Home,Acceptable,Medium,681.72,33,6.23,18.5,486.21
-NLS-0978,2024-07-19,Nellis Outlet,Renewed,Toys,Acceptable,Large,315.78,22,6.13,18.5,248.05
-NLS-0979,2024-06-04,North Las Vegas,Warehouse Deals,Toys,Acceptable,Oversized,259.27,46,14.36,18.5,170.19
-NLS-0980,2024-09-14,Dean Martin,Overstock,Electronics,Good,Medium,1361.49,68,12.68,18.5,2307.23
-NLS-0981,2024-03-12,Dean Martin,Returns,Tools,New,Medium,1387.1,55,12.16,18.5,2507.18
-NLS-0982,2024-09-16,North Las Vegas,Returns,Tools,New,Oversized,1051.83,70,20.0,18.5,1594.02
-NLS-0983,2024-04-28,Nellis Outlet,Returns,Clothing,Good,Large,375.35,61,10.41,18.5,275.51
-NLS-0984,2024-07-15,Dean Martin,Warehouse Deals,Toys,Acceptable,Large,503.96,40,7.24,18.5,502.58
-NLS-0985,2024-01-16,North Las Vegas,Warehouse Deals,Electronics,Good,Small,844.9,19,4.5,18.5,1343.19
-NLS-0986,2024-08-12,Dean Martin,Returns,Home,Acceptable,Oversized,379.93,91,20.0,18.5,231.68
-NLS-0987,2024-11-18,Nellis Outlet,Returns,Baby,Like New,Medium,330.22,77,17.56,18.5,297.49
-NLS-0988,2024-06-23,Nellis Outlet,Warehouse Deals,Baby,New,Medium,467.99,56,12.92,18.5,702.31
-NLS-0989,2024-02-04,Dean Martin,Overstock,Baby,Like New,Oversized,350.26,55,17.99,18.5,340.94
-NLS-0990,2024-11-03,North Las Vegas,Overstock,Tools,New,Small,752.63,76,14.19,18.5,956.44
-NLS-0991,2024-03-21,Nellis Outlet,Returns,Electronics,Like New,Large,1906.73,42,8.59,18.5,3217.16
-NLS-0992,2024-05-14,North Las Vegas,Warehouse Deals,Baby,Good,Oversized,385.59,79,20.0,18.5,324.87
-NLS-0993,2024-06-17,Nellis Outlet,Warehouse Deals,Electronics,Good,Oversized,1113.06,52,18.85,18.5,1321.39
-NLS-0994,2024-01-19,Nellis Outlet,Warehouse Deals,Baby,Acceptable,Small,441.7,82,19.26,18.5,337.99
-NLS-0995,2024-04-25,North Las Vegas,Warehouse Deals,Tools,New,Oversized,1735.92,44,15.29,18.5,2856.85
-NLS-0996,2024-04-10,Nellis Outlet,Returns,Tools,Acceptable,Large,1537.85,39,6.8,18.5,1113.9
-NLS-0997,2024-03-11,Nellis Outlet,Overstock,Electronics,Acceptable,Small,1264.55,58,12.96,18.5,1078.34
-NLS-0998,2024-01-06,Dean Martin,Overstock,Home,Good,Large,416.19,65,15.58,18.5,367.71
-NLS-0999,2024-06-09,Dean Martin,Overstock,Electronics,New,Medium,1775.15,19,3.79,18.5,3137.73
-NLS-1000,2024-04-15,North Las Vegas,Renewed,Beauty,Like New,Oversized,391.48,25,9.17,18.5,500.32
+NLS-0001,2024-08-04,Nellis Outlet,Phoenix 6,Electronics,Good,Medium,1067.85,23,5.75,18.5,1779.71
+NLS-0002,2024-08-02,Dean Martin,Phoenix 6,Home,Like New,Medium,603.21,13,3.56,18.5,1141.21
+NLS-0003,2024-02-22,Dean Martin,Other,Beauty,New,Medium,479.26,53,10.09,18.5,630.67
+NLS-0004,2024-07-12,Dean Martin,Other,Home,Good,Large,662.24,15,4.2,18.5,870.89
+NLS-0005,2024-02-21,Dean Martin,Houston,Sports,Like New,Small,322.91,39,9.33,18.5,622.11
+NLS-0006,2024-02-06,North Las Vegas,Houston,Toys,Good,Medium,348.07,36,8.37,18.5,372.08
+NLS-0007,2024-01-29,Nellis Outlet,CVG,Baby,Like New,Oversized,313.84,91,20.0,18.5,317.18
+NLS-0008,2024-07-21,Dean Martin,Phoenix 6,Sports,Acceptable,Large,333.09,82,19.08,18.5,313.74
+NLS-0009,2024-10-25,Nellis Outlet,Other,Clothing,Good,Medium,273.99,81,16.65,18.5,256.08
+NLS-0010,2024-12-14,North Las Vegas,Houston,Baby,Like New,Oversized,227.27,16,6.94,18.5,176.54
+NLS-0011,2024-12-15,North Las Vegas,Phoenix 6,Tools,Acceptable,Oversized,1234.94,80,20.0,18.5,1033.39
+NLS-0012,2024-09-13,Nellis Outlet,Houston,Sports,New,Large,517.38,68,11.15,18.5,900.7
+NLS-0013,2024-01-01,Dean Martin,Phoenix 6,Beauty,Like New,Medium,349.57,30,6.81,18.5,603.67
+NLS-0014,2024-02-10,Nellis Outlet,Houston,Toys,New,Small,571.64,49,9.24,18.5,653.43
+NLS-0015,2024-04-18,Dean Martin,Other,Home,Like New,Medium,695.85,80,14.03,18.5,988.78
+NLS-0016,2024-01-11,Nellis Outlet,CVG,Beauty,Acceptable,Large,375.24,76,15.14,18.5,224.81
+NLS-0017,2024-02-06,Nellis Outlet,CVG,Baby,New,Small,412.35,17,3.77,18.5,691.93
+NLS-0018,2024-07-27,Nellis Outlet,CVG,Beauty,Acceptable,Medium,415.69,83,17.28,18.5,283.46
+NLS-0019,2024-11-26,Dean Martin,Phoenix 6,Home,Acceptable,Large,554.15,69,16.16,18.5,425.39
+NLS-0020,2024-08-24,Dean Martin,Phoenix 6,Tools,Good,Small,898.39,34,7.57,18.5,1104.97
+NLS-0021,2024-05-01,Dean Martin,Phoenix 6,Toys,New,Small,460.86,79,18.16,18.5,1000.06
+NLS-0022,2024-08-20,Dean Martin,Other,Toys,Acceptable,Medium,545.86,17,3.66,18.5,285.38
+NLS-0023,2024-01-30,North Las Vegas,Other,Toys,Like New,Medium,318.68,17,4.36,18.5,391.69
+NLS-0024,2024-03-02,Dean Martin,Other,Clothing,New,Small,455.4,18,4.59,18.5,560.34
+NLS-0025,2024-06-09,Nellis Outlet,CVG,Electronics,New,Oversized,1588.85,82,20.0,18.5,3731.66
+NLS-0026,2024-02-21,Dean Martin,Houston,Tools,Like New,Large,1148.67,19,3.71,18.5,1973.53
+NLS-0027,2024-12-26,Dean Martin,CVG,Beauty,Like New,Large,552.35,41,8.33,18.5,775.85
+NLS-0028,2024-04-17,North Las Vegas,Phoenix 6,Beauty,New,Medium,305.79,23,5.89,18.5,374.91
+NLS-0029,2024-01-02,Nellis Outlet,Houston,Baby,Good,Oversized,275.34,16,5.07,18.5,206.05
+NLS-0030,2024-12-19,North Las Vegas,CVG,Beauty,Like New,Oversized,420.67,64,20.0,18.5,549.55
+NLS-0031,2024-01-21,Dean Martin,Phoenix 6,Sports,Like New,Oversized,363.72,49,14.63,18.5,852.37
+NLS-0032,2024-05-01,North Las Vegas,CVG,Baby,New,Large,434.03,62,15.2,18.5,704.71
+NLS-0033,2024-05-07,Dean Martin,CVG,Tools,New,Medium,1483.88,52,12.11,18.5,3209.96
+NLS-0034,2024-04-26,North Las Vegas,CVG,Home,Acceptable,Small,815.16,38,7.23,18.5,771.11
+NLS-0035,2024-07-23,Dean Martin,Phoenix 6,Baby,Acceptable,Large,283.58,18,5.25,18.5,193.79
+NLS-0036,2024-06-09,Nellis Outlet,Houston,Electronics,New,Large,1014.28,43,7.48,18.5,1815.92
+NLS-0037,2024-12-09,North Las Vegas,Phoenix 6,Tools,Like New,Large,653.26,65,10.69,18.5,1390.14
+NLS-0038,2024-06-07,Dean Martin,Houston,Tools,New,Large,1347.79,94,20.0,18.5,2468.39
+NLS-0039,2024-03-30,Nellis Outlet,Other,Sports,Acceptable,Large,577.21,34,7.22,18.5,536.25
+NLS-0040,2024-08-14,Nellis Outlet,Houston,Tools,New,Large,944.3,65,14.88,18.5,1541.75
+NLS-0041,2024-04-30,North Las Vegas,CVG,Toys,Like New,Small,313.51,94,19.86,18.5,433.1
+NLS-0042,2024-08-21,Nellis Outlet,Houston,Baby,Like New,Medium,207.33,41,10.49,18.5,230.76
+NLS-0043,2024-02-24,North Las Vegas,CVG,Tools,Acceptable,Oversized,892.78,93,20.0,18.5,1142.58
+NLS-0044,2024-10-13,North Las Vegas,CVG,Clothing,Acceptable,Small,367.22,25,5.65,18.5,301.0
+NLS-0045,2024-05-21,Nellis Outlet,Houston,Toys,Acceptable,Oversized,558.88,70,20.0,18.5,423.68
+NLS-0046,2024-02-11,Nellis Outlet,Other,Baby,Good,Oversized,223.25,46,13.06,18.5,193.61
+NLS-0047,2024-02-01,Dean Martin,CVG,Baby,Acceptable,Medium,411.93,18,4.27,18.5,272.75
+NLS-0048,2024-08-02,Dean Martin,Other,Tools,New,Oversized,1172.38,55,15.79,18.5,2225.68
+NLS-0049,2024-03-25,Nellis Outlet,CVG,Toys,Like New,Large,374.33,13,3.32,18.5,587.73
+NLS-0050,2024-07-13,North Las Vegas,CVG,Electronics,Acceptable,Small,900.74,64,11.24,18.5,827.23
+NLS-0051,2024-02-11,North Las Vegas,CVG,Toys,Good,Large,504.49,58,10.95,18.5,654.22
+NLS-0052,2024-01-11,North Las Vegas,Phoenix 6,Electronics,Good,Medium,1580.17,93,15.24,18.5,1872.69
+NLS-0053,2024-07-07,Nellis Outlet,CVG,Baby,Like New,Oversized,400.84,82,20.0,18.5,435.76
+NLS-0054,2024-04-11,Dean Martin,Phoenix 6,Clothing,Good,Small,373.61,49,10.62,18.5,473.31
+NLS-0055,2024-07-08,Dean Martin,CVG,Home,Good,Small,777.74,82,18.45,18.5,967.79
+NLS-0056,2024-08-10,Dean Martin,Houston,Electronics,Acceptable,Oversized,926.65,56,18.41,18.5,1096.49
+NLS-0057,2024-02-14,Dean Martin,Houston,Toys,Acceptable,Oversized,530.29,85,20.0,18.5,448.82
+NLS-0058,2024-05-12,North Las Vegas,Other,Baby,Acceptable,Oversized,300.92,73,20.0,18.5,133.72
+NLS-0059,2024-11-26,North Las Vegas,Houston,Beauty,New,Medium,234.25,62,12.72,18.5,360.3
+NLS-0060,2024-08-30,Nellis Outlet,Other,Toys,New,Small,317.69,61,13.56,18.5,375.29
+NLS-0061,2024-06-10,Nellis Outlet,Houston,Tools,Good,Large,1443.43,44,8.64,18.5,1687.07
+NLS-0062,2024-02-21,Dean Martin,CVG,Baby,Like New,Oversized,282.95,85,20.0,18.5,342.44
+NLS-0063,2024-10-10,Dean Martin,Houston,Baby,Good,Medium,290.68,100,20.0,18.5,271.57
+NLS-0064,2024-05-09,North Las Vegas,CVG,Toys,New,Small,429.63,70,14.18,18.5,687.64
+NLS-0065,2024-06-04,North Las Vegas,Phoenix 6,Home,Acceptable,Oversized,344.45,90,20.0,18.5,269.13
+NLS-0066,2024-08-07,Dean Martin,CVG,Home,Acceptable,Medium,765.42,58,11.78,18.5,750.53
+NLS-0067,2024-01-02,North Las Vegas,Phoenix 6,Home,Like New,Medium,458.79,20,4.14,18.5,520.65
+NLS-0068,2024-04-29,North Las Vegas,Other,Toys,Good,Small,292.59,100,18.26,18.5,273.4
+NLS-0069,2024-06-06,North Las Vegas,CVG,Tools,New,Medium,1377.16,44,10.58,18.5,2007.38
+NLS-0070,2024-08-12,Nellis Outlet,Houston,Toys,New,Oversized,475.47,99,20.0,18.5,546.67
+NLS-0071,2024-01-11,Dean Martin,Phoenix 6,Tools,Good,Large,631.04,39,9.96,18.5,1182.4
+NLS-0072,2024-11-21,Nellis Outlet,Houston,Electronics,Like New,Oversized,1422.76,66,20.0,18.5,2029.24
+NLS-0073,2024-09-10,North Las Vegas,Phoenix 6,Toys,Good,Oversized,333.32,95,20.0,18.5,315.52
+NLS-0074,2024-01-01,North Las Vegas,Other,Electronics,Acceptable,Small,1177.42,51,9.05,18.5,1318.1
+NLS-0075,2024-04-14,Nellis Outlet,Other,Tools,New,Medium,1222.13,89,19.75,18.5,2289.45
+NLS-0076,2024-10-09,North Las Vegas,CVG,Beauty,Acceptable,Oversized,248.57,90,20.0,18.5,153.08
+NLS-0077,2024-05-29,Dean Martin,Other,Home,Like New,Small,576.87,25,6.09,18.5,755.37
+NLS-0078,2024-03-10,Nellis Outlet,Houston,Tools,Acceptable,Oversized,892.48,80,20.0,18.5,658.72
+NLS-0079,2024-12-03,Dean Martin,Houston,Tools,Good,Large,1584.66,46,10.62,18.5,2479.17
+NLS-0080,2024-12-23,North Las Vegas,CVG,Toys,Acceptable,Large,332.98,79,15.22,18.5,325.46
+NLS-0081,2024-12-05,Dean Martin,Other,Baby,Acceptable,Small,295.45,70,15.47,18.5,188.69
+NLS-0082,2024-02-21,Nellis Outlet,CVG,Toys,New,Medium,400.92,85,16.0,18.5,557.55
+NLS-0083,2024-11-15,Nellis Outlet,Other,Electronics,Like New,Oversized,1845.12,29,8.1,18.5,3126.02
+NLS-0084,2024-01-19,Nellis Outlet,Other,Home,Good,Oversized,872.48,90,20.0,18.5,1131.67
+NLS-0085,2024-02-21,Nellis Outlet,Phoenix 6,Baby,Good,Medium,424.03,65,15.9,18.5,487.64
+NLS-0086,2024-09-28,North Las Vegas,CVG,Beauty,New,Small,329.75,17,3.88,18.5,433.16
+NLS-0087,2024-03-14,North Las Vegas,CVG,Clothing,Like New,Small,382.85,58,12.6,18.5,474.17
+NLS-0088,2024-08-14,Dean Martin,Other,Beauty,Acceptable,Large,466.74,69,16.37,18.5,318.14
+NLS-0089,2024-07-14,North Las Vegas,Houston,Tools,Good,Oversized,1614.36,35,13.77,18.5,2026.15
+NLS-0090,2024-01-26,Nellis Outlet,Houston,Beauty,Good,Small,591.18,94,18.07,18.5,494.33
+NLS-0091,2024-12-03,Nellis Outlet,Other,Beauty,Like New,Large,287.6,34,7.82,18.5,388.23
+NLS-0092,2024-05-31,Nellis Outlet,CVG,Home,New,Large,773.17,14,3.78,18.5,1252.66
+NLS-0093,2024-05-11,North Las Vegas,Other,Clothing,Like New,Medium,435.95,56,11.78,18.5,585.1
+NLS-0094,2024-12-11,North Las Vegas,Houston,Sports,New,Oversized,781.45,28,10.44,18.5,1098.72
+NLS-0095,2024-10-26,North Las Vegas,Houston,Home,Acceptable,Small,458.68,25,5.65,18.5,362.69
+NLS-0096,2024-11-21,North Las Vegas,Houston,Home,Like New,Oversized,315.01,81,20.0,18.5,434.05
+NLS-0097,2024-10-02,North Las Vegas,Houston,Tools,New,Medium,654.42,14,3.37,18.5,946.34
+NLS-0098,2024-11-11,Dean Martin,Other,Toys,Good,Oversized,434.94,29,11.27,18.5,514.48
+NLS-0099,2024-10-05,North Las Vegas,Houston,Electronics,Good,Medium,1332.06,40,9.82,18.5,1560.41
+NLS-0100,2024-04-18,Nellis Outlet,Houston,Electronics,Acceptable,Large,1027.77,25,6.78,18.5,928.63
+NLS-0101,2024-10-27,Nellis Outlet,Phoenix 6,Electronics,Good,Medium,1986.59,82,14.62,18.5,3750.04
+NLS-0102,2024-02-26,Dean Martin,CVG,Sports,Like New,Small,438.64,28,7.55,18.5,849.62
+NLS-0103,2024-03-05,Nellis Outlet,Phoenix 6,Clothing,New,Large,437.0,40,8.91,18.5,442.59
+NLS-0104,2024-11-10,Nellis Outlet,Other,Home,New,Oversized,568.97,56,17.55,18.5,663.86
+NLS-0105,2024-08-15,Dean Martin,Houston,Toys,New,Small,599.43,61,12.22,18.5,725.81
+NLS-0106,2024-11-01,Dean Martin,Phoenix 6,Sports,Like New,Small,363.1,89,18.86,18.5,613.61
+NLS-0107,2024-04-20,Nellis Outlet,Houston,Toys,Acceptable,Small,517.24,24,6.34,18.5,370.45
+NLS-0108,2024-12-06,North Las Vegas,Other,Baby,Acceptable,Large,448.23,61,12.17,18.5,205.61
+NLS-0109,2024-03-07,North Las Vegas,Houston,Clothing,Acceptable,Small,227.37,20,4.02,18.5,115.53
+NLS-0110,2024-01-27,Nellis Outlet,Phoenix 6,Sports,New,Oversized,476.8,95,20.0,18.5,935.55
+NLS-0111,2024-07-07,North Las Vegas,Houston,Sports,New,Medium,377.37,71,12.89,18.5,526.81
+NLS-0112,2024-12-25,Dean Martin,Houston,Baby,Acceptable,Small,382.7,94,20.0,18.5,188.15
+NLS-0113,2024-01-16,North Las Vegas,Houston,Sports,New,Medium,734.93,82,17.62,18.5,978.57
+NLS-0114,2024-11-01,Dean Martin,CVG,Tools,Acceptable,Oversized,1009.08,57,16.41,18.5,1130.75
+NLS-0115,2024-07-31,Dean Martin,Phoenix 6,Clothing,Like New,Small,402.19,44,9.15,18.5,538.42
+NLS-0116,2024-01-24,North Las Vegas,CVG,Home,Good,Oversized,366.53,96,20.0,18.5,482.21
+NLS-0117,2024-03-02,Dean Martin,Other,Electronics,New,Medium,1161.7,37,8.89,18.5,2364.09
+NLS-0118,2024-06-30,Dean Martin,Other,Tools,Like New,Medium,1056.25,100,17.84,18.5,1823.75
+NLS-0119,2024-12-29,Dean Martin,Other,Electronics,Acceptable,Small,1351.71,19,5.28,18.5,1388.01
+NLS-0120,2024-12-19,Nellis Outlet,Other,Beauty,New,Oversized,208.34,51,13.93,18.5,322.88
+NLS-0121,2024-06-22,North Las Vegas,Phoenix 6,Tools,New,Medium,1122.81,61,12.71,18.5,2003.91
+NLS-0122,2024-11-26,Dean Martin,Houston,Clothing,New,Small,359.18,34,8.67,18.5,445.32
+NLS-0123,2024-11-17,Dean Martin,CVG,Home,Like New,Large,418.36,87,15.1,18.5,662.34
+NLS-0124,2024-10-29,North Las Vegas,Other,Toys,Good,Large,260.38,18,4.37,18.5,279.78
+NLS-0125,2024-02-16,Dean Martin,Houston,Home,Good,Oversized,571.15,17,6.01,18.5,614.13
+NLS-0126,2024-03-18,Nellis Outlet,Other,Toys,New,Oversized,563.62,83,20.0,18.5,649.45
+NLS-0127,2024-09-25,Dean Martin,Other,Home,Good,Small,602.73,32,5.77,18.5,853.95
+NLS-0128,2024-06-20,Nellis Outlet,CVG,Sports,Good,Large,493.71,53,11.86,18.5,568.65
+NLS-0129,2024-02-11,Dean Martin,Houston,Home,Acceptable,Large,451.2,94,20.0,18.5,318.77
+NLS-0130,2024-06-17,Nellis Outlet,CVG,Sports,Good,Oversized,364.48,100,20.0,18.5,437.75
+NLS-0131,2024-04-08,Dean Martin,Phoenix 6,Tools,Good,Small,1035.12,33,8.58,18.5,1672.31
+NLS-0132,2024-09-26,Dean Martin,CVG,Clothing,New,Large,453.33,22,5.2,18.5,736.53
+NLS-0133,2024-08-12,Dean Martin,Houston,Clothing,Acceptable,Medium,248.67,98,20.0,18.5,157.6
+NLS-0134,2024-08-28,Dean Martin,Other,Sports,Like New,Oversized,605.3,67,18.4,18.5,900.86
+NLS-0135,2024-11-05,Dean Martin,Houston,Toys,Acceptable,Large,511.25,74,15.23,18.5,448.38
+NLS-0136,2024-02-12,Dean Martin,Houston,Electronics,Acceptable,Large,1465.45,23,5.82,18.5,1272.97
+NLS-0137,2024-07-31,Dean Martin,Houston,Toys,Like New,Oversized,236.69,38,13.89,18.5,374.67
+NLS-0138,2024-12-31,Dean Martin,Other,Sports,Like New,Oversized,797.26,57,15.79,18.5,948.43
+NLS-0139,2024-08-17,Nellis Outlet,Houston,Clothing,Like New,Small,286.06,70,15.42,18.5,264.96
+NLS-0140,2024-02-26,Nellis Outlet,Phoenix 6,Home,New,Large,429.39,29,6.64,18.5,798.22
+NLS-0141,2024-09-12,North Las Vegas,CVG,Beauty,New,Small,295.38,91,20.0,18.5,398.94
+NLS-0142,2024-12-08,Nellis Outlet,Phoenix 6,Baby,Like New,Large,328.77,88,16.68,18.5,363.04
+NLS-0143,2024-01-09,Dean Martin,Houston,Home,New,Oversized,824.0,15,6.09,18.5,1391.68
+NLS-0144,2024-11-25,North Las Vegas,Phoenix 6,Sports,Like New,Small,685.75,52,9.28,18.5,994.65
+NLS-0145,2024-01-22,Dean Martin,Other,Toys,Like New,Medium,225.24,68,11.34,18.5,262.05
+NLS-0146,2024-12-01,North Las Vegas,Houston,Tools,Acceptable,Large,643.94,92,16.2,18.5,541.06
+NLS-0147,2024-09-11,North Las Vegas,Houston,Home,Good,Oversized,833.69,66,20.0,18.5,951.21
+NLS-0148,2024-05-30,Nellis Outlet,Other,Sports,Good,Small,663.54,20,4.67,18.5,808.58
+NLS-0149,2024-08-16,North Las Vegas,Phoenix 6,Home,Good,Large,483.9,87,19.06,18.5,513.81
+NLS-0150,2024-03-22,Dean Martin,Houston,Tools,Good,Small,690.05,91,17.6,18.5,996.9
+NLS-0151,2024-11-05,Dean Martin,CVG,Toys,New,Medium,226.89,92,17.49,18.5,357.41
+NLS-0152,2024-05-22,Dean Martin,Other,Sports,Good,Oversized,681.54,83,20.0,18.5,740.34
+NLS-0153,2024-04-19,Dean Martin,Phoenix 6,Electronics,Like New,Oversized,1421.29,81,20.0,18.5,3553.67
+NLS-0154,2024-02-14,Nellis Outlet,Houston,Toys,Like New,Small,254.29,19,4.52,18.5,326.24
+NLS-0155,2024-07-04,Nellis Outlet,Houston,Sports,New,Large,745.67,30,7.27,18.5,1363.79
+NLS-0156,2024-10-09,Nellis Outlet,CVG,Home,Like New,Medium,442.04,73,12.05,18.5,656.95
+NLS-0157,2024-02-07,Dean Martin,Phoenix 6,Home,Good,Oversized,899.76,71,20.0,18.5,1498.1
+NLS-0158,2024-10-27,Dean Martin,Houston,Home,Acceptable,Oversized,708.07,54,14.38,18.5,620.19
+NLS-0159,2024-06-26,Dean Martin,CVG,Tools,New,Small,1221.72,48,8.76,18.5,2567.7
+NLS-0160,2024-02-17,Nellis Outlet,Houston,Home,Good,Medium,681.03,80,14.74,18.5,779.26
+NLS-0161,2024-11-24,Nellis Outlet,CVG,Clothing,Like New,Large,452.76,82,13.54,18.5,569.45
+NLS-0162,2024-05-05,Nellis Outlet,Houston,Baby,Acceptable,Small,349.41,90,18.43,18.5,190.09
+NLS-0163,2024-11-06,Nellis Outlet,Other,Beauty,Acceptable,Small,475.45,30,6.54,18.5,279.55
+NLS-0164,2024-03-03,Dean Martin,Houston,Sports,Good,Oversized,365.38,57,17.85,18.5,345.03
+NLS-0165,2024-03-22,North Las Vegas,Other,Baby,Like New,Small,215.18,59,13.99,18.5,235.38
+NLS-0166,2024-07-20,North Las Vegas,Houston,Baby,Like New,Oversized,498.79,69,20.0,18.5,393.7
+NLS-0167,2024-08-28,Nellis Outlet,Other,Baby,Like New,Large,214.6,46,9.72,18.5,253.19
+NLS-0168,2024-10-18,North Las Vegas,Phoenix 6,Home,Acceptable,Medium,829.47,56,12.87,18.5,637.14
+NLS-0169,2024-12-14,Nellis Outlet,CVG,Sports,Good,Small,493.17,67,15.18,18.5,696.2
+NLS-0170,2024-11-04,Nellis Outlet,Phoenix 6,Clothing,New,Oversized,311.96,53,16.99,18.5,362.09
+NLS-0171,2024-09-20,Nellis Outlet,Other,Electronics,New,Small,964.44,52,12.2,18.5,1566.51
+NLS-0172,2024-09-07,Dean Martin,Houston,Sports,Like New,Oversized,795.31,48,15.75,18.5,1166.34
+NLS-0173,2024-12-18,Nellis Outlet,Houston,Toys,New,Large,332.5,24,6.63,18.5,467.78
+NLS-0174,2024-07-13,Nellis Outlet,Phoenix 6,Toys,Good,Medium,488.56,84,16.83,18.5,591.78
+NLS-0175,2024-09-13,Dean Martin,CVG,Electronics,New,Medium,822.72,50,10.16,18.5,1681.1
+NLS-0176,2024-08-23,Nellis Outlet,Other,Electronics,Like New,Medium,1473.06,94,18.7,18.5,2564.76
+NLS-0177,2024-06-01,Nellis Outlet,Houston,Sports,Good,Oversized,396.13,41,12.02,18.5,463.99
+NLS-0178,2024-07-21,North Las Vegas,CVG,Toys,Good,Oversized,339.52,45,13.11,18.5,398.28
+NLS-0179,2024-09-02,North Las Vegas,CVG,Beauty,New,Large,582.13,20,4.51,18.5,819.38
+NLS-0180,2024-04-25,Dean Martin,CVG,Beauty,Good,Medium,243.69,85,15.36,18.5,273.75
+NLS-0181,2024-10-08,Nellis Outlet,CVG,Electronics,New,Oversized,1196.35,70,18.02,18.5,2465.33
+NLS-0182,2024-02-15,Dean Martin,Other,Toys,Acceptable,Medium,502.36,46,9.04,18.5,402.8
+NLS-0183,2024-09-10,Nellis Outlet,CVG,Electronics,Like New,Oversized,1858.69,32,12.46,18.5,3158.04
+NLS-0184,2024-11-24,Dean Martin,Houston,Electronics,New,Large,1481.55,23,6.29,18.5,2632.42
+NLS-0185,2024-04-05,Nellis Outlet,Other,Clothing,Acceptable,Large,257.84,24,5.18,18.5,170.41
+NLS-0186,2024-02-14,Dean Martin,Houston,Beauty,Like New,Medium,444.38,91,20.0,18.5,649.22
+NLS-0187,2024-05-16,North Las Vegas,Phoenix 6,Clothing,Like New,Oversized,297.08,41,10.58,18.5,344.7
+NLS-0188,2024-12-17,North Las Vegas,Houston,Electronics,Good,Large,1631.32,17,4.51,18.5,1947.05
+NLS-0189,2024-11-06,Nellis Outlet,Houston,Home,Good,Large,668.78,38,9.72,18.5,686.26
+NLS-0190,2024-12-26,North Las Vegas,Other,Toys,Like New,Medium,472.14,86,19.93,18.5,435.25
+NLS-0191,2024-12-14,North Las Vegas,Phoenix 6,Home,New,Medium,643.62,29,5.64,18.5,1223.82
+NLS-0192,2024-12-10,Dean Martin,Other,Home,Acceptable,Small,572.06,75,14.73,18.5,452.16
+NLS-0193,2024-10-04,North Las Vegas,Phoenix 6,Tools,Good,Small,1494.97,84,14.06,18.5,2277.3
+NLS-0194,2024-08-03,Dean Martin,Phoenix 6,Toys,New,Large,363.55,27,6.78,18.5,732.34
+NLS-0195,2024-03-01,North Las Vegas,Other,Toys,Acceptable,Oversized,232.1,94,20.0,18.5,137.14
+NLS-0196,2024-07-13,Dean Martin,Other,Clothing,Like New,Small,426.85,48,9.97,18.5,510.69
+NLS-0197,2024-01-09,Dean Martin,CVG,Toys,Good,Medium,310.26,24,4.52,18.5,414.95
+NLS-0198,2024-07-24,Dean Martin,CVG,Home,New,Small,567.86,96,20.0,18.5,891.0
+NLS-0199,2024-10-22,North Las Vegas,CVG,Baby,New,Medium,351.17,47,8.87,18.5,545.92
+NLS-0200,2024-10-29,Nellis Outlet,Houston,Baby,Good,Medium,495.71,76,13.72,18.5,329.33
+NLS-0201,2024-08-01,Nellis Outlet,CVG,Tools,Acceptable,Small,1766.75,92,19.75,18.5,1854.51
+NLS-0202,2024-03-14,North Las Vegas,CVG,Beauty,Acceptable,Medium,501.77,70,12.82,18.5,378.43
+NLS-0203,2024-07-08,North Las Vegas,Phoenix 6,Tools,Acceptable,Medium,1066.1,42,7.91,18.5,1263.14
+NLS-0204,2024-10-27,Dean Martin,CVG,Electronics,Good,Oversized,1608.41,87,20.0,18.5,2488.11
+NLS-0205,2024-09-02,Nellis Outlet,CVG,Toys,Like New,Large,321.28,11,2.73,18.5,407.47
+NLS-0206,2024-07-03,Dean Martin,CVG,Tools,Like New,Large,1530.62,58,11.86,18.5,2951.64
+NLS-0207,2024-10-15,Nellis Outlet,Other,Toys,New,Oversized,504.65,50,18.36,18.5,582.74
+NLS-0208,2024-09-12,Dean Martin,CVG,Electronics,Good,Oversized,1154.23,35,10.69,18.5,2102.77
+NLS-0209,2024-10-04,Nellis Outlet,Houston,Beauty,Acceptable,Oversized,384.33,55,14.9,18.5,274.25
+NLS-0210,2024-03-18,Nellis Outlet,Phoenix 6,Electronics,New,Small,1717.21,62,10.93,18.5,3415.97
+NLS-0211,2024-01-09,Dean Martin,CVG,Toys,Good,Small,447.13,95,20.0,18.5,663.2
+NLS-0212,2024-04-01,Dean Martin,Other,Electronics,New,Large,1442.89,46,7.86,18.5,3362.21
+NLS-0213,2024-07-10,Dean Martin,Phoenix 6,Clothing,Like New,Medium,385.93,42,10.11,18.5,450.91
+NLS-0214,2024-02-17,North Las Vegas,Other,Baby,Like New,Large,405.21,20,5.1,18.5,488.72
+NLS-0215,2024-06-18,North Las Vegas,Other,Tools,Acceptable,Small,1364.1,99,17.21,18.5,1103.0
+NLS-0216,2024-02-08,Nellis Outlet,Phoenix 6,Electronics,Like New,Medium,1881.53,98,20.0,18.5,3125.72
+NLS-0217,2024-07-22,Nellis Outlet,Houston,Electronics,Like New,Large,818.79,36,8.11,18.5,1569.29
+NLS-0218,2024-12-18,Dean Martin,Houston,Clothing,Like New,Oversized,403.11,79,20.0,18.5,446.59
+NLS-0219,2024-07-22,Nellis Outlet,Phoenix 6,Sports,New,Small,518.54,19,4.32,18.5,1174.88
+NLS-0220,2024-12-04,North Las Vegas,Phoenix 6,Beauty,Acceptable,Oversized,291.26,80,20.0,18.5,231.9
+NLS-0221,2024-07-18,North Las Vegas,Phoenix 6,Beauty,Like New,Small,232.82,29,6.2,18.5,331.36
+NLS-0222,2024-04-05,North Las Vegas,Houston,Home,New,Small,865.78,66,12.78,18.5,972.05
+NLS-0223,2024-07-16,North Las Vegas,Other,Tools,New,Small,707.54,80,13.56,18.5,1151.95
+NLS-0224,2024-03-27,Dean Martin,Houston,Tools,Acceptable,Small,1469.81,81,19.05,18.5,1609.28
+NLS-0225,2024-06-02,Nellis Outlet,Other,Clothing,Like New,Large,290.34,73,12.76,18.5,239.75
+NLS-0226,2024-06-04,North Las Vegas,Phoenix 6,Sports,Good,Medium,660.45,73,15.43,18.5,690.7
+NLS-0227,2024-03-10,Dean Martin,Other,Sports,Acceptable,Large,520.11,65,15.03,18.5,550.43
+NLS-0228,2024-09-08,North Las Vegas,Houston,Baby,Acceptable,Large,253.29,60,14.72,18.5,136.27
+NLS-0229,2024-10-06,Nellis Outlet,CVG,Sports,Acceptable,Large,708.25,60,11.73,18.5,680.26
+NLS-0230,2024-12-10,Dean Martin,Phoenix 6,Toys,Like New,Oversized,519.07,98,20.0,18.5,938.39
+NLS-0231,2024-09-02,North Las Vegas,CVG,Beauty,Like New,Large,463.47,64,14.68,18.5,599.72
+NLS-0232,2024-05-07,Nellis Outlet,Other,Tools,New,Large,1441.96,78,16.41,18.5,2469.68
+NLS-0233,2024-05-12,Nellis Outlet,Houston,Clothing,New,Oversized,490.04,52,19.36,18.5,466.26
+NLS-0234,2024-01-13,Dean Martin,CVG,Toys,Good,Oversized,385.23,96,20.0,18.5,446.37
+NLS-0235,2024-09-23,North Las Vegas,Phoenix 6,Beauty,Acceptable,Small,246.43,28,5.94,18.5,193.5
+NLS-0236,2024-02-28,North Las Vegas,Houston,Toys,New,Oversized,488.8,67,19.1,18.5,614.5
+NLS-0237,2024-04-28,Dean Martin,Houston,Home,Like New,Medium,609.6,80,14.0,18.5,967.84
+NLS-0238,2024-01-03,North Las Vegas,CVG,Clothing,Acceptable,Oversized,208.76,88,20.0,18.5,137.91
+NLS-0239,2024-05-14,Nellis Outlet,CVG,Baby,Good,Small,373.2,78,13.84,18.5,341.68
+NLS-0240,2024-12-10,Nellis Outlet,Other,Sports,Acceptable,Oversized,593.5,54,15.89,18.5,394.63
+NLS-0241,2024-07-17,Nellis Outlet,Houston,Home,Like New,Large,370.72,49,8.73,18.5,394.22
+NLS-0242,2024-10-11,North Las Vegas,CVG,Tools,Acceptable,Medium,1184.0,78,17.04,18.5,1431.02
+NLS-0243,2024-09-05,Dean Martin,Other,Beauty,Like New,Medium,325.83,67,14.39,18.5,546.4
+NLS-0244,2024-10-16,Dean Martin,CVG,Tools,Acceptable,Oversized,1421.64,63,20.0,18.5,1335.69
+NLS-0245,2024-09-10,Dean Martin,CVG,Beauty,New,Large,289.94,46,8.45,18.5,513.71
+NLS-0246,2024-08-05,Nellis Outlet,Phoenix 6,Home,Good,Large,625.23,15,4.25,18.5,703.15
+NLS-0247,2024-05-01,Dean Martin,CVG,Beauty,New,Oversized,305.13,21,7.3,18.5,683.48
+NLS-0248,2024-11-01,Dean Martin,Houston,Tools,Like New,Medium,1541.82,36,8.8,18.5,2570.94
+NLS-0249,2024-07-29,Nellis Outlet,CVG,Sports,Good,Large,586.37,75,18.21,18.5,745.35
+NLS-0250,2024-09-07,Dean Martin,Houston,Clothing,Like New,Medium,243.87,51,12.09,18.5,319.64
+NLS-0251,2024-07-07,Dean Martin,Houston,Tools,Acceptable,Oversized,690.62,21,7.19,18.5,720.31
+NLS-0252,2024-09-30,North Las Vegas,Other,Sports,New,Small,665.47,68,14.67,18.5,1190.1
+NLS-0253,2024-09-05,North Las Vegas,CVG,Tools,Like New,Oversized,922.24,46,13.66,18.5,1731.46
+NLS-0254,2024-04-13,North Las Vegas,Phoenix 6,Electronics,New,Oversized,819.54,30,9.81,18.5,1566.62
+NLS-0255,2024-03-25,Nellis Outlet,CVG,Beauty,Like New,Large,237.34,56,10.48,18.5,351.49
+NLS-0256,2024-10-30,Dean Martin,Other,Beauty,Like New,Oversized,462.19,100,20.0,18.5,442.61
+NLS-0257,2024-02-15,Dean Martin,Other,Electronics,New,Large,1780.53,64,14.18,18.5,3148.37
+NLS-0258,2024-11-24,Nellis Outlet,Phoenix 6,Home,Good,Large,828.59,27,5.84,18.5,1317.28
+NLS-0259,2024-12-17,Nellis Outlet,CVG,Home,New,Medium,564.06,37,8.44,18.5,784.69
+NLS-0260,2024-03-12,North Las Vegas,CVG,Home,New,Medium,751.47,85,18.73,18.5,1157.1
+NLS-0261,2024-04-15,Dean Martin,Houston,Home,Like New,Large,767.38,98,15.91,18.5,1334.83
+NLS-0262,2024-10-31,Nellis Outlet,CVG,Tools,Good,Small,1540.56,40,8.58,18.5,1911.64
+NLS-0263,2024-08-29,Dean Martin,Phoenix 6,Sports,Good,Medium,493.42,82,16.06,18.5,660.81
+NLS-0264,2024-12-30,Dean Martin,Phoenix 6,Home,New,Large,429.45,17,4.99,18.5,697.4
+NLS-0265,2024-09-18,Nellis Outlet,Other,Tools,Acceptable,Small,1368.64,78,16.55,18.5,964.22
+NLS-0266,2024-02-14,Dean Martin,CVG,Sports,Acceptable,Small,455.08,65,14.58,18.5,436.84
+NLS-0267,2024-12-25,North Las Vegas,Phoenix 6,Toys,New,Large,466.43,94,20.0,18.5,630.14
+NLS-0268,2024-03-01,Dean Martin,CVG,Toys,Good,Large,266.79,26,6.53,18.5,398.61
+NLS-0269,2024-01-29,Dean Martin,Houston,Tools,Good,Small,915.54,83,17.63,18.5,1225.57
+NLS-0270,2024-01-02,North Las Vegas,CVG,Sports,Like New,Large,686.66,83,17.94,18.5,1009.22
+NLS-0271,2024-12-31,Dean Martin,Phoenix 6,Baby,New,Oversized,309.19,29,8.51,18.5,442.84
+NLS-0272,2024-09-14,Nellis Outlet,Other,Baby,Good,Medium,324.88,50,9.54,18.5,218.23
+NLS-0273,2024-06-08,Nellis Outlet,Phoenix 6,Clothing,Like New,Small,486.22,18,5.09,18.5,757.43
+NLS-0274,2024-07-07,North Las Vegas,Phoenix 6,Toys,New,Large,280.27,82,18.47,18.5,425.12
+NLS-0275,2024-12-21,Nellis Outlet,Other,Baby,Like New,Medium,201.91,62,10.35,18.5,211.19
+NLS-0276,2024-03-13,Dean Martin,Houston,Electronics,Acceptable,Large,924.74,77,18.65,18.5,986.74
+NLS-0277,2024-02-13,Nellis Outlet,Houston,Home,New,Medium,838.37,76,14.9,18.5,1355.59
+NLS-0278,2024-05-13,Nellis Outlet,Phoenix 6,Clothing,Acceptable,Small,377.57,17,4.12,18.5,288.38
+NLS-0279,2024-02-25,North Las Vegas,Other,Sports,Good,Oversized,435.98,19,8.14,18.5,453.05
+NLS-0280,2024-06-06,Dean Martin,Phoenix 6,Clothing,Acceptable,Oversized,294.21,25,8.75,18.5,240.42
+NLS-0281,2024-06-16,North Las Vegas,Houston,Home,New,Medium,784.56,48,11.44,18.5,1026.81
+NLS-0282,2024-07-26,Dean Martin,Phoenix 6,Baby,Good,Oversized,354.04,96,20.0,18.5,381.25
+NLS-0283,2024-04-23,North Las Vegas,CVG,Home,Acceptable,Small,782.34,27,5.2,18.5,578.7
+NLS-0284,2024-04-11,Dean Martin,CVG,Tools,Good,Small,1298.79,43,10.7,18.5,1962.08
+NLS-0285,2024-07-21,Nellis Outlet,Other,Clothing,New,Large,236.76,69,11.57,18.5,316.02
+NLS-0286,2024-11-10,North Las Vegas,Phoenix 6,Tools,Acceptable,Medium,1024.73,33,6.62,18.5,886.76
+NLS-0287,2024-04-12,Nellis Outlet,CVG,Beauty,Acceptable,Oversized,553.11,71,17.92,18.5,345.4
+NLS-0288,2024-05-18,Nellis Outlet,CVG,Electronics,Acceptable,Large,1375.62,72,13.76,18.5,1447.19
+NLS-0289,2024-10-26,Dean Martin,Phoenix 6,Sports,Like New,Small,747.88,45,7.86,18.5,1579.58
+NLS-0290,2024-07-17,Dean Martin,CVG,Home,Like New,Medium,459.92,17,4.68,18.5,915.49
+NLS-0291,2024-06-29,North Las Vegas,CVG,Clothing,Like New,Large,441.86,99,18.69,18.5,605.47
+NLS-0292,2024-09-26,Nellis Outlet,CVG,Baby,Acceptable,Large,252.67,14,3.06,18.5,137.85
+NLS-0293,2024-01-12,North Las Vegas,Phoenix 6,Sports,Like New,Medium,470.38,32,8.27,18.5,821.07
+NLS-0294,2024-03-10,Dean Martin,CVG,Home,Good,Small,524.15,94,18.07,18.5,556.14
+NLS-0295,2024-04-24,Dean Martin,Other,Toys,Good,Medium,482.87,81,17.66,18.5,622.09
+NLS-0296,2024-10-17,Nellis Outlet,CVG,Tools,Good,Large,752.82,10,3.42,18.5,1287.47
+NLS-0297,2024-06-12,Dean Martin,CVG,Sports,Like New,Small,768.34,28,5.89,18.5,1065.92
+NLS-0298,2024-01-01,Dean Martin,Phoenix 6,Sports,Acceptable,Small,432.61,41,9.47,18.5,429.39
+NLS-0299,2024-09-02,Dean Martin,Other,Toys,Acceptable,Medium,553.82,73,17.14,18.5,338.44
+NLS-0300,2024-02-07,Nellis Outlet,CVG,Clothing,Acceptable,Small,439.76,14,3.36,18.5,317.39
+NLS-0301,2024-12-26,North Las Vegas,CVG,Tools,Like New,Small,1256.46,21,4.67,18.5,3018.48
+NLS-0302,2024-10-03,Dean Martin,Other,Clothing,Acceptable,Medium,216.07,52,9.6,18.5,122.96
+NLS-0303,2024-01-02,North Las Vegas,Houston,Beauty,Like New,Small,219.85,83,17.1,18.5,221.92
+NLS-0304,2024-02-29,North Las Vegas,Phoenix 6,Beauty,Acceptable,Medium,238.79,36,6.81,18.5,147.24
+NLS-0305,2024-04-05,North Las Vegas,Other,Toys,Acceptable,Large,236.45,79,15.29,18.5,135.17
+NLS-0306,2024-02-19,North Las Vegas,Phoenix 6,Beauty,Acceptable,Oversized,305.36,44,14.4,18.5,211.61
+NLS-0307,2024-08-31,Dean Martin,Houston,Tools,Like New,Small,1608.96,76,14.94,18.5,2907.63
+NLS-0308,2024-12-12,Nellis Outlet,CVG,Toys,Good,Small,357.92,14,3.66,18.5,509.27
+NLS-0309,2024-08-04,Nellis Outlet,CVG,Home,Acceptable,Medium,869.44,31,8.19,18.5,734.15
+NLS-0310,2024-05-21,Dean Martin,Other,Baby,Like New,Large,295.92,18,3.69,18.5,327.92
+NLS-0311,2024-02-21,Nellis Outlet,Other,Electronics,Acceptable,Small,1297.33,28,6.49,18.5,1379.3
+NLS-0312,2024-05-21,Dean Martin,Phoenix 6,Beauty,Good,Oversized,305.65,93,20.0,18.5,349.36
+NLS-0313,2024-05-17,North Las Vegas,CVG,Tools,New,Oversized,1667.49,52,17.56,18.5,2650.47
+NLS-0314,2024-04-26,North Las Vegas,Phoenix 6,Sports,Good,Large,440.17,72,16.78,18.5,728.63
+NLS-0315,2024-07-27,Dean Martin,Houston,Toys,Good,Large,491.52,87,18.55,18.5,397.83
+NLS-0316,2024-10-18,Nellis Outlet,Other,Sports,New,Medium,332.81,100,20.0,18.5,471.4
+NLS-0317,2024-07-07,Dean Martin,CVG,Baby,Like New,Small,274.85,68,11.42,18.5,304.52
+NLS-0318,2024-10-09,North Las Vegas,Other,Home,New,Medium,523.48,86,16.97,18.5,870.82
+NLS-0319,2024-04-19,North Las Vegas,Houston,Clothing,Good,Small,285.52,59,10.01,18.5,308.0
+NLS-0320,2024-11-03,Dean Martin,CVG,Baby,Good,Oversized,353.98,97,20.0,18.5,454.35
+NLS-0321,2024-06-03,Dean Martin,CVG,Beauty,Good,Large,369.52,58,13.71,18.5,419.36
+NLS-0322,2024-02-02,Nellis Outlet,Other,Home,New,Large,636.87,86,18.1,18.5,718.84
+NLS-0323,2024-01-30,North Las Vegas,Houston,Sports,Good,Large,628.06,93,17.17,18.5,656.02
+NLS-0324,2024-01-19,Nellis Outlet,Other,Sports,Like New,Small,627.7,47,8.97,18.5,792.31
+NLS-0325,2024-12-02,Nellis Outlet,CVG,Sports,Like New,Oversized,753.26,95,20.0,18.5,1011.6
+NLS-0326,2024-12-14,Nellis Outlet,CVG,Beauty,New,Oversized,251.18,43,14.99,18.5,452.34
+NLS-0327,2024-10-26,North Las Vegas,Phoenix 6,Baby,Good,Medium,423.26,49,9.98,18.5,459.57
+NLS-0328,2024-04-09,North Las Vegas,Other,Home,Acceptable,Small,819.84,84,17.5,18.5,598.53
+NLS-0329,2024-10-18,Nellis Outlet,Phoenix 6,Tools,Good,Oversized,664.87,29,8.35,18.5,838.32
+NLS-0330,2024-08-19,North Las Vegas,CVG,Sports,Like New,Small,543.79,90,20.0,18.5,707.1
+NLS-0331,2024-08-07,North Las Vegas,CVG,Clothing,Like New,Oversized,435.56,21,6.38,18.5,514.25
+NLS-0332,2024-01-10,North Las Vegas,Other,Electronics,New,Medium,1676.79,11,3.57,18.5,3394.07
+NLS-0333,2024-01-24,Nellis Outlet,Phoenix 6,Baby,Like New,Large,293.63,23,5.12,18.5,324.11
+NLS-0334,2024-04-06,North Las Vegas,Houston,Toys,Good,Oversized,555.19,27,8.62,18.5,578.55
+NLS-0335,2024-03-04,Dean Martin,Other,Electronics,Like New,Medium,1672.6,26,5.25,18.5,2307.78
+NLS-0336,2024-12-19,North Las Vegas,Phoenix 6,Tools,Good,Small,1312.71,16,4.3,18.5,1777.22
+NLS-0337,2024-01-05,Dean Martin,Other,Toys,Acceptable,Small,418.91,70,15.45,18.5,263.35
+NLS-0338,2024-02-24,North Las Vegas,Other,Home,Good,Medium,551.3,23,5.39,18.5,568.43
+NLS-0339,2024-04-16,North Las Vegas,CVG,Baby,Good,Medium,307.38,62,11.73,18.5,253.06
+NLS-0340,2024-03-17,Nellis Outlet,Other,Sports,Like New,Small,306.37,21,5.8,18.5,492.84
+NLS-0341,2024-01-21,Dean Martin,Phoenix 6,Home,Good,Medium,574.05,47,8.99,18.5,689.78
+NLS-0342,2024-06-17,North Las Vegas,Houston,Sports,Acceptable,Small,347.5,15,3.09,18.5,232.77
+NLS-0343,2024-07-16,North Las Vegas,Other,Beauty,New,Large,525.99,33,6.15,18.5,643.8
+NLS-0344,2024-10-29,Nellis Outlet,Other,Tools,Like New,Small,759.01,17,5.04,18.5,1138.21
+NLS-0345,2024-09-04,North Las Vegas,Other,Clothing,Acceptable,Large,383.41,97,20.0,18.5,270.72
+NLS-0346,2024-10-22,North Las Vegas,Phoenix 6,Tools,Acceptable,Small,676.0,93,17.28,18.5,766.14
+NLS-0347,2024-03-17,Nellis Outlet,CVG,Sports,New,Oversized,630.86,41,13.09,18.5,1261.23
+NLS-0348,2024-05-22,Nellis Outlet,Phoenix 6,Electronics,Like New,Oversized,1822.25,31,8.58,18.5,3254.96
+NLS-0349,2024-08-16,Dean Martin,CVG,Tools,Acceptable,Medium,694.6,66,15.17,18.5,804.01
+NLS-0350,2024-11-05,North Las Vegas,Phoenix 6,Toys,New,Small,361.38,14,3.74,18.5,380.47
+NLS-0351,2024-11-13,Nellis Outlet,Houston,Baby,Acceptable,Large,309.0,16,4.55,18.5,181.59
+NLS-0352,2024-05-29,Nellis Outlet,Other,Sports,Acceptable,Small,348.72,94,16.76,18.5,269.18
+NLS-0353,2024-07-20,Nellis Outlet,Houston,Home,New,Medium,595.45,62,10.77,18.5,791.38
+NLS-0354,2024-08-18,Dean Martin,Other,Baby,Good,Small,427.14,15,4.51,18.5,438.67
+NLS-0355,2024-03-31,North Las Vegas,CVG,Toys,New,Small,421.29,65,15.16,18.5,629.19
+NLS-0356,2024-11-07,Nellis Outlet,CVG,Clothing,New,Oversized,397.26,87,20.0,18.5,530.2
+NLS-0357,2024-09-19,Nellis Outlet,CVG,Beauty,Acceptable,Large,588.2,67,15.4,18.5,393.93
+NLS-0358,2024-12-29,North Las Vegas,Houston,Baby,Like New,Medium,387.25,47,10.67,18.5,393.38
+NLS-0359,2024-09-30,Nellis Outlet,CVG,Sports,New,Large,581.14,84,17.44,18.5,1088.37
+NLS-0360,2024-03-23,North Las Vegas,Other,Electronics,New,Small,1257.04,16,4.32,18.5,2108.06
+NLS-0361,2024-12-11,North Las Vegas,Houston,Clothing,New,Large,261.2,79,13.01,18.5,300.68
+NLS-0362,2024-12-16,Nellis Outlet,CVG,Tools,Like New,Large,1431.52,16,4.73,18.5,2762.11
+NLS-0363,2024-11-27,North Las Vegas,Phoenix 6,Electronics,Good,Medium,1544.67,66,15.33,18.5,3141.72
+NLS-0364,2024-03-02,North Las Vegas,CVG,Baby,Good,Oversized,253.23,97,20.0,18.5,313.51
+NLS-0365,2024-03-20,North Las Vegas,Phoenix 6,Tools,Good,Large,756.08,84,19.31,18.5,878.34
+NLS-0366,2024-09-26,Dean Martin,CVG,Sports,New,Large,545.28,83,17.11,18.5,933.68
+NLS-0367,2024-06-18,Dean Martin,CVG,Home,Like New,Oversized,625.85,61,15.8,18.5,822.49
+NLS-0368,2024-11-24,North Las Vegas,Houston,Beauty,Like New,Oversized,598.65,93,20.0,18.5,742.73
+NLS-0369,2024-09-21,Nellis Outlet,CVG,Electronics,Good,Oversized,1899.12,24,7.96,18.5,2927.57
+NLS-0370,2024-10-02,North Las Vegas,Other,Toys,New,Large,559.31,34,6.92,18.5,511.75
+NLS-0371,2024-08-10,Nellis Outlet,Phoenix 6,Home,Like New,Medium,818.97,64,14.93,18.5,1188.75
+NLS-0372,2024-10-12,Nellis Outlet,Phoenix 6,Clothing,New,Oversized,415.06,14,4.58,18.5,502.54
+NLS-0373,2024-09-30,Dean Martin,CVG,Beauty,Acceptable,Oversized,380.45,61,18.38,18.5,261.98
+NLS-0374,2024-05-24,Dean Martin,Phoenix 6,Electronics,New,Large,1913.66,23,4.92,18.5,4987.49
+NLS-0375,2024-10-06,North Las Vegas,Other,Tools,New,Oversized,787.59,38,10.54,18.5,1350.04
+NLS-0376,2024-07-20,North Las Vegas,CVG,Beauty,Good,Small,421.41,81,14.04,18.5,397.26
+NLS-0377,2024-11-11,Nellis Outlet,Phoenix 6,Beauty,Like New,Large,284.69,92,20.0,18.5,302.11
+NLS-0378,2024-02-04,North Las Vegas,CVG,Home,Like New,Small,810.83,80,15.95,18.5,1173.43
+NLS-0379,2024-04-09,North Las Vegas,Phoenix 6,Baby,Acceptable,Large,307.14,95,20.0,18.5,179.44
+NLS-0380,2024-08-07,North Las Vegas,Other,Toys,Good,Large,477.38,29,6.68,18.5,399.96
+NLS-0381,2024-06-18,Dean Martin,Phoenix 6,Sports,Like New,Medium,656.1,92,18.01,18.5,1161.01
+NLS-0382,2024-03-12,North Las Vegas,Other,Toys,Good,Large,394.79,23,4.67,18.5,425.47
+NLS-0383,2024-10-29,Nellis Outlet,CVG,Beauty,New,Small,556.84,74,15.85,18.5,1017.55
+NLS-0384,2024-03-09,Dean Martin,Phoenix 6,Beauty,Acceptable,Medium,346.33,38,9.51,18.5,336.37
+NLS-0385,2024-03-22,North Las Vegas,Phoenix 6,Tools,Good,Small,1395.21,88,19.03,18.5,2050.04
+NLS-0386,2024-12-08,Dean Martin,CVG,Toys,Good,Small,287.53,72,13.1,18.5,291.17
+NLS-0387,2024-09-23,Dean Martin,Houston,Tools,Acceptable,Oversized,1657.86,15,6.89,18.5,1450.45
+NLS-0388,2024-05-08,Nellis Outlet,Houston,Beauty,Like New,Oversized,461.47,56,18.07,18.5,558.21
+NLS-0389,2024-08-13,North Las Vegas,CVG,Tools,Good,Large,1184.23,71,16.73,18.5,1549.83
+NLS-0390,2024-04-27,Dean Martin,CVG,Home,Good,Medium,390.14,30,6.33,18.5,513.9
+NLS-0391,2024-01-23,North Las Vegas,Houston,Home,Acceptable,Oversized,587.41,85,20.0,18.5,402.61
+NLS-0392,2024-10-15,Dean Martin,CVG,Clothing,New,Medium,216.77,43,10.72,18.5,316.18
+NLS-0393,2024-11-03,Nellis Outlet,Phoenix 6,Beauty,New,Medium,379.68,70,16.4,18.5,552.02
+NLS-0394,2024-02-25,Dean Martin,CVG,Beauty,Like New,Large,568.94,86,17.97,18.5,729.17
+NLS-0395,2024-03-01,Dean Martin,CVG,Tools,Like New,Small,812.91,88,18.43,18.5,1832.33
+NLS-0396,2024-09-03,Dean Martin,Other,Clothing,New,Oversized,356.61,57,20.0,18.5,470.72
+NLS-0397,2024-10-05,North Las Vegas,Houston,Home,Acceptable,Medium,452.71,39,9.79,18.5,268.05
+NLS-0398,2024-06-10,North Las Vegas,Houston,Baby,New,Small,373.4,25,5.8,18.5,357.43
+NLS-0399,2024-11-09,North Las Vegas,Houston,Home,Like New,Oversized,690.95,42,12.18,18.5,901.22
+NLS-0400,2024-06-25,North Las Vegas,Other,Baby,Acceptable,Oversized,253.62,81,20.0,18.5,119.64
+NLS-0401,2024-06-22,Nellis Outlet,Other,Clothing,New,Medium,333.98,99,20.0,18.5,318.12
+NLS-0402,2024-05-14,Nellis Outlet,Phoenix 6,Clothing,Acceptable,Small,441.31,28,6.25,18.5,278.51
+NLS-0403,2024-11-01,Dean Martin,Houston,Home,New,Oversized,858.41,61,19.75,18.5,1392.74
+NLS-0404,2024-11-02,Dean Martin,CVG,Toys,Acceptable,Small,280.68,94,20.0,18.5,208.03
+NLS-0405,2024-07-23,Nellis Outlet,CVG,Clothing,New,Large,271.78,10,3.45,18.5,287.0
+NLS-0406,2024-10-13,North Las Vegas,Other,Tools,Like New,Small,1484.31,18,5.16,18.5,2403.26
+NLS-0407,2024-03-30,Nellis Outlet,Houston,Sports,Good,Medium,603.18,34,7.33,18.5,555.54
+NLS-0408,2024-10-21,North Las Vegas,Phoenix 6,Home,Good,Large,868.21,75,18.04,18.5,1389.61
+NLS-0409,2024-09-03,North Las Vegas,Other,Tools,Acceptable,Medium,1508.97,68,14.93,18.5,1612.27
+NLS-0410,2024-10-01,Dean Martin,Houston,Home,Acceptable,Medium,706.15,39,9.42,18.5,491.17
+NLS-0411,2024-06-30,Dean Martin,Houston,Baby,Good,Small,319.68,53,9.19,18.5,327.2
+NLS-0412,2024-04-13,Dean Martin,Houston,Clothing,Like New,Oversized,421.13,40,14.11,18.5,498.91
+NLS-0413,2024-10-04,Dean Martin,Houston,Clothing,New,Small,476.06,96,20.0,18.5,502.14
+NLS-0414,2024-09-18,Dean Martin,Other,Sports,Good,Oversized,749.06,83,20.0,18.5,1038.53
+NLS-0415,2024-07-20,North Las Vegas,Other,Baby,Like New,Small,357.72,64,13.05,18.5,359.66
+NLS-0416,2024-06-15,Nellis Outlet,CVG,Toys,New,Oversized,326.26,11,3.73,18.5,443.29
+NLS-0417,2024-08-02,North Las Vegas,Houston,Clothing,Good,Medium,280.82,88,16.61,18.5,204.15
+NLS-0418,2024-02-21,Nellis Outlet,Houston,Sports,Acceptable,Large,525.36,83,14.3,18.5,372.92
+NLS-0419,2024-03-09,Nellis Outlet,Houston,Baby,Acceptable,Oversized,258.82,29,9.66,18.5,114.22
+NLS-0420,2024-04-20,Nellis Outlet,Houston,Toys,Good,Large,424.86,82,13.58,18.5,300.64
+NLS-0421,2024-01-11,North Las Vegas,Other,Home,Acceptable,Large,455.86,56,11.92,18.5,350.67
+NLS-0422,2024-08-16,North Las Vegas,Phoenix 6,Sports,Like New,Medium,789.69,46,9.18,18.5,1362.79
+NLS-0423,2024-10-19,Dean Martin,Other,Beauty,Acceptable,Medium,547.3,91,20.0,18.5,369.36
+NLS-0424,2024-07-21,North Las Vegas,Phoenix 6,Home,Like New,Large,436.93,50,11.14,18.5,742.99
+NLS-0425,2024-12-24,North Las Vegas,Other,Sports,Acceptable,Oversized,383.66,12,4.18,18.5,238.04
+NLS-0426,2024-07-22,Nellis Outlet,Phoenix 6,Baby,Like New,Oversized,230.9,18,7.79,18.5,235.28
+NLS-0427,2024-11-16,Nellis Outlet,Phoenix 6,Home,Good,Medium,350.59,59,11.28,18.5,368.42
+NLS-0428,2024-05-19,Dean Martin,CVG,Clothing,New,Small,399.06,51,12.25,18.5,651.51
+NLS-0429,2024-09-30,Nellis Outlet,Other,Clothing,Like New,Oversized,389.31,91,20.0,18.5,407.96
+NLS-0430,2024-09-24,North Las Vegas,Houston,Toys,Like New,Small,376.74,56,11.23,18.5,311.8
+NLS-0431,2024-08-08,Dean Martin,Houston,Beauty,Acceptable,Small,475.11,72,17.3,18.5,281.4
+NLS-0432,2024-11-26,North Las Vegas,CVG,Electronics,Good,Medium,1294.08,81,15.98,18.5,1983.53
+NLS-0433,2024-12-21,North Las Vegas,Other,Baby,Good,Small,326.67,40,8.66,18.5,309.05
+NLS-0434,2024-11-12,Nellis Outlet,Houston,Beauty,Good,Oversized,275.2,18,5.79,18.5,252.21
+NLS-0435,2024-05-24,North Las Vegas,Houston,Toys,Like New,Large,207.76,16,4.8,18.5,215.84
+NLS-0436,2024-09-12,North Las Vegas,CVG,Toys,New,Medium,236.08,11,3.08,18.5,312.98
+NLS-0437,2024-08-28,North Las Vegas,Other,Electronics,Good,Small,1812.26,28,5.2,18.5,2393.15
+NLS-0438,2024-01-18,Dean Martin,CVG,Beauty,Acceptable,Small,248.78,41,8.38,18.5,236.13
+NLS-0439,2024-10-08,Dean Martin,Other,Home,Like New,Oversized,533.47,49,18.16,18.5,662.17
+NLS-0440,2024-11-20,Nellis Outlet,Phoenix 6,Beauty,Acceptable,Large,279.49,16,4.63,18.5,167.59
+NLS-0441,2024-12-19,North Las Vegas,Houston,Electronics,Like New,Large,1501.64,60,13.83,18.5,1640.42
+NLS-0442,2024-11-16,North Las Vegas,CVG,Sports,New,Medium,378.85,21,5.36,18.5,727.73
+NLS-0443,2024-06-26,Dean Martin,Phoenix 6,Sports,Like New,Small,362.91,39,7.79,18.5,677.96
+NLS-0444,2024-05-30,North Las Vegas,CVG,Electronics,Acceptable,Large,1669.28,42,10.41,18.5,1757.46
+NLS-0445,2024-10-10,Nellis Outlet,Other,Baby,Like New,Large,297.1,69,12.84,18.5,370.55
+NLS-0446,2024-07-13,Dean Martin,Phoenix 6,Clothing,Acceptable,Large,445.83,79,15.16,18.5,270.88
+NLS-0447,2024-09-25,Nellis Outlet,CVG,Electronics,Good,Medium,1184.83,18,4.7,18.5,1886.75
+NLS-0448,2024-03-07,Nellis Outlet,Other,Clothing,Good,Large,322.94,51,9.02,18.5,244.77
+NLS-0449,2024-09-26,Dean Martin,Phoenix 6,Baby,New,Oversized,257.48,14,5.65,18.5,431.47
+NLS-0450,2024-02-10,Nellis Outlet,Houston,Electronics,Good,Medium,1527.14,19,3.71,18.5,2561.78
+NLS-0451,2024-02-06,North Las Vegas,Phoenix 6,Sports,Acceptable,Large,697.12,17,4.78,18.5,490.28
+NLS-0452,2024-10-18,North Las Vegas,Phoenix 6,Baby,New,Small,417.55,78,15.09,18.5,512.7
+NLS-0453,2024-04-02,Nellis Outlet,CVG,Tools,New,Large,1409.39,99,20.0,18.5,2919.57
+NLS-0454,2024-07-30,Nellis Outlet,Other,Sports,Like New,Oversized,766.76,50,16.07,18.5,1369.22
+NLS-0455,2024-08-17,Nellis Outlet,Other,Sports,Like New,Medium,487.53,80,18.96,18.5,675.61
+NLS-0456,2024-06-10,North Las Vegas,Phoenix 6,Electronics,Good,Small,1421.13,48,8.12,18.5,2558.5
+NLS-0457,2024-04-29,Dean Martin,Houston,Clothing,New,Small,338.11,29,5.57,18.5,405.42
+NLS-0458,2024-12-19,North Las Vegas,Houston,Home,Acceptable,Medium,740.56,51,11.94,18.5,489.27
+NLS-0459,2024-08-10,Nellis Outlet,Phoenix 6,Beauty,New,Oversized,231.39,17,7.42,18.5,371.36
+NLS-0460,2024-09-14,North Las Vegas,Phoenix 6,Baby,New,Oversized,216.24,77,19.14,18.5,259.14
+NLS-0461,2024-07-20,Nellis Outlet,CVG,Clothing,New,Oversized,491.31,86,20.0,18.5,545.79
+NLS-0462,2024-08-10,Dean Martin,CVG,Sports,New,Oversized,585.72,16,6.18,18.5,999.13
+NLS-0463,2024-09-25,Nellis Outlet,CVG,Clothing,Acceptable,Medium,346.36,93,19.2,18.5,281.93
+NLS-0464,2024-06-27,Dean Martin,CVG,Home,Good,Oversized,494.05,83,20.0,18.5,705.23
+NLS-0465,2024-03-15,Dean Martin,Houston,Sports,New,Large,384.63,54,11.78,18.5,732.35
+NLS-0466,2024-03-16,North Las Vegas,Phoenix 6,Baby,Like New,Large,246.8,20,4.06,18.5,278.8
+NLS-0467,2024-10-06,North Las Vegas,Phoenix 6,Sports,New,Large,525.03,12,3.06,18.5,946.25
+NLS-0468,2024-04-12,Nellis Outlet,Houston,Toys,Like New,Small,350.64,94,19.06,18.5,308.92
+NLS-0469,2024-02-25,Nellis Outlet,Houston,Electronics,Acceptable,Small,879.92,94,17.13,18.5,959.84
+NLS-0470,2024-09-29,Dean Martin,Houston,Tools,Like New,Oversized,1210.25,100,20.0,18.5,1985.89
+NLS-0471,2024-01-10,Dean Martin,CVG,Baby,Acceptable,Small,211.93,77,14.41,18.5,161.55
+NLS-0472,2024-07-17,North Las Vegas,Houston,Sports,Good,Medium,798.0,74,13.71,18.5,686.64
+NLS-0473,2024-12-13,Dean Martin,Houston,Baby,Like New,Large,469.15,94,16.12,18.5,546.93
+NLS-0474,2024-04-15,Nellis Outlet,CVG,Tools,Like New,Medium,1111.76,49,12.0,18.5,1860.96
+NLS-0475,2024-03-15,Nellis Outlet,CVG,Baby,Like New,Large,406.56,77,18.19,18.5,528.47
+NLS-0476,2024-07-30,Nellis Outlet,CVG,Sports,New,Small,392.07,28,6.89,18.5,869.68
+NLS-0477,2024-11-11,North Las Vegas,Houston,Toys,Good,Medium,511.64,23,4.58,18.5,445.43
+NLS-0478,2024-08-28,North Las Vegas,CVG,Baby,Like New,Small,307.78,98,20.0,18.5,349.91
+NLS-0479,2024-01-08,Nellis Outlet,Houston,Clothing,Acceptable,Oversized,342.15,30,8.82,18.5,169.16
+NLS-0480,2024-08-22,North Las Vegas,Other,Baby,Like New,Medium,219.84,66,15.53,18.5,205.45
+NLS-0481,2024-09-25,Dean Martin,Other,Tools,New,Oversized,1464.24,60,19.43,18.5,2958.66
+NLS-0482,2024-01-21,Nellis Outlet,Phoenix 6,Home,Acceptable,Oversized,796.21,15,6.65,18.5,602.7
+NLS-0483,2024-05-30,Nellis Outlet,Other,Electronics,Like New,Large,1327.46,48,11.23,18.5,1751.18
+NLS-0484,2024-12-22,Nellis Outlet,Phoenix 6,Clothing,Acceptable,Oversized,227.13,74,19.09,18.5,198.79
+NLS-0485,2024-08-20,Nellis Outlet,CVG,Tools,Acceptable,Large,1141.06,32,6.95,18.5,1476.43
+NLS-0486,2024-07-15,Dean Martin,Houston,Sports,Like New,Small,345.6,100,19.6,18.5,479.66
+NLS-0487,2024-03-15,Nellis Outlet,CVG,Tools,Acceptable,Small,1521.91,52,11.17,18.5,1439.8
+NLS-0488,2024-04-13,Dean Martin,Phoenix 6,Tools,Good,Large,1476.19,67,12.57,18.5,2291.53
+NLS-0489,2024-04-21,Dean Martin,Houston,Electronics,Acceptable,Oversized,1826.49,79,20.0,18.5,1856.91
+NLS-0490,2024-11-17,Nellis Outlet,Other,Toys,Acceptable,Oversized,231.76,86,20.0,18.5,155.88
+NLS-0491,2024-11-04,Nellis Outlet,CVG,Electronics,Like New,Medium,866.08,54,9.17,18.5,2046.04
+NLS-0492,2024-12-24,North Las Vegas,Houston,Home,New,Small,550.17,32,6.12,18.5,732.81
+NLS-0493,2024-08-06,Nellis Outlet,CVG,Toys,Good,Small,237.25,48,9.4,18.5,339.07
+NLS-0494,2024-04-17,Nellis Outlet,Phoenix 6,Beauty,Acceptable,Medium,248.81,45,8.9,18.5,170.13
+NLS-0495,2024-11-07,Nellis Outlet,Phoenix 6,Home,New,Oversized,734.44,87,20.0,18.5,1395.81
+NLS-0496,2024-04-29,North Las Vegas,Houston,Sports,Like New,Oversized,559.85,90,20.0,18.5,946.61
+NLS-0497,2024-11-11,Nellis Outlet,Houston,Baby,New,Small,207.2,90,20.0,18.5,225.86
+NLS-0498,2024-05-10,North Las Vegas,Other,Electronics,Good,Large,1472.5,91,16.19,18.5,2232.51
+NLS-0499,2024-01-15,Dean Martin,Houston,Beauty,Good,Small,245.53,52,10.19,18.5,295.25
+NLS-0500,2024-10-01,Dean Martin,CVG,Sports,Good,Oversized,758.08,14,5.81,18.5,1138.97
+NLS-0501,2024-12-16,North Las Vegas,Other,Tools,New,Large,1277.93,96,17.82,18.5,1953.33
+NLS-0502,2024-10-19,North Las Vegas,Houston,Home,Like New,Large,804.44,53,13.21,18.5,1178.31
+NLS-0503,2024-05-01,Nellis Outlet,Other,Clothing,New,Large,411.58,50,11.38,18.5,373.45
+NLS-0504,2024-08-15,North Las Vegas,Other,Beauty,Like New,Large,270.01,57,13.18,18.5,400.61
+NLS-0505,2024-03-14,Nellis Outlet,Phoenix 6,Toys,Like New,Medium,336.05,71,15.84,18.5,495.81
+NLS-0506,2024-10-31,Dean Martin,CVG,Baby,New,Oversized,316.28,76,19.6,18.5,362.46
+NLS-0507,2024-11-23,Dean Martin,Houston,Toys,New,Small,408.23,94,20.0,18.5,480.42
+NLS-0508,2024-03-21,Dean Martin,Houston,Baby,Like New,Large,282.99,50,11.65,18.5,299.48
+NLS-0509,2024-05-25,North Las Vegas,Phoenix 6,Electronics,New,Medium,1451.03,80,15.02,18.5,2796.45
+NLS-0510,2024-12-11,Nellis Outlet,CVG,Clothing,New,Large,383.98,53,11.25,18.5,366.14
+NLS-0511,2024-12-19,Dean Martin,Phoenix 6,Tools,New,Small,1111.76,32,7.66,18.5,2879.69
+NLS-0512,2024-08-26,Nellis Outlet,Other,Sports,Good,Large,708.72,95,20.0,18.5,746.98
+NLS-0513,2024-04-24,Nellis Outlet,CVG,Home,Acceptable,Small,573.35,97,20.0,18.5,531.88
+NLS-0514,2024-09-06,Dean Martin,Houston,Sports,Acceptable,Medium,649.81,95,17.76,18.5,570.64
+NLS-0515,2024-09-17,Dean Martin,Phoenix 6,Toys,New,Large,391.46,31,6.29,18.5,609.11
+NLS-0516,2024-05-04,Dean Martin,Other,Home,Good,Small,775.46,78,15.57,18.5,841.85
+NLS-0517,2024-06-24,Nellis Outlet,CVG,Toys,Acceptable,Small,336.29,98,20.0,18.5,275.45
+NLS-0518,2024-03-31,Nellis Outlet,CVG,Clothing,New,Oversized,234.3,86,20.0,18.5,363.06
+NLS-0519,2024-10-24,North Las Vegas,Other,Home,New,Oversized,496.44,92,20.0,18.5,627.55
+NLS-0520,2024-06-11,Nellis Outlet,Phoenix 6,Clothing,Like New,Oversized,359.38,59,19.16,18.5,397.59
+NLS-0521,2024-05-30,North Las Vegas,Houston,Tools,Good,Small,1299.27,88,20.0,18.5,1370.15
+NLS-0522,2024-07-20,Dean Martin,Houston,Electronics,New,Large,931.64,46,11.16,18.5,1694.94
+NLS-0523,2024-07-15,Nellis Outlet,Houston,Tools,Acceptable,Oversized,1122.23,37,12.83,18.5,830.3
+NLS-0524,2024-12-02,North Las Vegas,Other,Clothing,Good,Medium,240.28,19,4.88,18.5,195.39
+NLS-0525,2024-09-17,North Las Vegas,CVG,Home,Like New,Oversized,816.09,99,20.0,18.5,1079.88
+NLS-0526,2024-12-30,North Las Vegas,Other,Tools,Good,Medium,822.95,87,14.08,18.5,1088.1
+NLS-0527,2024-12-19,Nellis Outlet,Houston,Tools,Good,Small,1773.88,82,16.47,18.5,2122.7
+NLS-0528,2024-12-08,Dean Martin,CVG,Beauty,Acceptable,Small,409.34,88,14.8,18.5,365.13
+NLS-0529,2024-06-29,Dean Martin,Houston,Electronics,Good,Small,1362.64,75,17.73,18.5,1948.32
+NLS-0530,2024-10-20,North Las Vegas,Houston,Clothing,New,Large,418.09,82,14.99,18.5,519.74
+NLS-0531,2024-11-11,Dean Martin,Houston,Electronics,Good,Oversized,899.01,74,18.77,18.5,1366.27
+NLS-0532,2024-03-30,North Las Vegas,Houston,Beauty,New,Small,441.53,85,18.79,18.5,592.08
+NLS-0533,2024-09-10,North Las Vegas,CVG,Toys,Like New,Small,337.14,20,5.7,18.5,518.14
+NLS-0534,2024-01-27,North Las Vegas,Other,Baby,Acceptable,Medium,263.26,54,9.25,18.5,145.08
+NLS-0535,2024-05-14,Dean Martin,Other,Tools,Acceptable,Large,1171.52,78,14.13,18.5,1087.98
+NLS-0536,2024-09-29,Dean Martin,Other,Electronics,Good,Oversized,1258.4,50,18.66,18.5,1710.7
+NLS-0537,2024-12-11,Nellis Outlet,Houston,Tools,Good,Large,924.39,22,4.67,18.5,1170.96
+NLS-0538,2024-02-20,Nellis Outlet,CVG,Baby,Good,Medium,293.98,11,3.3,18.5,278.39
+NLS-0539,2024-10-31,Nellis Outlet,Phoenix 6,Toys,Good,Medium,490.1,42,7.88,18.5,391.68
+NLS-0540,2024-04-04,Nellis Outlet,CVG,Home,New,Small,813.86,26,5.65,18.5,1589.43
+NLS-0541,2024-08-06,Dean Martin,CVG,Beauty,Good,Oversized,464.19,19,7.3,18.5,653.96
+NLS-0542,2024-05-15,Nellis Outlet,Houston,Beauty,Like New,Small,310.91,17,4.03,18.5,291.37
+NLS-0543,2024-08-08,Dean Martin,Other,Home,Acceptable,Medium,666.18,32,7.49,18.5,424.22
+NLS-0544,2024-09-11,Dean Martin,Phoenix 6,Toys,Good,Small,213.94,19,4.74,18.5,230.21
+NLS-0545,2024-09-08,Dean Martin,Phoenix 6,Electronics,Acceptable,Large,981.93,52,12.64,18.5,1188.78
+NLS-0546,2024-07-02,North Las Vegas,Other,Tools,New,Medium,603.97,98,20.0,18.5,1008.92
+NLS-0547,2024-11-27,North Las Vegas,Houston,Tools,New,Small,1038.43,53,9.21,18.5,1818.72
+NLS-0548,2024-02-13,Dean Martin,CVG,Electronics,Acceptable,Medium,1158.64,59,14.15,18.5,1369.52
+NLS-0549,2024-11-25,Nellis Outlet,Other,Baby,Like New,Small,257.93,85,15.36,18.5,266.54
+NLS-0550,2024-11-30,North Las Vegas,Other,Toys,New,Small,335.71,53,12.34,18.5,303.62
+NLS-0551,2024-11-12,Nellis Outlet,Other,Clothing,Like New,Small,211.06,28,6.29,18.5,193.87
+NLS-0552,2024-10-29,Dean Martin,CVG,Clothing,New,Medium,389.8,49,11.63,18.5,495.23
+NLS-0553,2024-12-13,Dean Martin,Phoenix 6,Home,Acceptable,Medium,337.87,35,7.42,18.5,397.7
+NLS-0554,2024-03-02,North Las Vegas,Houston,Home,Like New,Large,801.86,37,8.88,18.5,998.8
+NLS-0555,2024-11-19,North Las Vegas,CVG,Tools,Like New,Large,1264.09,66,12.15,18.5,2074.58
+NLS-0556,2024-05-25,Nellis Outlet,Other,Clothing,New,Oversized,224.22,10,3.79,18.5,221.43
+NLS-0557,2024-12-20,North Las Vegas,Other,Clothing,Like New,Medium,391.95,76,15.13,18.5,324.56
+NLS-0558,2024-02-18,Dean Martin,CVG,Toys,New,Large,339.14,10,2.97,18.5,552.02
+NLS-0559,2024-08-30,Nellis Outlet,Houston,Baby,Acceptable,Medium,282.93,34,6.3,18.5,149.76
+NLS-0560,2024-08-20,North Las Vegas,CVG,Clothing,New,Small,393.46,46,8.61,18.5,501.25
+NLS-0561,2024-08-15,Dean Martin,Phoenix 6,Electronics,Like New,Medium,1742.59,72,14.77,18.5,2725.68
+NLS-0562,2024-04-12,Nellis Outlet,Houston,Tools,Like New,Large,876.08,24,5.17,18.5,1156.11
+NLS-0563,2024-07-17,North Las Vegas,CVG,Home,Acceptable,Oversized,332.6,65,17.18,18.5,326.15
+NLS-0564,2024-05-23,North Las Vegas,CVG,Toys,Like New,Large,590.22,35,7.15,18.5,661.01
+NLS-0565,2024-11-22,Dean Martin,Phoenix 6,Toys,Acceptable,Oversized,268.48,53,14.74,18.5,179.09
+NLS-0566,2024-08-24,Nellis Outlet,CVG,Baby,New,Oversized,457.09,72,20.0,18.5,536.84
+NLS-0567,2024-10-20,North Las Vegas,Phoenix 6,Tools,Like New,Medium,992.76,84,15.08,18.5,2369.72
+NLS-0568,2024-12-22,Dean Martin,Other,Electronics,New,Oversized,1680.17,74,18.38,18.5,3290.83
+NLS-0569,2024-07-02,Dean Martin,Other,Toys,Like New,Small,423.39,11,3.33,18.5,453.31
+NLS-0570,2024-01-13,North Las Vegas,CVG,Home,New,Oversized,701.42,30,10.87,18.5,1459.97
+NLS-0571,2024-11-17,North Las Vegas,Other,Clothing,Acceptable,Medium,436.96,57,12.43,18.5,232.61
+NLS-0572,2024-04-16,Dean Martin,Other,Sports,New,Large,512.95,44,10.1,18.5,887.97
+NLS-0573,2024-07-06,Nellis Outlet,Phoenix 6,Sports,New,Large,743.99,24,5.3,18.5,1138.72
+NLS-0574,2024-12-25,Dean Martin,Phoenix 6,Baby,Like New,Large,271.59,24,5.89,18.5,407.19
+NLS-0575,2024-09-05,Dean Martin,CVG,Sports,Good,Large,551.78,64,11.99,18.5,633.16
+NLS-0576,2024-02-03,Nellis Outlet,Phoenix 6,Toys,Good,Oversized,448.38,96,20.0,18.5,641.69
+NLS-0577,2024-02-27,Dean Martin,Other,Home,New,Oversized,838.77,46,17.29,18.5,933.86
+NLS-0578,2024-03-08,Nellis Outlet,CVG,Toys,Like New,Medium,408.28,90,14.64,18.5,561.93
+NLS-0579,2024-09-23,North Las Vegas,Houston,Tools,Acceptable,Small,949.82,18,3.57,18.5,972.82
+NLS-0580,2024-06-04,Nellis Outlet,Houston,Tools,Good,Large,1183.38,95,20.0,18.5,1649.31
+NLS-0581,2024-06-29,Nellis Outlet,CVG,Beauty,Like New,Large,290.71,57,14.06,18.5,396.64
+NLS-0582,2024-03-19,North Las Vegas,Other,Clothing,Like New,Large,254.68,32,8.04,18.5,299.95
+NLS-0583,2024-01-18,Dean Martin,CVG,Home,New,Large,644.72,66,12.24,18.5,1030.57
+NLS-0584,2024-09-12,Nellis Outlet,Houston,Sports,Like New,Large,524.21,30,6.79,18.5,514.95
+NLS-0585,2024-08-30,Dean Martin,Other,Sports,Like New,Small,785.08,79,19.06,18.5,1133.19
+NLS-0586,2024-07-24,North Las Vegas,CVG,Toys,Good,Small,492.66,15,3.29,18.5,532.98
+NLS-0587,2024-05-22,Nellis Outlet,CVG,Toys,Good,Small,330.55,87,18.52,18.5,352.25
+NLS-0588,2024-01-29,Dean Martin,Phoenix 6,Home,Acceptable,Small,885.5,60,10.88,18.5,763.93
+NLS-0589,2024-08-16,Nellis Outlet,Houston,Tools,Like New,Oversized,1043.56,57,14.28,18.5,1364.38
+NLS-0590,2024-07-31,Nellis Outlet,Phoenix 6,Baby,Acceptable,Oversized,441.11,46,12.65,18.5,352.89
+NLS-0591,2024-07-11,Dean Martin,Phoenix 6,Clothing,Like New,Large,342.38,77,18.67,18.5,424.05
+NLS-0592,2024-04-05,Dean Martin,Phoenix 6,Tools,Good,Oversized,809.87,69,20.0,18.5,1282.72
+NLS-0593,2024-01-02,North Las Vegas,Houston,Toys,New,Large,533.83,48,10.1,18.5,670.87
+NLS-0594,2024-05-05,Dean Martin,Houston,Beauty,Acceptable,Small,461.53,46,9.42,18.5,340.97
+NLS-0595,2024-11-17,Dean Martin,Phoenix 6,Beauty,Acceptable,Small,439.56,56,12.02,18.5,423.65
+NLS-0596,2024-12-20,Nellis Outlet,Other,Home,Good,Small,807.17,30,6.92,18.5,710.59
+NLS-0597,2024-09-28,Dean Martin,Houston,Clothing,New,Large,308.35,91,20.0,18.5,336.36
+NLS-0598,2024-12-16,Nellis Outlet,Phoenix 6,Baby,Like New,Small,379.63,31,7.01,18.5,562.29
+NLS-0599,2024-07-29,North Las Vegas,Houston,Sports,New,Large,711.66,11,2.64,18.5,1055.64
+NLS-0600,2024-09-26,North Las Vegas,CVG,Home,Like New,Medium,602.03,34,8.34,18.5,986.24
+NLS-0601,2024-07-04,Nellis Outlet,Phoenix 6,Tools,Acceptable,Small,739.88,26,6.95,18.5,685.07
+NLS-0602,2024-04-26,Dean Martin,Other,Sports,Like New,Large,314.38,25,5.11,18.5,467.59
+NLS-0603,2024-01-22,North Las Vegas,CVG,Baby,Like New,Small,327.44,24,4.62,18.5,460.89
+NLS-0604,2024-02-19,Dean Martin,Phoenix 6,Electronics,New,Oversized,942.71,42,11.01,18.5,1710.67
+NLS-0605,2024-06-27,Dean Martin,CVG,Baby,Like New,Large,208.78,28,7.19,18.5,352.77
+NLS-0606,2024-03-28,North Las Vegas,CVG,Baby,New,Small,445.88,11,3.13,18.5,723.16
+NLS-0607,2024-06-30,Nellis Outlet,Phoenix 6,Home,Like New,Oversized,519.88,85,20.0,18.5,745.03
+NLS-0608,2024-07-03,North Las Vegas,Other,Baby,Like New,Oversized,233.85,50,13.38,18.5,177.0
+NLS-0609,2024-08-15,Nellis Outlet,Houston,Electronics,New,Large,1392.46,59,11.15,18.5,2470.59
+NLS-0610,2024-12-11,Dean Martin,Other,Beauty,Acceptable,Medium,542.71,70,16.81,18.5,305.39
+NLS-0611,2024-03-27,North Las Vegas,Phoenix 6,Tools,Acceptable,Small,743.06,60,11.91,18.5,672.62
+NLS-0612,2024-05-22,Dean Martin,Houston,Baby,Good,Medium,378.49,61,10.69,18.5,404.28
+NLS-0613,2024-08-20,Nellis Outlet,Houston,Tools,Good,Oversized,1400.01,61,20.0,18.5,1556.74
+NLS-0614,2024-09-12,Dean Martin,Phoenix 6,Beauty,Acceptable,Oversized,292.33,27,7.47,18.5,300.37
+NLS-0615,2024-09-23,Nellis Outlet,Phoenix 6,Clothing,Acceptable,Large,245.82,89,18.79,18.5,197.93
+NLS-0616,2024-01-10,North Las Vegas,Other,Baby,Good,Oversized,347.08,43,13.99,18.5,322.44
+NLS-0617,2024-12-03,Dean Martin,Other,Home,Acceptable,Oversized,488.74,58,17.62,18.5,267.31
+NLS-0618,2024-12-03,North Las Vegas,CVG,Toys,Acceptable,Medium,324.98,59,12.15,18.5,216.45
+NLS-0619,2024-05-25,Nellis Outlet,Other,Toys,Like New,Small,356.55,73,15.41,18.5,401.71
+NLS-0620,2024-11-16,North Las Vegas,Phoenix 6,Electronics,New,Medium,1804.32,54,12.65,18.5,4364.41
+NLS-0621,2024-11-27,North Las Vegas,Other,Home,Acceptable,Large,895.17,62,12.02,18.5,619.2
+NLS-0622,2024-08-04,North Las Vegas,Phoenix 6,Home,Good,Small,502.56,12,3.33,18.5,531.71
+NLS-0623,2024-09-07,Nellis Outlet,Other,Beauty,New,Oversized,435.2,50,14.98,18.5,548.8
+NLS-0624,2024-02-08,Dean Martin,CVG,Sports,Acceptable,Large,383.31,48,9.57,18.5,362.71
+NLS-0625,2024-02-17,Nellis Outlet,CVG,Beauty,Good,Small,318.93,83,16.11,18.5,349.69
+NLS-0626,2024-11-29,Nellis Outlet,Phoenix 6,Sports,Good,Small,583.21,77,15.48,18.5,757.65
+NLS-0627,2024-04-02,North Las Vegas,Houston,Tools,Good,Medium,1097.18,42,9.43,18.5,1436.0
+NLS-0628,2024-08-10,Dean Martin,CVG,Toys,Like New,Oversized,307.17,91,20.0,18.5,506.16
+NLS-0629,2024-07-29,Nellis Outlet,Phoenix 6,Baby,Good,Oversized,244.32,29,10.73,18.5,292.61
+NLS-0630,2024-05-02,North Las Vegas,Phoenix 6,Baby,Acceptable,Large,447.11,92,15.97,18.5,290.2
+NLS-0631,2024-11-27,Dean Martin,CVG,Baby,New,Medium,439.11,49,10.16,18.5,627.36
+NLS-0632,2024-09-05,Dean Martin,CVG,Clothing,Good,Medium,208.74,45,10.16,18.5,221.66
+NLS-0633,2024-07-22,Dean Martin,Phoenix 6,Home,Good,Large,820.3,62,14.81,18.5,1337.06
+NLS-0634,2024-02-16,Nellis Outlet,CVG,Baby,New,Small,356.59,84,20.0,18.5,504.02
+NLS-0635,2024-04-19,Dean Martin,Phoenix 6,Sports,Good,Oversized,702.92,40,15.15,18.5,802.0
+NLS-0636,2024-08-31,North Las Vegas,Other,Tools,Good,Small,1188.43,57,12.77,18.5,1246.07
+NLS-0637,2024-11-06,Nellis Outlet,CVG,Beauty,Like New,Large,390.09,57,13.35,18.5,486.37
+NLS-0638,2024-05-01,Dean Martin,Phoenix 6,Baby,Good,Oversized,292.78,99,20.0,18.5,309.06
+NLS-0639,2024-08-12,North Las Vegas,Other,Electronics,Acceptable,Large,1161.07,40,7.9,18.5,1088.36
+NLS-0640,2024-08-04,Nellis Outlet,Houston,Tools,New,Large,1639.73,72,14.51,18.5,2872.34
+NLS-0641,2024-01-27,Dean Martin,CVG,Beauty,New,Large,368.35,80,17.74,18.5,521.11
+NLS-0642,2024-05-07,Nellis Outlet,CVG,Toys,Like New,Small,360.26,90,16.69,18.5,442.59
+NLS-0643,2024-05-24,Nellis Outlet,CVG,Tools,Good,Oversized,1174.04,27,8.31,18.5,2066.61
+NLS-0644,2024-01-12,Dean Martin,Phoenix 6,Tools,Good,Medium,1072.19,58,14.16,18.5,1834.66
+NLS-0645,2024-03-17,Nellis Outlet,CVG,Home,Acceptable,Medium,457.07,31,5.65,18.5,415.5
+NLS-0646,2024-09-10,Dean Martin,Houston,Clothing,New,Small,415.58,65,14.81,18.5,672.37
+NLS-0647,2024-04-20,Dean Martin,CVG,Baby,Like New,Large,286.39,73,14.17,18.5,326.74
+NLS-0648,2024-05-07,North Las Vegas,CVG,Tools,Like New,Oversized,1550.96,13,4.77,18.5,2572.23
+NLS-0649,2024-07-15,North Las Vegas,Other,Home,New,Oversized,379.92,51,19.08,18.5,464.63
+NLS-0650,2024-11-06,Nellis Outlet,Other,Beauty,New,Small,422.8,16,3.77,18.5,541.45
+NLS-0651,2024-01-22,Nellis Outlet,Phoenix 6,Electronics,Good,Oversized,1163.01,60,19.87,18.5,1761.58
+NLS-0652,2024-03-13,Nellis Outlet,CVG,Beauty,Like New,Oversized,572.13,69,18.05,18.5,742.26
+NLS-0653,2024-05-14,North Las Vegas,Phoenix 6,Sports,New,Medium,549.61,45,10.5,18.5,1082.56
+NLS-0654,2024-12-02,Nellis Outlet,Houston,Sports,Acceptable,Medium,457.77,72,16.23,18.5,326.72
+NLS-0655,2024-08-11,Nellis Outlet,Other,Electronics,Like New,Medium,865.48,33,5.92,18.5,1330.06
+NLS-0656,2024-03-16,Dean Martin,Other,Electronics,Acceptable,Large,1986.58,81,16.29,18.5,2124.65
+NLS-0657,2024-12-05,Dean Martin,Houston,Home,Like New,Large,408.39,31,7.58,18.5,644.57
+NLS-0658,2024-01-14,Nellis Outlet,CVG,Electronics,Like New,Oversized,1904.5,41,14.6,18.5,4457.53
+NLS-0659,2024-09-02,North Las Vegas,Phoenix 6,Tools,Good,Small,1604.37,29,5.28,18.5,2488.25
+NLS-0660,2024-10-18,North Las Vegas,Houston,Electronics,Good,Small,1587.41,67,12.77,18.5,2529.68
+NLS-0661,2024-05-10,Dean Martin,CVG,Electronics,Good,Large,1757.78,19,4.7,18.5,2822.22
+NLS-0662,2024-11-30,Dean Martin,CVG,Tools,New,Small,1622.81,30,6.4,18.5,3473.39
+NLS-0663,2024-02-19,Dean Martin,Phoenix 6,Beauty,Acceptable,Oversized,494.36,49,17.96,18.5,417.89
+NLS-0664,2024-07-07,North Las Vegas,CVG,Toys,Acceptable,Oversized,390.58,82,20.0,18.5,239.23
+NLS-0665,2024-12-31,Nellis Outlet,CVG,Tools,Acceptable,Small,648.53,53,13.17,18.5,720.66
+NLS-0666,2024-06-02,Dean Martin,Other,Home,Good,Oversized,562.41,71,20.0,18.5,812.7
+NLS-0667,2024-12-04,Dean Martin,Other,Beauty,New,Small,566.92,75,12.86,18.5,674.9
+NLS-0668,2024-04-03,Nellis Outlet,Houston,Sports,Good,Small,684.32,12,2.77,18.5,740.82
+NLS-0669,2024-06-23,North Las Vegas,Phoenix 6,Home,Acceptable,Large,488.37,68,15.35,18.5,438.5
+NLS-0670,2024-01-07,Dean Martin,CVG,Clothing,New,Large,461.48,23,5.23,18.5,526.49
+NLS-0671,2024-07-21,Dean Martin,Other,Toys,Acceptable,Oversized,321.12,88,20.0,18.5,245.06
+NLS-0672,2024-09-03,North Las Vegas,Phoenix 6,Clothing,Like New,Small,257.24,12,3.54,18.5,236.98
+NLS-0673,2024-03-19,Nellis Outlet,CVG,Baby,Acceptable,Medium,225.83,69,12.12,18.5,128.15
+NLS-0674,2024-07-19,Nellis Outlet,Other,Toys,Acceptable,Small,543.92,84,15.21,18.5,342.89
+NLS-0675,2024-05-28,Dean Martin,Houston,Electronics,New,Oversized,1975.38,73,20.0,18.5,4068.94
+NLS-0676,2024-02-02,Dean Martin,Other,Tools,Acceptable,Oversized,878.29,17,6.42,18.5,714.86
+NLS-0677,2024-05-27,North Las Vegas,Other,Toys,New,Oversized,449.08,92,20.0,18.5,518.63
+NLS-0678,2024-12-02,Nellis Outlet,CVG,Toys,Good,Oversized,292.84,38,12.76,18.5,398.59
+NLS-0679,2024-03-23,North Las Vegas,CVG,Beauty,Acceptable,Oversized,533.23,96,20.0,18.5,385.86
+NLS-0680,2024-09-09,Nellis Outlet,CVG,Beauty,New,Oversized,251.64,35,9.9,18.5,425.58
+NLS-0681,2024-09-14,North Las Vegas,CVG,Baby,New,Small,307.64,43,8.65,18.5,390.66
+NLS-0682,2024-06-30,Dean Martin,Phoenix 6,Sports,Acceptable,Small,608.78,25,5.89,18.5,675.66
+NLS-0683,2024-02-24,Dean Martin,Houston,Clothing,New,Small,477.99,66,15.16,18.5,767.79
+NLS-0684,2024-08-14,Nellis Outlet,Phoenix 6,Electronics,New,Medium,1555.91,36,9.13,18.5,2670.84
+NLS-0685,2024-01-04,Nellis Outlet,Other,Home,Like New,Large,500.76,27,5.21,18.5,627.88
+NLS-0686,2024-05-05,Dean Martin,Other,Sports,Good,Medium,342.62,57,12.85,18.5,417.75
+NLS-0687,2024-12-15,Dean Martin,Other,Baby,Like New,Oversized,324.02,62,20.0,18.5,405.32
+NLS-0688,2024-03-25,North Las Vegas,Phoenix 6,Toys,Like New,Small,487.05,76,18.18,18.5,517.85
+NLS-0689,2024-09-23,North Las Vegas,Phoenix 6,Tools,New,Medium,1683.01,17,5.04,18.5,4370.89
+NLS-0690,2024-03-16,North Las Vegas,Other,Tools,Good,Large,1691.08,11,3.49,18.5,2529.1
+NLS-0691,2024-01-19,Nellis Outlet,Other,Toys,Like New,Oversized,478.99,93,20.0,18.5,445.42
+NLS-0692,2024-03-22,Nellis Outlet,Houston,Tools,Like New,Large,856.48,75,15.57,18.5,1382.35
+NLS-0693,2024-11-17,Dean Martin,Phoenix 6,Beauty,Like New,Large,490.6,74,12.71,18.5,570.23
+NLS-0694,2024-10-24,Nellis Outlet,Houston,Home,New,Small,569.24,83,18.36,18.5,894.08
+NLS-0695,2024-05-06,Nellis Outlet,CVG,Sports,Good,Large,633.46,83,17.93,18.5,933.97
+NLS-0696,2024-03-07,Dean Martin,Houston,Baby,Good,Oversized,229.4,64,20.0,18.5,150.56
+NLS-0697,2024-05-15,North Las Vegas,CVG,Toys,New,Large,470.73,61,13.03,18.5,688.99
+NLS-0698,2024-12-30,Nellis Outlet,Other,Tools,Acceptable,Oversized,1478.06,63,20.0,18.5,919.59
+NLS-0699,2024-11-04,North Las Vegas,CVG,Home,Like New,Oversized,584.01,30,11.84,18.5,946.56
+NLS-0700,2024-05-30,North Las Vegas,Phoenix 6,Home,Good,Large,324.17,29,5.51,18.5,360.21
+NLS-0701,2024-09-07,North Las Vegas,Phoenix 6,Clothing,Like New,Oversized,214.6,49,17.87,18.5,255.94
+NLS-0702,2024-07-12,Dean Martin,Phoenix 6,Sports,New,Small,508.79,83,15.49,18.5,923.04
+NLS-0703,2024-12-06,North Las Vegas,CVG,Clothing,Acceptable,Oversized,400.17,29,11.2,18.5,278.08
+NLS-0704,2024-11-26,Nellis Outlet,Other,Tools,Like New,Oversized,1006.8,15,6.83,18.5,1865.82
+NLS-0705,2024-01-28,Dean Martin,CVG,Electronics,Good,Small,1572.7,20,4.21,18.5,2963.55
+NLS-0706,2024-05-05,Nellis Outlet,CVG,Toys,New,Small,463.3,78,13.79,18.5,609.52
+NLS-0707,2024-07-31,Nellis Outlet,Other,Home,Good,Oversized,653.34,72,20.0,18.5,535.53
+NLS-0708,2024-02-15,Dean Martin,Houston,Tools,Good,Small,737.57,22,5.27,18.5,810.7
+NLS-0709,2024-02-20,Dean Martin,Houston,Tools,Like New,Small,1337.37,51,9.33,18.5,2197.24
+NLS-0710,2024-05-01,North Las Vegas,CVG,Tools,Good,Large,1050.62,25,4.72,18.5,1428.22
+NLS-0711,2024-04-29,North Las Vegas,Other,Home,Good,Small,491.0,80,15.6,18.5,497.84
+NLS-0712,2024-03-13,Dean Martin,Houston,Home,Like New,Medium,482.77,62,12.5,18.5,754.55
+NLS-0713,2024-03-26,North Las Vegas,CVG,Baby,Acceptable,Oversized,212.54,69,20.0,18.5,153.16
+NLS-0714,2024-09-18,Dean Martin,Phoenix 6,Toys,Good,Large,535.8,58,14.42,18.5,676.38
+NLS-0715,2024-05-23,North Las Vegas,Phoenix 6,Clothing,New,Large,226.91,99,16.82,18.5,268.55
+NLS-0716,2024-06-23,North Las Vegas,CVG,Sports,Good,Large,789.82,100,19.62,18.5,1096.7
+NLS-0717,2024-03-29,Dean Martin,Other,Sports,New,Medium,623.22,10,3.03,18.5,690.33
+NLS-0718,2024-07-11,North Las Vegas,Other,Tools,New,Small,1246.38,95,18.63,18.5,1972.67
+NLS-0719,2024-01-11,Nellis Outlet,Houston,Tools,Like New,Small,749.72,57,13.89,18.5,996.33
+NLS-0720,2024-05-23,North Las Vegas,Houston,Baby,New,Large,442.52,38,7.35,18.5,465.71
+NLS-0721,2024-12-03,North Las Vegas,CVG,Electronics,Like New,Oversized,933.14,45,14.72,18.5,1837.3
+NLS-0722,2024-05-20,Nellis Outlet,CVG,Home,Like New,Small,376.46,82,18.94,18.5,707.62
+NLS-0723,2024-06-14,Dean Martin,Phoenix 6,Beauty,Acceptable,Small,575.16,92,19.76,18.5,573.06
+NLS-0724,2024-05-22,North Las Vegas,Other,Beauty,New,Oversized,398.23,76,20.0,18.5,559.05
+NLS-0725,2024-04-25,North Las Vegas,Other,Sports,New,Oversized,397.3,20,8.29,18.5,767.73
+NLS-0726,2024-08-09,Nellis Outlet,Other,Home,Like New,Medium,398.69,49,8.51,18.5,454.35
+NLS-0727,2024-05-01,Dean Martin,Houston,Beauty,Like New,Small,389.43,53,12.54,18.5,568.47
+NLS-0728,2024-12-21,Dean Martin,Other,Home,Acceptable,Small,351.32,17,4.94,18.5,281.09
+NLS-0729,2024-01-27,Dean Martin,CVG,Electronics,Acceptable,Small,1161.77,90,17.61,18.5,966.66
+NLS-0730,2024-08-25,North Las Vegas,Other,Tools,New,Oversized,879.73,86,20.0,18.5,1506.56
+NLS-0731,2024-02-04,North Las Vegas,Phoenix 6,Sports,New,Oversized,558.61,85,20.0,18.5,869.85
+NLS-0732,2024-01-31,Nellis Outlet,CVG,Clothing,Good,Large,326.3,89,17.51,18.5,326.74
+NLS-0733,2024-06-24,Dean Martin,Houston,Tools,Good,Large,1300.4,79,17.77,18.5,1393.18
+NLS-0734,2024-04-12,North Las Vegas,Houston,Electronics,Like New,Small,1084.86,81,18.74,18.5,1541.56
+NLS-0735,2024-10-23,Nellis Outlet,CVG,Home,Good,Medium,700.72,98,20.0,18.5,920.83
+NLS-0736,2024-01-02,Nellis Outlet,Houston,Beauty,Acceptable,Large,264.91,68,16.01,18.5,204.57
+NLS-0737,2024-01-04,Nellis Outlet,CVG,Baby,Acceptable,Medium,271.71,52,12.22,18.5,166.12
+NLS-0738,2024-07-03,North Las Vegas,Phoenix 6,Home,Good,Small,632.81,28,5.79,18.5,710.72
+NLS-0739,2024-04-01,Dean Martin,Phoenix 6,Baby,Like New,Large,252.24,43,9.97,18.5,309.77
+NLS-0740,2024-06-22,Dean Martin,Phoenix 6,Clothing,Good,Small,206.3,96,16.45,18.5,274.56
+NLS-0741,2024-11-15,Dean Martin,Houston,Toys,Like New,Large,523.8,94,16.38,18.5,700.98
+NLS-0742,2024-08-07,North Las Vegas,Phoenix 6,Home,Like New,Medium,776.94,34,7.56,18.5,1203.08
+NLS-0743,2024-03-05,Nellis Outlet,CVG,Electronics,Like New,Large,1747.51,51,9.61,18.5,3355.59
+NLS-0744,2024-11-26,Nellis Outlet,Other,Baby,New,Oversized,437.3,88,20.0,18.5,518.92
+NLS-0745,2024-08-30,Nellis Outlet,Houston,Toys,Acceptable,Medium,328.73,57,11.95,18.5,231.99
+NLS-0746,2024-07-12,North Las Vegas,Other,Electronics,Like New,Medium,1873.86,67,15.72,18.5,2726.7
+NLS-0747,2024-01-22,Nellis Outlet,CVG,Sports,Good,Small,367.17,20,4.41,18.5,458.99
+NLS-0748,2024-04-01,North Las Vegas,Houston,Tools,Acceptable,Oversized,1119.01,57,19.91,18.5,821.47
+NLS-0749,2024-05-21,North Las Vegas,CVG,Beauty,New,Large,560.59,47,11.29,18.5,917.59
+NLS-0750,2024-12-15,Dean Martin,Phoenix 6,Home,New,Large,322.97,35,7.14,18.5,582.73
+NLS-0751,2024-07-26,North Las Vegas,CVG,Clothing,Good,Small,431.02,46,11.0,18.5,486.56
+NLS-0752,2024-08-27,Nellis Outlet,Phoenix 6,Toys,Like New,Oversized,291.03,36,11.64,18.5,429.3
+NLS-0753,2024-08-18,Nellis Outlet,Other,Sports,New,Large,722.9,64,14.58,18.5,1068.25
+NLS-0754,2024-04-25,Nellis Outlet,Phoenix 6,Sports,Like New,Medium,452.79,11,3.09,18.5,746.11
+NLS-0755,2024-06-18,North Las Vegas,Other,Tools,Good,Large,1304.35,82,18.47,18.5,1705.48
+NLS-0756,2024-08-19,Nellis Outlet,Other,Tools,Like New,Oversized,676.45,59,16.03,18.5,855.21
+NLS-0757,2024-04-05,Nellis Outlet,Houston,Home,Like New,Small,704.93,32,5.75,18.5,956.89
+NLS-0758,2024-01-06,Dean Martin,Phoenix 6,Tools,Good,Medium,879.65,94,19.04,18.5,1329.13
+NLS-0759,2024-04-15,Dean Martin,Houston,Tools,Acceptable,Medium,1787.51,26,6.03,18.5,1373.83
+NLS-0760,2024-12-16,Dean Martin,CVG,Beauty,Acceptable,Oversized,263.51,83,20.0,18.5,231.12
+NLS-0761,2024-10-18,North Las Vegas,Houston,Baby,New,Medium,333.72,61,13.12,18.5,316.19
+NLS-0762,2024-07-19,North Las Vegas,Other,Toys,New,Small,315.16,68,13.07,18.5,487.23
+NLS-0763,2024-10-18,Nellis Outlet,CVG,Tools,Like New,Medium,1679.96,65,13.12,18.5,3181.61
+NLS-0764,2024-04-21,Dean Martin,Other,Electronics,Like New,Medium,1128.53,90,18.37,18.5,1845.08
+NLS-0765,2024-05-09,North Las Vegas,Other,Home,Good,Small,753.24,74,16.67,18.5,721.15
+NLS-0766,2024-04-09,Dean Martin,Phoenix 6,Toys,New,Small,455.55,96,20.0,18.5,754.77
+NLS-0767,2024-02-04,North Las Vegas,Phoenix 6,Electronics,Good,Small,1650.92,27,5.71,18.5,2956.5
+NLS-0768,2024-05-30,Dean Martin,CVG,Toys,Like New,Oversized,528.17,30,8.73,18.5,547.12
+NLS-0769,2024-12-11,Dean Martin,Other,Clothing,New,Small,403.21,29,6.36,18.5,458.37
+NLS-0770,2024-07-12,Nellis Outlet,CVG,Toys,New,Small,356.25,49,10.08,18.5,480.17
+NLS-0771,2024-12-14,Dean Martin,CVG,Sports,Like New,Medium,345.69,63,10.52,18.5,534.24
+NLS-0772,2024-10-14,Nellis Outlet,Phoenix 6,Baby,New,Medium,417.2,15,3.72,18.5,447.66
+NLS-0773,2024-11-30,Nellis Outlet,CVG,Baby,Acceptable,Oversized,236.24,37,10.15,18.5,124.67
+NLS-0774,2024-02-04,North Las Vegas,Phoenix 6,Tools,Like New,Oversized,864.12,94,20.0,18.5,1573.44
+NLS-0775,2024-11-19,Dean Martin,Other,Beauty,Acceptable,Small,485.01,82,14.4,18.5,424.97
+NLS-0776,2024-06-20,Nellis Outlet,Other,Clothing,Good,Medium,390.61,98,18.19,18.5,386.31
+NLS-0777,2024-08-07,Dean Martin,Other,Tools,Like New,Small,879.13,88,19.56,18.5,1091.36
+NLS-0778,2024-11-02,Dean Martin,Phoenix 6,Electronics,Like New,Large,1398.47,35,6.58,18.5,2196.81
+NLS-0779,2024-05-27,North Las Vegas,Houston,Clothing,Good,Large,393.08,15,3.88,18.5,427.61
+NLS-0780,2024-12-17,Dean Martin,CVG,Sports,Good,Medium,402.91,16,4.7,18.5,578.94
+NLS-0781,2024-01-27,Nellis Outlet,CVG,Tools,Good,Medium,1130.83,10,2.39,18.5,1901.07
+NLS-0782,2024-02-10,Nellis Outlet,CVG,Baby,Like New,Small,252.1,80,18.35,18.5,319.11
+NLS-0783,2024-11-21,North Las Vegas,Other,Beauty,Like New,Medium,297.97,32,7.38,18.5,324.21
+NLS-0784,2024-08-09,Dean Martin,Houston,Toys,New,Large,359.3,31,6.81,18.5,485.48
+NLS-0785,2024-05-11,Dean Martin,Other,Electronics,Acceptable,Oversized,1824.85,48,15.76,18.5,1602.04
+NLS-0786,2024-04-10,North Las Vegas,Other,Beauty,Acceptable,Large,350.06,87,17.4,18.5,223.56
+NLS-0787,2024-09-07,Dean Martin,CVG,Electronics,New,Large,1389.74,63,15.25,18.5,3770.73
+NLS-0788,2024-06-27,North Las Vegas,Phoenix 6,Tools,New,Small,1061.79,82,14.34,18.5,2657.32
+NLS-0789,2024-11-19,Nellis Outlet,Other,Sports,New,Oversized,763.26,41,11.83,18.5,1019.24
+NLS-0790,2024-03-23,Nellis Outlet,Phoenix 6,Clothing,Good,Oversized,483.28,28,8.55,18.5,593.21
+NLS-0791,2024-08-06,Dean Martin,Phoenix 6,Home,Acceptable,Oversized,723.64,20,7.25,18.5,555.78
+NLS-0792,2024-03-14,North Las Vegas,Houston,Tools,Good,Oversized,1502.95,21,6.32,18.5,2088.32
+NLS-0793,2024-09-25,North Las Vegas,CVG,Tools,Good,Small,1784.43,72,11.75,18.5,2293.88
+NLS-0794,2024-02-26,North Las Vegas,Houston,Tools,Like New,Medium,1049.58,100,17.07,18.5,1550.9
+NLS-0795,2024-11-16,North Las Vegas,CVG,Clothing,Like New,Small,424.97,34,6.74,18.5,603.16
+NLS-0796,2024-09-01,Nellis Outlet,Phoenix 6,Clothing,New,Large,225.71,25,5.24,18.5,297.56
+NLS-0797,2024-04-18,North Las Vegas,Phoenix 6,Electronics,New,Large,1702.16,10,3.09,18.5,3578.97
+NLS-0798,2024-06-24,Nellis Outlet,Phoenix 6,Tools,Good,Oversized,1167.88,53,17.3,18.5,1702.1
+NLS-0799,2024-12-23,North Las Vegas,CVG,Sports,Acceptable,Oversized,605.4,55,19.74,18.5,520.43
+NLS-0800,2024-08-31,North Las Vegas,CVG,Electronics,New,Large,1941.27,41,8.33,18.5,4624.08
+NLS-0801,2024-12-13,Nellis Outlet,Other,Baby,New,Large,204.99,56,13.38,18.5,282.67
+NLS-0802,2024-07-16,North Las Vegas,CVG,Toys,Acceptable,Small,339.33,70,17.08,18.5,326.21
+NLS-0803,2024-08-27,North Las Vegas,CVG,Clothing,New,Medium,349.38,21,4.59,18.5,526.0
+NLS-0804,2024-08-10,Dean Martin,Other,Home,Acceptable,Medium,446.01,31,7.59,18.5,315.89
+NLS-0805,2024-12-09,Nellis Outlet,Phoenix 6,Clothing,Good,Oversized,429.89,38,13.41,18.5,541.65
+NLS-0806,2024-07-12,Dean Martin,CVG,Toys,New,Large,548.78,83,18.56,18.5,964.77
+NLS-0807,2024-04-06,Nellis Outlet,Other,Tools,Like New,Medium,910.91,47,8.29,18.5,1197.53
+NLS-0808,2024-04-07,Nellis Outlet,Phoenix 6,Sports,Like New,Large,777.03,83,18.36,18.5,1194.96
+NLS-0809,2024-08-23,North Las Vegas,Other,Sports,Good,Medium,559.88,87,18.17,18.5,452.6
+NLS-0810,2024-12-25,North Las Vegas,CVG,Beauty,Like New,Oversized,471.99,28,9.86,18.5,581.86
+NLS-0811,2024-05-29,Dean Martin,Houston,Beauty,New,Large,598.74,100,20.0,18.5,815.45
+NLS-0812,2024-01-27,Nellis Outlet,Other,Electronics,Good,Medium,1793.46,36,8.93,18.5,2650.4
+NLS-0813,2024-06-27,Dean Martin,Other,Tools,Good,Medium,1789.28,80,15.5,18.5,2294.24
+NLS-0814,2024-06-14,North Las Vegas,Other,Home,Good,Large,717.83,34,8.06,18.5,676.3
+NLS-0815,2024-04-21,Nellis Outlet,Phoenix 6,Beauty,Acceptable,Medium,430.86,66,14.6,18.5,271.31
+NLS-0816,2024-03-27,Nellis Outlet,CVG,Electronics,Good,Small,1613.98,28,6.01,18.5,3346.53
+NLS-0817,2024-03-17,Dean Martin,Phoenix 6,Sports,Acceptable,Medium,772.53,25,6.85,18.5,818.28
+NLS-0818,2024-07-11,Nellis Outlet,Other,Baby,New,Small,272.26,72,13.52,18.5,279.5
+NLS-0819,2024-09-07,Nellis Outlet,Phoenix 6,Toys,Acceptable,Large,452.93,66,12.82,18.5,252.0
+NLS-0820,2024-11-26,Nellis Outlet,CVG,Electronics,Acceptable,Large,1632.47,22,5.79,18.5,1506.0
+NLS-0821,2024-10-11,Nellis Outlet,Other,Beauty,Like New,Small,330.09,78,13.83,18.5,378.3
+NLS-0822,2024-10-11,Nellis Outlet,Other,Home,New,Medium,879.41,25,5.02,18.5,1160.23
+NLS-0823,2024-01-18,North Las Vegas,Houston,Home,New,Medium,645.05,93,16.14,18.5,1025.02
+NLS-0824,2024-09-22,Dean Martin,Phoenix 6,Beauty,Good,Medium,369.22,94,15.09,18.5,480.32
+NLS-0825,2024-12-05,North Las Vegas,Other,Clothing,Acceptable,Large,356.8,55,11.94,18.5,217.72
+NLS-0826,2024-07-02,Dean Martin,CVG,Electronics,Like New,Medium,1159.65,37,9.5,18.5,2328.41
+NLS-0827,2024-05-10,North Las Vegas,CVG,Tools,New,Large,912.81,93,20.0,18.5,1514.35
+NLS-0828,2024-07-09,Nellis Outlet,Other,Clothing,Like New,Small,388.87,44,11.21,18.5,396.63
+NLS-0829,2024-05-18,Nellis Outlet,CVG,Tools,Like New,Large,1790.94,65,12.7,18.5,3530.37
+NLS-0830,2024-04-25,Dean Martin,Phoenix 6,Tools,New,Large,1368.21,56,13.55,18.5,2923.88
+NLS-0831,2024-06-05,North Las Vegas,Phoenix 6,Home,Acceptable,Medium,527.18,23,5.98,18.5,374.33
+NLS-0832,2024-07-18,Nellis Outlet,Other,Home,Good,Large,630.93,87,14.72,18.5,504.97
+NLS-0833,2024-07-12,Dean Martin,Houston,Tools,Acceptable,Medium,910.87,97,19.54,18.5,615.29
+NLS-0834,2024-08-27,Nellis Outlet,Houston,Electronics,Good,Medium,1613.86,63,14.04,18.5,2144.91
+NLS-0835,2024-02-16,Nellis Outlet,Houston,Beauty,Acceptable,Medium,322.07,21,5.88,18.5,189.06
+NLS-0836,2024-01-06,Nellis Outlet,Phoenix 6,Home,Like New,Small,399.07,17,3.53,18.5,618.64
+NLS-0837,2024-08-05,North Las Vegas,CVG,Toys,Acceptable,Small,362.19,88,15.52,18.5,262.18
+NLS-0838,2024-03-30,Nellis Outlet,Houston,Baby,New,Oversized,489.39,96,20.0,18.5,661.42
+NLS-0839,2024-12-13,Dean Martin,Houston,Clothing,Good,Small,326.82,58,10.44,18.5,348.79
+NLS-0840,2024-06-05,Dean Martin,Phoenix 6,Beauty,Good,Oversized,317.42,37,9.65,18.5,411.8
+NLS-0841,2024-06-28,Nellis Outlet,Phoenix 6,Toys,Acceptable,Small,342.3,88,17.44,18.5,208.2
+NLS-0842,2024-07-29,Nellis Outlet,CVG,Tools,Good,Small,721.61,72,12.9,18.5,1214.51
+NLS-0843,2024-10-01,Dean Martin,Other,Electronics,Like New,Large,1071.31,60,11.78,18.5,1968.73
+NLS-0844,2024-02-26,North Las Vegas,Phoenix 6,Toys,Acceptable,Medium,255.95,65,10.71,18.5,235.31
+NLS-0845,2024-09-02,Dean Martin,Houston,Electronics,Like New,Oversized,1305.27,52,18.94,18.5,1763.84
+NLS-0846,2024-07-23,Nellis Outlet,Houston,Home,Acceptable,Oversized,630.07,97,20.0,18.5,440.31
+NLS-0847,2024-05-01,Nellis Outlet,Other,Clothing,New,Small,437.81,26,5.12,18.5,543.87
+NLS-0848,2024-03-19,Dean Martin,Houston,Tools,New,Oversized,1176.23,46,14.53,18.5,2151.87
+NLS-0849,2024-12-27,Nellis Outlet,CVG,Baby,Good,Small,459.25,99,17.81,18.5,461.73
+NLS-0850,2024-08-06,Dean Martin,CVG,Baby,Like New,Medium,236.14,61,10.27,18.5,402.96
+NLS-0851,2024-08-06,Dean Martin,CVG,Home,New,Oversized,544.38,49,16.7,18.5,1091.56
+NLS-0852,2024-06-12,North Las Vegas,Phoenix 6,Tools,New,Large,732.07,56,10.62,18.5,1324.51
+NLS-0853,2024-02-21,Dean Martin,CVG,Electronics,New,Small,1592.52,51,9.46,18.5,4118.5
+NLS-0854,2024-03-07,North Las Vegas,CVG,Beauty,Acceptable,Large,333.71,24,4.66,18.5,205.0
+NLS-0855,2024-11-18,North Las Vegas,Houston,Sports,Good,Medium,625.12,36,8.1,18.5,517.81
+NLS-0856,2024-08-30,Nellis Outlet,Phoenix 6,Electronics,Like New,Medium,1645.59,22,4.3,18.5,3111.36
+NLS-0857,2024-10-13,Dean Martin,CVG,Electronics,Like New,Medium,1301.86,42,10.39,18.5,3364.84
+NLS-0858,2024-03-26,North Las Vegas,Houston,Toys,New,Oversized,227.08,63,19.64,18.5,364.47
+NLS-0859,2024-07-22,Nellis Outlet,Houston,Clothing,Good,Small,486.74,17,4.73,18.5,488.06
+NLS-0860,2024-03-22,North Las Vegas,Phoenix 6,Clothing,Acceptable,Oversized,368.75,59,17.59,18.5,207.44
+NLS-0861,2024-04-24,Nellis Outlet,CVG,Electronics,Acceptable,Large,1164.09,38,7.55,18.5,998.99
+NLS-0862,2024-11-24,Dean Martin,CVG,Beauty,New,Medium,576.82,45,11.18,18.5,944.61
+NLS-0863,2024-05-15,Dean Martin,CVG,Home,New,Large,679.61,57,11.0,18.5,1638.23
+NLS-0864,2024-05-23,Nellis Outlet,CVG,Tools,Good,Large,1782.31,90,20.0,18.5,2756.93
+NLS-0865,2024-08-14,Dean Martin,Houston,Electronics,New,Oversized,1934.79,42,15.46,18.5,4046.58
+NLS-0866,2024-09-02,Dean Martin,Houston,Beauty,Like New,Oversized,262.26,39,13.77,18.5,287.39
+NLS-0867,2024-11-27,Dean Martin,Other,Clothing,Acceptable,Medium,444.68,32,6.2,18.5,293.94
+NLS-0868,2024-05-05,North Las Vegas,Phoenix 6,Beauty,Like New,Medium,527.0,97,20.0,18.5,516.76
+NLS-0869,2024-11-25,North Las Vegas,Other,Home,Like New,Small,661.98,58,11.46,18.5,593.31
+NLS-0870,2024-02-24,Dean Martin,CVG,Baby,New,Large,242.79,90,18.82,18.5,326.56
+NLS-0871,2024-09-02,Nellis Outlet,Houston,Home,Like New,Medium,588.26,82,19.18,18.5,792.8
+NLS-0872,2024-07-31,Dean Martin,CVG,Electronics,Good,Small,825.45,15,3.24,18.5,1318.29
+NLS-0873,2024-12-16,Dean Martin,Phoenix 6,Baby,New,Medium,328.14,28,5.95,18.5,486.13
+NLS-0874,2024-02-13,North Las Vegas,Phoenix 6,Toys,Like New,Small,289.81,46,9.18,18.5,362.48
+NLS-0875,2024-11-15,Dean Martin,CVG,Clothing,Acceptable,Large,379.88,96,18.66,18.5,350.08
+NLS-0876,2024-01-02,North Las Vegas,Houston,Home,Good,Oversized,697.04,43,15.46,18.5,696.73
+NLS-0877,2024-05-22,Dean Martin,CVG,Sports,Like New,Oversized,523.35,71,20.0,18.5,757.13
+NLS-0878,2024-07-30,Dean Martin,Phoenix 6,Sports,Like New,Medium,683.77,55,10.62,18.5,1227.18
+NLS-0879,2024-04-27,Nellis Outlet,Houston,Clothing,Like New,Oversized,325.6,73,20.0,18.5,339.56
+NLS-0880,2024-08-30,North Las Vegas,Phoenix 6,Tools,Like New,Small,882.23,10,2.56,18.5,1731.42
+NLS-0881,2024-08-03,Dean Martin,Phoenix 6,Electronics,Good,Large,1818.5,27,5.63,18.5,2962.34
+NLS-0882,2024-08-05,Dean Martin,CVG,Baby,New,Medium,235.17,99,20.0,18.5,274.8
+NLS-0883,2024-02-09,North Las Vegas,Phoenix 6,Home,New,Oversized,802.46,30,8.16,18.5,1109.84
+NLS-0884,2024-06-21,Dean Martin,Other,Clothing,Like New,Oversized,423.07,77,20.0,18.5,420.23
+NLS-0885,2024-01-06,North Las Vegas,Phoenix 6,Beauty,New,Medium,224.0,92,15.02,18.5,390.33
+NLS-0886,2024-07-12,North Las Vegas,Other,Toys,Good,Large,483.74,64,15.43,18.5,361.66
+NLS-0887,2024-09-01,Dean Martin,CVG,Tools,New,Medium,1070.75,81,17.08,18.5,1987.47
+NLS-0888,2024-07-04,North Las Vegas,Other,Tools,Like New,Small,1564.01,92,17.92,18.5,1847.12
+NLS-0889,2024-06-07,Nellis Outlet,Houston,Electronics,Like New,Large,995.31,23,4.44,18.5,1811.43
+NLS-0890,2024-01-24,Dean Martin,CVG,Electronics,Like New,Large,902.05,82,17.01,18.5,2117.09
+NLS-0891,2024-07-19,Dean Martin,Houston,Home,Good,Small,888.32,46,11.53,18.5,951.38
+NLS-0892,2024-10-27,Nellis Outlet,Houston,Clothing,New,Large,322.19,74,12.66,18.5,375.97
+NLS-0893,2024-04-28,North Las Vegas,Other,Electronics,Good,Medium,981.85,69,11.73,18.5,1589.84
+NLS-0894,2024-01-21,Dean Martin,CVG,Clothing,Good,Oversized,435.61,53,15.22,18.5,580.81
+NLS-0895,2024-03-14,Nellis Outlet,Other,Baby,Like New,Small,487.4,82,17.43,18.5,526.16
+NLS-0896,2024-02-15,North Las Vegas,Phoenix 6,Toys,New,Oversized,325.49,47,12.88,18.5,427.04
+NLS-0897,2024-10-18,Dean Martin,CVG,Toys,Good,Oversized,591.39,66,20.0,18.5,545.8
+NLS-0898,2024-11-15,North Las Vegas,Phoenix 6,Sports,Good,Oversized,504.52,89,20.0,18.5,556.83
+NLS-0899,2024-05-05,North Las Vegas,Houston,Home,Acceptable,Oversized,457.7,97,20.0,18.5,334.66
+NLS-0900,2024-08-24,Nellis Outlet,Phoenix 6,Clothing,New,Large,312.75,82,15.91,18.5,339.68
+NLS-0901,2024-07-22,Nellis Outlet,Phoenix 6,Sports,Acceptable,Oversized,621.24,69,17.86,18.5,430.32
+NLS-0902,2024-05-22,North Las Vegas,CVG,Tools,Good,Small,980.74,87,17.43,18.5,1570.11
+NLS-0903,2024-02-01,North Las Vegas,Phoenix 6,Clothing,Acceptable,Medium,392.06,50,10.79,18.5,354.87
+NLS-0904,2024-11-21,North Las Vegas,Other,Toys,Like New,Small,284.6,12,3.87,18.5,319.97
+NLS-0905,2024-04-19,Dean Martin,Phoenix 6,Clothing,New,Large,321.52,48,11.63,18.5,457.78
+NLS-0906,2024-06-27,Nellis Outlet,Houston,Clothing,New,Small,468.49,64,12.33,18.5,537.88
+NLS-0907,2024-11-01,North Las Vegas,Other,Toys,Like New,Oversized,341.88,98,20.0,18.5,442.25
+NLS-0908,2024-12-11,Dean Martin,Phoenix 6,Clothing,Good,Large,204.26,68,16.34,18.5,215.69
+NLS-0909,2024-04-06,North Las Vegas,Houston,Electronics,Acceptable,Medium,1561.15,91,20.0,18.5,1056.27
+NLS-0910,2024-07-05,North Las Vegas,CVG,Tools,Like New,Large,851.72,34,8.87,18.5,1338.91
+NLS-0911,2024-08-06,Dean Martin,Houston,Beauty,New,Oversized,459.56,68,20.0,18.5,660.25
+NLS-0912,2024-05-25,Nellis Outlet,Houston,Home,Like New,Oversized,557.03,32,10.84,18.5,588.84
+NLS-0913,2024-02-23,Nellis Outlet,Other,Beauty,New,Small,522.38,23,4.49,18.5,595.97
+NLS-0914,2024-04-10,North Las Vegas,Phoenix 6,Toys,New,Large,540.68,37,7.14,18.5,767.89
+NLS-0915,2024-07-10,North Las Vegas,Phoenix 6,Sports,Acceptable,Oversized,754.0,92,20.0,18.5,634.15
+NLS-0916,2024-01-17,Dean Martin,Houston,Beauty,Good,Large,535.39,63,13.87,18.5,488.1
+NLS-0917,2024-04-08,Dean Martin,Phoenix 6,Clothing,Good,Large,300.53,83,20.0,18.5,340.59
+NLS-0918,2024-09-21,Nellis Outlet,Other,Electronics,Acceptable,Medium,1927.27,59,14.54,18.5,1662.83
+NLS-0919,2024-05-13,Dean Martin,Other,Baby,New,Medium,351.28,90,18.66,18.5,432.47
+NLS-0920,2024-11-12,Nellis Outlet,CVG,Sports,Like New,Small,346.63,65,10.74,18.5,557.43
+NLS-0921,2024-04-23,Nellis Outlet,Phoenix 6,Tools,New,Medium,1780.1,91,19.25,18.5,3053.8
+NLS-0922,2024-10-23,North Las Vegas,CVG,Baby,Acceptable,Large,397.78,45,7.96,18.5,195.83
+NLS-0923,2024-07-04,Dean Martin,Phoenix 6,Toys,New,Small,256.73,43,10.62,18.5,347.56
+NLS-0924,2024-07-11,Dean Martin,Other,Home,Acceptable,Small,548.25,72,17.38,18.5,358.28
+NLS-0925,2024-03-01,North Las Vegas,Other,Clothing,Like New,Large,203.04,32,7.53,18.5,245.78
+NLS-0926,2024-01-12,North Las Vegas,Houston,Toys,New,Medium,408.7,42,10.51,18.5,384.86
+NLS-0927,2024-03-05,Nellis Outlet,CVG,Baby,Good,Small,469.57,13,3.23,18.5,446.03
+NLS-0928,2024-08-11,North Las Vegas,Houston,Toys,Like New,Small,339.42,80,17.18,18.5,411.75
+NLS-0929,2024-10-27,Nellis Outlet,Other,Baby,Good,Medium,259.36,45,11.31,18.5,199.17
+NLS-0930,2024-02-25,North Las Vegas,CVG,Baby,Acceptable,Oversized,464.86,64,20.0,18.5,266.04
+NLS-0931,2024-09-18,Nellis Outlet,Other,Tools,Like New,Large,1048.75,90,20.0,18.5,1702.02
+NLS-0932,2024-05-05,North Las Vegas,Other,Beauty,Good,Oversized,211.98,33,12.25,18.5,181.1
+NLS-0933,2024-04-19,Dean Martin,CVG,Sports,Good,Medium,689.76,25,4.62,18.5,1151.75
+NLS-0934,2024-11-07,North Las Vegas,Houston,Baby,New,Oversized,285.08,37,12.18,18.5,250.44
+NLS-0935,2024-05-20,Nellis Outlet,Phoenix 6,Tools,Acceptable,Large,1576.07,35,6.72,18.5,1759.99
+NLS-0936,2024-11-25,North Las Vegas,Phoenix 6,Home,Acceptable,Medium,660.86,85,16.35,18.5,536.33
+NLS-0937,2024-06-21,Nellis Outlet,Phoenix 6,Toys,Good,Medium,536.66,61,10.26,18.5,616.87
+NLS-0938,2024-07-23,Nellis Outlet,Phoenix 6,Home,Acceptable,Small,797.91,63,14.13,18.5,651.6
+NLS-0939,2024-07-10,Dean Martin,Houston,Toys,New,Oversized,319.38,68,20.0,18.5,511.59
+NLS-0940,2024-08-11,Nellis Outlet,Phoenix 6,Electronics,Like New,Small,1790.55,27,5.16,18.5,3387.26
+NLS-0941,2024-05-12,Dean Martin,CVG,Home,Like New,Large,789.69,78,18.92,18.5,1698.3
+NLS-0942,2024-03-28,Dean Martin,Phoenix 6,Electronics,Good,Small,1116.47,98,20.0,18.5,2071.1
+NLS-0943,2024-08-16,Dean Martin,Other,Home,Like New,Large,817.14,84,19.59,18.5,1299.26
+NLS-0944,2024-05-31,Nellis Outlet,Phoenix 6,Baby,Acceptable,Oversized,492.9,51,17.78,18.5,283.68
+NLS-0945,2024-04-20,Nellis Outlet,Phoenix 6,Sports,Like New,Medium,647.48,19,5.48,18.5,738.16
+NLS-0946,2024-06-08,North Las Vegas,Other,Baby,Acceptable,Small,302.14,85,18.94,18.5,157.67
+NLS-0947,2024-04-13,Nellis Outlet,Other,Clothing,New,Medium,265.64,56,11.11,18.5,309.98
+NLS-0948,2024-08-24,North Las Vegas,CVG,Home,Good,Oversized,398.52,49,18.26,18.5,456.83
+NLS-0949,2024-03-01,Dean Martin,Phoenix 6,Baby,New,Oversized,256.11,13,5.16,18.5,352.81
+NLS-0950,2024-07-08,Nellis Outlet,Phoenix 6,Sports,Acceptable,Medium,375.31,74,14.64,18.5,309.77
+NLS-0951,2024-09-22,Dean Martin,Phoenix 6,Tools,Acceptable,Medium,952.81,61,10.96,18.5,951.62
+NLS-0952,2024-09-29,North Las Vegas,Phoenix 6,Electronics,Like New,Small,1063.5,16,4.68,18.5,1969.13
+NLS-0953,2024-04-15,Dean Martin,Houston,Baby,Acceptable,Oversized,317.87,38,13.48,18.5,199.94
+NLS-0954,2024-06-05,Dean Martin,CVG,Sports,Good,Large,666.94,22,4.53,18.5,1172.44
+NLS-0955,2024-08-30,Nellis Outlet,CVG,Clothing,Good,Small,249.99,52,12.62,18.5,186.51
+NLS-0956,2024-08-30,North Las Vegas,Houston,Electronics,Like New,Large,1857.51,31,7.38,18.5,3579.57
+NLS-0957,2024-09-25,Nellis Outlet,Phoenix 6,Toys,Like New,Oversized,243.75,12,5.05,18.5,433.21
+NLS-0958,2024-05-11,Nellis Outlet,CVG,Clothing,New,Small,291.38,52,10.67,18.5,508.27
+NLS-0959,2024-12-05,Nellis Outlet,Other,Beauty,Good,Oversized,205.42,55,15.81,18.5,185.9
+NLS-0960,2024-09-11,Nellis Outlet,Other,Home,Good,Small,388.74,62,14.6,18.5,389.18
+NLS-0961,2024-05-20,Dean Martin,CVG,Tools,Good,Medium,1493.24,34,8.72,18.5,2003.6
+NLS-0962,2024-04-07,Nellis Outlet,Other,Clothing,Good,Large,466.4,60,12.84,18.5,447.92
+NLS-0963,2024-12-16,Dean Martin,Houston,Home,Acceptable,Oversized,640.0,54,15.46,18.5,581.0
+NLS-0964,2024-04-21,Dean Martin,Other,Clothing,Good,Medium,291.09,46,8.04,18.5,243.53
+NLS-0965,2024-06-28,North Las Vegas,Phoenix 6,Electronics,Acceptable,Large,806.11,55,12.18,18.5,626.87
+NLS-0966,2024-01-17,North Las Vegas,CVG,Home,Good,Medium,897.55,35,7.44,18.5,1249.94
+NLS-0967,2024-03-29,North Las Vegas,Houston,Baby,Acceptable,Oversized,319.73,22,8.99,18.5,208.62
+NLS-0968,2024-10-17,Nellis Outlet,Other,Sports,Like New,Medium,425.01,63,13.25,18.5,462.45
+NLS-0969,2024-12-30,Nellis Outlet,Other,Clothing,Acceptable,Oversized,228.81,77,20.0,18.5,136.65
+NLS-0970,2024-08-03,North Las Vegas,Other,Sports,Acceptable,Oversized,510.25,62,18.87,18.5,382.5
+NLS-0971,2024-07-20,Dean Martin,CVG,Beauty,Like New,Large,250.91,79,18.57,18.5,386.96
+NLS-0972,2024-06-19,Dean Martin,Other,Electronics,Acceptable,Oversized,1807.04,20,5.92,18.5,2104.53
+NLS-0973,2024-01-28,Nellis Outlet,Phoenix 6,Beauty,Acceptable,Large,545.73,25,6.3,18.5,492.96
+NLS-0974,2024-01-04,Nellis Outlet,CVG,Clothing,Acceptable,Medium,267.06,96,20.0,18.5,162.64
+NLS-0975,2024-01-13,North Las Vegas,CVG,Home,New,Small,391.81,25,5.8,18.5,517.13
+NLS-0976,2024-10-06,Nellis Outlet,Other,Tools,New,Small,959.91,71,17.29,18.5,1983.49
+NLS-0977,2024-09-18,North Las Vegas,Other,Home,Acceptable,Medium,681.72,33,6.23,18.5,486.21
+NLS-0978,2024-07-19,Nellis Outlet,CVG,Toys,Acceptable,Large,315.78,22,6.13,18.5,248.05
+NLS-0979,2024-06-04,North Las Vegas,Phoenix 6,Toys,Acceptable,Oversized,259.27,46,14.36,18.5,170.19
+NLS-0980,2024-09-14,Dean Martin,Other,Electronics,Good,Medium,1361.49,68,12.68,18.5,2307.23
+NLS-0981,2024-03-12,Dean Martin,Houston,Tools,New,Medium,1387.1,55,12.16,18.5,2507.18
+NLS-0982,2024-09-16,North Las Vegas,Houston,Tools,New,Oversized,1051.83,70,20.0,18.5,1594.02
+NLS-0983,2024-04-28,Nellis Outlet,Houston,Clothing,Good,Large,375.35,61,10.41,18.5,275.51
+NLS-0984,2024-07-15,Dean Martin,Phoenix 6,Toys,Acceptable,Large,503.96,40,7.24,18.5,502.58
+NLS-0985,2024-01-16,North Las Vegas,Phoenix 6,Electronics,Good,Small,844.9,19,4.5,18.5,1343.19
+NLS-0986,2024-08-12,Dean Martin,Houston,Home,Acceptable,Oversized,379.93,91,20.0,18.5,231.68
+NLS-0987,2024-11-18,Nellis Outlet,Houston,Baby,Like New,Medium,330.22,77,17.56,18.5,297.49
+NLS-0988,2024-06-23,Nellis Outlet,Phoenix 6,Baby,New,Medium,467.99,56,12.92,18.5,702.31
+NLS-0989,2024-02-04,Dean Martin,Other,Baby,Like New,Oversized,350.26,55,17.99,18.5,340.94
+NLS-0990,2024-11-03,North Las Vegas,Other,Tools,New,Small,752.63,76,14.19,18.5,956.44
+NLS-0991,2024-03-21,Nellis Outlet,Houston,Electronics,Like New,Large,1906.73,42,8.59,18.5,3217.16
+NLS-0992,2024-05-14,North Las Vegas,Phoenix 6,Baby,Good,Oversized,385.59,79,20.0,18.5,324.87
+NLS-0993,2024-06-17,Nellis Outlet,Phoenix 6,Electronics,Good,Oversized,1113.06,52,18.85,18.5,1321.39
+NLS-0994,2024-01-19,Nellis Outlet,Phoenix 6,Baby,Acceptable,Small,441.7,82,19.26,18.5,337.99
+NLS-0995,2024-04-25,North Las Vegas,Phoenix 6,Tools,New,Oversized,1735.92,44,15.29,18.5,2856.85
+NLS-0996,2024-04-10,Nellis Outlet,Houston,Tools,Acceptable,Large,1537.85,39,6.8,18.5,1113.9
+NLS-0997,2024-03-11,Nellis Outlet,Other,Electronics,Acceptable,Small,1264.55,58,12.96,18.5,1078.34
+NLS-0998,2024-01-06,Dean Martin,Other,Home,Good,Large,416.19,65,15.58,18.5,367.71
+NLS-0999,2024-06-09,Dean Martin,Other,Electronics,New,Medium,1775.15,19,3.79,18.5,3137.73
+NLS-1000,2024-04-15,North Las Vegas,CVG,Beauty,Like New,Oversized,391.48,25,9.17,18.5,500.32
