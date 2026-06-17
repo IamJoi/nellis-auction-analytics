@@ -1,0 +1,18 @@
+# environment
+.env
+.env.local
+.env.production.local
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# node
+node_modules/
+frontend/build/
+
+# misc
+.DS_Store
