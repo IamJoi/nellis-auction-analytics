@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from pathlib import Path
 
 import anthropic
@@ -236,6 +237,61 @@ def insights_weekly_focus():
         f"Data: {json.dumps(ctx)}"
     )
     return {"insights": call_claude(prompt, max_tokens=600)}
+
+
+@app.get("/api/insights/executive")
+def insights_executive():
+    df  = load_df()
+    ctx = build_rich_context(df)
+    prompt = (
+        "You are analyzing Amazon return pallet auction data for a non-technical executive. "
+        "Generate exactly 3 to 5 specific, immediately actionable business recommendations. "
+        "Each must cite real numbers from the data and name a concrete next step.\n\n"
+        "Respond with ONLY valid JSON — no prose, no code fences — in this exact shape:\n"
+        '{"recommendations": [{"icon": "<single emoji>", "title": "<5-8 word action headline>", '
+        '"description": "<2-3 sentences, specific numbers, clear action>"}]}\n\n'
+        f"Data: {json.dumps(ctx)}"
+    )
+    try:
+        msg = client.messages.create(
+            model="claude-sonnet-4-6",
+            max_tokens=1500,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = msg.content[0].text.strip()
+        # Strip accidental code fences
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+        return json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise HTTPException(status_code=502, detail=f"Claude returned non-JSON: {exc}")
+    except anthropic.APIError as exc:
+        raise HTTPException(status_code=502, detail=str(exc))
+
+
+@app.get("/api/insights/executive")
+def insights_executive():
+    df  = load_df()
+    ctx = build_rich_context(df)
+    prompt = (
+        "Based on this auction data, return a JSON array of exactly 5 executive recommendations.\n"
+        "Each element must be a JSON object with exactly these three fields:\n"
+        "  \"icon\"        — one relevant emoji\n"
+        "  \"title\"       — action-oriented title in 4-7 words, ALL CAPS\n"
+        "  \"description\" — 2-3 sentences with specific dollar amounts and percentages\n\n"
+        "Return ONLY the raw JSON array. No markdown fences, no explanation, no other text.\n\n"
+        f"Data: {json.dumps(ctx)}"
+    )
+    text = call_claude(prompt, max_tokens=900)
+    try:
+        match = re.search(r'\[[\s\S]*\]', text)
+        recs  = json.loads(match.group() if match else text)
+        return {"recommendations": recs}
+    except (json.JSONDecodeError, AttributeError) as e:
+        raise HTTPException(status_code=500, detail=f"Claude returned non-JSON: {e} — raw: {text[:200]}")
 
 
 @app.get("/api/insights/risk-flags")
