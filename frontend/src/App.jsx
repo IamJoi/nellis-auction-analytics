@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext, createContext } from 'react';
 import axios from 'axios';
 import AIInsights from './AIInsights';
 import AuctionChat from './components/AuctionChat';
@@ -28,12 +28,28 @@ const fmtK      = (v) => `$${(v / 1000).toFixed(0)}k`;
 const profitHue = (v) => (v >= 0 ? C.accent : '#CCCCCC');
 const TICK      = { fill: C.muted, fontSize: 11 };
 
+// ─── mobile detection ─────────────────────────────────────────────────────────
+
+const MobileCtx = createContext(false);
+
+function useIsMobile() {
+  const [mobile, setMobile] = useState(() => window.innerWidth < 768);
+  useEffect(() => {
+    const h = () => setMobile(window.innerWidth < 768);
+    window.addEventListener('resize', h);
+    return () => window.removeEventListener('resize', h);
+  }, []);
+  return mobile;
+}
+
 // ─── primitives ───────────────────────────────────────────────────────────────
 
 function SectionTitle({ children }) {
+  const m = useContext(MobileCtx);
   return (
     <h2 style={{
-      margin: '0 0 16px', color: C.text, fontSize: 14, fontWeight: 700,
+      margin: '0 0 12px', color: C.text,
+      fontSize: m ? 13 : 14, fontWeight: 700,
       borderLeft: `4px solid ${C.accent}`, paddingLeft: 10, letterSpacing: 0,
     }}>
       {children}
@@ -42,9 +58,11 @@ function SectionTitle({ children }) {
 }
 
 function Card({ title, children, style }) {
+  const m = useContext(MobileCtx);
   return (
     <div style={{
-      background: C.card, borderRadius: 8, padding: '20px 24px',
+      background: C.card, borderRadius: 8,
+      padding: m ? '12px 14px' : '20px 24px',
       boxShadow: C.shadow, border: `1px solid ${C.border}`, ...style,
     }}>
       {title && <SectionTitle>{title}</SectionTitle>}
@@ -54,17 +72,19 @@ function Card({ title, children, style }) {
 }
 
 function StatCard({ label, value, color }) {
+  const m = useContext(MobileCtx);
   return (
     <div style={{
-      background: C.card, borderRadius: 8, padding: '18px 24px',
-      flex: 1, minWidth: 140,
+      background: C.card, borderRadius: 8,
+      padding: m ? '10px 12px' : '18px 24px',
+      minWidth: 0,
       boxShadow: C.shadow, border: `1px solid ${C.border}`,
       borderTop: `3px solid ${color || C.accent}`,
     }}>
-      <div style={{ color: C.muted, fontSize: 11, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>
+      <div style={{ color: C.muted, fontSize: 10, textTransform: 'uppercase', letterSpacing: 1, marginBottom: m ? 4 : 8 }}>
         {label}
       </div>
-      <div style={{ color: color || C.accent, fontSize: 26, fontWeight: 700, lineHeight: 1 }}>
+      <div style={{ color: color || C.accent, fontSize: m ? 20 : 26, fontWeight: 700, lineHeight: 1 }}>
         {value}
       </div>
     </div>
@@ -92,8 +112,9 @@ function ChartTooltip({ active, payload, label }) {
 // ─── charts ──────────────────────────────────────────────────────────────────
 
 function CategoryChart({ data }) {
+  const m = useContext(MobileCtx);
   return (
-    <ResponsiveContainer width="100%" height={240}>
+    <ResponsiveContainer width="100%" height={m ? 200 : 240}>
       <BarChart data={data} margin={{ top: 4, right: 8, left: 8, bottom: 44 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="category" tick={TICK} angle={-35} textAnchor="end" interval={0} />
@@ -108,8 +129,9 @@ function CategoryChart({ data }) {
 }
 
 function ProgramChart({ data }) {
+  const m = useContext(MobileCtx);
   return (
-    <ResponsiveContainer width="100%" height={240}>
+    <ResponsiveContainer width="100%" height={m ? 200 : 240}>
       <BarChart data={data} margin={{ top: 4, right: 8, left: 8, bottom: 44 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="amazon_program" tick={TICK} angle={-20} textAnchor="end" interval={0} />
@@ -125,8 +147,9 @@ function ProgramChart({ data }) {
 }
 
 function TrendChart({ data }) {
+  const m = useContext(MobileCtx);
   return (
-    <ResponsiveContainer width="100%" height={240}>
+    <ResponsiveContainer width="100%" height={m ? 200 : 240}>
       <LineChart data={data} margin={{ top: 4, right: 16, left: 8, bottom: 4 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis dataKey="month" tick={TICK} tickFormatter={(v) => v.slice(5)} />
@@ -141,8 +164,9 @@ function TrendChart({ data }) {
 }
 
 function LocationChart({ data }) {
+  const m = useContext(MobileCtx);
   return (
-    <ResponsiveContainer width="100%" height={180}>
+    <ResponsiveContainer width="100%" height={m ? 150 : 180}>
       <BarChart data={data} layout="vertical" margin={{ top: 4, right: 16, left: 8, bottom: 4 }}>
         <CartesianGrid strokeDasharray="3 3" stroke={C.grid} />
         <XAxis type="number" tick={TICK} tickFormatter={fmtK} />
@@ -161,7 +185,6 @@ function LocationChart({ data }) {
 function InsightBody({ text, style }) {
   const lines = text.split('\n');
   const hasBullets = lines.some(l => /^\s*[-•*]\s/.test(l));
-
   if (hasBullets) {
     return (
       <ul style={{ margin: '0 0 4px', paddingLeft: 18, ...style }}>
@@ -170,7 +193,7 @@ function InsightBody({ text, style }) {
           if (!clean) return null;
           return /^[-•*]\s/.test(line.trim())
             ? <li key={i} style={{ color: C.text, fontSize: 13, lineHeight: 1.7, marginBottom: 3 }}>{clean}</li>
-            : <p key={i} style={{ color: C.text, fontSize: 13, lineHeight: 1.7, margin: '4px 0' }}>{clean}</p>;
+            : <p  key={i} style={{ color: C.text, fontSize: 13, lineHeight: 1.7, margin: '4px 0' }}>{clean}</p>;
         })}
       </ul>
     );
@@ -226,6 +249,7 @@ const TABS = [
 const EMPTY_TAB = { text: null, loading: false, error: null };
 
 function ActionBtn({ onClick, disabled, children }) {
+  const m = useContext(MobileCtx);
   const [hover, setHover] = useState(false);
   return (
     <button
@@ -237,7 +261,8 @@ function ActionBtn({ onClick, disabled, children }) {
         background: disabled ? C.border : hover ? '#C02E24' : C.accent,
         color:      disabled ? C.muted  : '#FFFFFF',
         border: 'none', borderRadius: 6,
-        padding: '9px 20px', fontSize: 13, fontWeight: 600,
+        padding: m ? '8px 14px' : '9px 20px',
+        fontSize: m ? 12 : 13, fontWeight: 600,
         cursor: disabled ? 'not-allowed' : 'pointer',
         transition: 'background 0.15s',
       }}
@@ -248,6 +273,7 @@ function ActionBtn({ onClick, disabled, children }) {
 }
 
 function InsightsSection() {
+  const m = useContext(MobileCtx);
   const [activeTab, setActiveTab] = useState('overview');
   const [tabState,  setTabState]  = useState({
     overview:    { ...EMPTY_TAB },
@@ -270,11 +296,18 @@ function InsightsSection() {
   }
 
   return (
-    <Card style={{ marginBottom: 16 }}>
+    <Card style={{ marginBottom: m ? 10 : 16 }}>
       <SectionTitle>Insights</SectionTitle>
 
-      {/* Tab bar */}
-      <div style={{ display: 'flex', gap: 4, marginBottom: 20, borderBottom: `1px solid ${C.border}` }}>
+      {/* Tab bar — horizontally scrollable on mobile so tabs never wrap or clip */}
+      <div style={{
+        display: 'flex', gap: 4,
+        marginBottom: 16,
+        borderBottom: `1px solid ${C.border}`,
+        overflowX: 'auto',
+        scrollbarWidth: 'none',
+        msOverflowStyle: 'none',
+      }}>
         {TABS.map(tab => {
           const active = tab.key === activeTab;
           return (
@@ -285,11 +318,13 @@ function InsightsSection() {
                 background:   active ? C.accent : 'transparent',
                 color:        active ? '#FFFFFF' : C.muted,
                 border:       'none', borderRadius: '6px 6px 0 0',
-                padding:      '8px 14px', fontSize: 12,
+                padding:      m ? '7px 10px' : '8px 14px',
+                fontSize:     m ? 11 : 12,
                 fontWeight:   active ? 700 : 500, cursor: 'pointer',
                 marginBottom: -1,
                 borderBottom: active ? `2px solid ${C.accent}` : '2px solid transparent',
                 transition:   'all 0.15s',
+                whiteSpace:   'nowrap', flexShrink: 0,
               }}
             >
               {tab.label}
@@ -298,8 +333,7 @@ function InsightsSection() {
         })}
       </div>
 
-      {/* Button row */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20 }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: m ? 14 : 20 }}>
         <ActionBtn onClick={generate} disabled={current.loading}>
           {current.loading ? 'Analyzing…' : 'Get Recommendations'}
         </ActionBtn>
@@ -315,13 +349,13 @@ function InsightsSection() {
       )}
 
       {current.error && (
-        <div style={{ color: C.accent, fontSize: 13, padding: '12px 16px', background: '#FFF5F5', borderRadius: 6, border: `1px solid #F5C0BC` }}>
+        <div style={{ color: C.accent, fontSize: 13, padding: '12px 16px', background: '#FFF5F5', borderRadius: 6, border: '1px solid #F5C0BC' }}>
           Error: {current.error}
         </div>
       )}
 
       {current.text && !current.loading && (
-        <div style={{ background: C.panel, borderRadius: 8, padding: '20px 24px', maxHeight: 480, overflowY: 'auto', border: `1px solid ${C.border}` }}>
+        <div style={{ background: C.panel, borderRadius: 8, padding: m ? '12px' : '20px 24px', maxHeight: 480, overflowY: 'auto', border: `1px solid ${C.border}` }}>
           <InsightText text={current.text} />
         </div>
       )}
@@ -335,7 +369,7 @@ function InsightsSection() {
   );
 }
 
-// ─── root ─────────────────────────────────────────────────────────────────────
+// ─── layout CSS ───────────────────────────────────────────────────────────────
 
 const LAYOUT_CSS = `
   .app-shell {
@@ -367,12 +401,18 @@ const LAYOUT_CSS = `
   @media (max-width: 768px) {
     .app-shell { height: auto; overflow: visible; }
     .app-body  { flex-direction: column; overflow: visible; }
-    .app-left  { flex: none; width: 100%; overflow-y: visible; padding: 16px; }
+    .app-left  { flex: none; width: 100%; overflow-y: visible; padding: 12px; }
     .app-right { flex: none; width: 100%; height: 70vh; overflow: hidden; }
   }
+  /* hide webkit scrollbar on tab row */
+  div::-webkit-scrollbar { display: none; }
 `;
 
+// ─── root ─────────────────────────────────────────────────────────────────────
+
 export default function App() {
+  const isMobile = useIsMobile();
+
   const [summary,    setSummary]    = useState(null);
   const [byCategory, setByCategory] = useState([]);
   const [byProgram,  setByProgram]  = useState([]);
@@ -423,67 +463,93 @@ export default function App() {
     `${summary.total_profit >= 0 ? '' : '−'}$${Math.abs(summary.total_profit / 1000).toFixed(1)}k`;
 
   return (
-    <>
-      <style>{LAYOUT_CSS}</style>
-      <div className="app-shell">
+    <MobileCtx.Provider value={isMobile}>
+      <>
+        <style>{LAYOUT_CSS}</style>
+        <div className="app-shell">
 
-        {/* Header — full width */}
-        <div style={{ background: '#FFFFFF', borderBottom: `3px solid ${C.accent}`, padding: '13px 32px', flexShrink: 0 }}>
-          <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
-            <span style={{ fontSize: 21, fontWeight: 700, color: C.text, letterSpacing: -0.5 }}>Nellis Auction</span>
-            <span style={{ fontSize: 14, fontWeight: 600, color: C.accent }}>Analytics Dashboard</span>
+          {/* Header */}
+          <div style={{
+            background: '#FFFFFF',
+            borderBottom: `3px solid ${C.accent}`,
+            padding: isMobile ? '10px 16px' : '13px 32px',
+            flexShrink: 0,
+          }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 8 }}>
+              <span style={{ fontSize: isMobile ? 17 : 21, fontWeight: 700, color: C.text, letterSpacing: -0.5 }}>
+                Nellis Auction
+              </span>
+              <span style={{ fontSize: isMobile ? 12 : 14, fontWeight: 600, color: C.accent }}>
+                Analytics Dashboard
+              </span>
+            </div>
+          </div>
+
+          <div className="app-body">
+
+            {/* Left — charts & insights */}
+            <div className="app-left">
+
+              {/* Summary cards: flex row on desktop, 2×2 grid on mobile */}
+              <div style={{
+                display: isMobile ? 'grid' : 'flex',
+                gridTemplateColumns: isMobile ? '1fr 1fr' : undefined,
+                gap: isMobile ? 10 : 14,
+                marginBottom: isMobile ? 12 : 20,
+                flexWrap: 'wrap',
+              }}>
+                <StatCard label="Total Revenue"  value={`$${(summary.total_revenue / 1000).toFixed(1)}k`}  color={C.accent} />
+                <StatCard label="Total Profit"   value={totalProfitLabel}                                   color={summary.total_profit >= 0 ? C.accent : '#999999'} />
+                <StatCard label="Total Auctions" value={summary.total_auctions.toLocaleString()}           color={C.text} />
+                <StatCard label="Avg Margin"     value={`${summary.avg_margin_pct.toFixed(2)}%`}           color={summary.avg_margin_pct >= 0 ? C.accent : '#999999'} />
+              </div>
+
+              {/* Category + Program: 2-col → 1-col */}
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr',
+                gap: isMobile ? 10 : 14,
+                marginBottom: isMobile ? 10 : 14,
+              }}>
+                <Card title="Profit by Category">
+                  <CategoryChart data={byCategory} />
+                </Card>
+                <Card title="Profit & Margin by Program">
+                  <ProgramChart data={byProgram} />
+                </Card>
+              </div>
+
+              {/* Trend + Location: 2:1 → 1-col */}
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: isMobile ? '1fr' : '2fr 1fr',
+                gap: isMobile ? 10 : 14,
+                marginBottom: isMobile ? 10 : 14,
+              }}>
+                <Card title="Monthly Revenue & Profit Trend">
+                  <TrendChart data={byMonth} />
+                </Card>
+                <Card title="Profit by Location">
+                  <LocationChart data={byLocation} />
+                </Card>
+              </div>
+
+              <InsightsSection />
+              <AIInsights />
+
+              <div style={{ textAlign: 'center', color: C.muted, fontSize: 12, marginTop: 4, paddingBottom: 16 }}>
+                Nellis Auction Analytics · 2024 · {summary.total_auctions} auctions
+              </div>
+            </div>
+
+            {/* Right — question panel (sidebar on desktop, stacked below on mobile) */}
+            <div className="app-right">
+              <AuctionChat />
+            </div>
+
           </div>
         </div>
-
-        {/* Two-column body */}
-        <div className="app-body">
-
-          {/* Left — charts & insights */}
-          <div className="app-left">
-
-            {/* Summary cards */}
-            <div style={{ display: 'flex', gap: 14, marginBottom: 20, flexWrap: 'wrap' }}>
-              <StatCard label="Total Revenue"  value={`$${(summary.total_revenue / 1000).toFixed(1)}k`}  color={C.accent} />
-              <StatCard label="Total Profit"   value={totalProfitLabel}                                   color={summary.total_profit >= 0 ? C.accent : '#999999'} />
-              <StatCard label="Total Auctions" value={summary.total_auctions.toLocaleString()}           color={C.text} />
-              <StatCard label="Avg Margin"     value={`${summary.avg_margin_pct.toFixed(2)}%`}           color={summary.avg_margin_pct >= 0 ? C.accent : '#999999'} />
-            </div>
-
-            {/* Category + Program */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginBottom: 14 }}>
-              <Card title="Profit by Category">
-                <CategoryChart data={byCategory} />
-              </Card>
-              <Card title="Profit & Margin by Program">
-                <ProgramChart data={byProgram} />
-              </Card>
-            </div>
-
-            {/* Trend + Location */}
-            <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 14, marginBottom: 14 }}>
-              <Card title="Monthly Revenue & Profit Trend">
-                <TrendChart data={byMonth} />
-              </Card>
-              <Card title="Profit by Location">
-                <LocationChart data={byLocation} />
-              </Card>
-            </div>
-
-            <InsightsSection />
-            <AIInsights />
-
-            <div style={{ textAlign: 'center', color: C.muted, fontSize: 12, marginTop: 4, paddingBottom: 16 }}>
-              Nellis Auction Analytics · 2024 · {summary.total_auctions} auctions
-            </div>
-          </div>
-
-          {/* Right — question panel */}
-          <div className="app-right">
-            <AuctionChat />
-          </div>
-
-        </div>
-      </div>
-    </>
+      </>
+    </MobileCtx.Provider>
   );
 }

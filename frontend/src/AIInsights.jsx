@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
 
 const API = `${process.env.REACT_APP_API_URL || 'http://localhost:8000'}/api`;
@@ -15,13 +15,23 @@ const C = {
 
 const CARD_COLORS = ['#E8372C', '#222222', '#2E7D32', '#7B1FA2', '#E64A19'];
 
-function RecommendationCard({ icon, title, description, index }) {
+function useIsMobile() {
+  const [mobile, setMobile] = useState(() => window.innerWidth < 768);
+  useEffect(() => {
+    const h = () => setMobile(window.innerWidth < 768);
+    window.addEventListener('resize', h);
+    return () => window.removeEventListener('resize', h);
+  }, []);
+  return mobile;
+}
+
+function RecommendationCard({ icon, title, description, index, mobile }) {
   const accent = CARD_COLORS[index % CARD_COLORS.length];
   return (
     <div style={{
       background:    C.card,
       borderRadius:  8,
-      padding:       '18px 20px',
+      padding:       mobile ? '12px 14px' : '18px 20px',
       borderTop:     `3px solid ${accent}`,
       border:        `1px solid ${C.border}`,
       borderTopColor: accent,
@@ -30,7 +40,7 @@ function RecommendationCard({ icon, title, description, index }) {
       flexDirection: 'column',
       gap:           10,
     }}>
-      <div style={{ fontSize: 26, lineHeight: 1 }}>{icon}</div>
+      <div style={{ fontSize: 24, lineHeight: 1 }}>{icon}</div>
       <div style={{
         color:         accent,
         fontSize:      11,
@@ -73,6 +83,7 @@ function SkeletonCard() {
 }
 
 export default function AIInsights() {
+  const mobile = useIsMobile();
   const [recommendations, setRecommendations] = useState([]);
   const [loading, setLoading]                 = useState(false);
   const [error,   setError]                   = useState(null);
@@ -95,15 +106,25 @@ export default function AIInsights() {
 
   return (
     <div style={{
-      background: C.card, borderRadius: 8, padding: '20px 24px', marginBottom: 16,
+      background: C.card, borderRadius: 8,
+      padding: mobile ? '12px 14px' : '20px 24px',
+      marginBottom: mobile ? 10 : 16,
       boxShadow: C.shadow, border: `1px solid ${C.border}`,
     }}>
 
       {/* Header row */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
+      <div style={{
+        display: 'flex', justifyContent: 'space-between',
+        alignItems: mobile ? 'flex-start' : 'center',
+        flexDirection: mobile ? 'column' : 'row',
+        gap: mobile ? 10 : 0,
+        marginBottom: mobile ? 14 : 20,
+      }}>
         <div>
           <h2 style={{
-            margin: 0, color: C.text, fontSize: 14, fontWeight: 700,
+            margin: 0, color: C.text,
+            fontSize: mobile ? 13 : 14,
+            fontWeight: 700,
             borderLeft: `4px solid ${C.accent}`, paddingLeft: 10,
           }}>
             Executive Recommendations
@@ -121,9 +142,12 @@ export default function AIInsights() {
             background:    loading ? C.border : hover ? '#C02E24' : C.accent,
             color:         loading ? C.muted  : '#FFFFFF',
             border:        'none', borderRadius: 6,
-            padding:       '9px 20px', fontSize: 12, fontWeight: 700,
+            padding:       mobile ? '8px 14px' : '9px 20px',
+            fontSize:      mobile ? 11 : 12,
+            fontWeight:    700,
             cursor:        loading ? 'not-allowed' : 'pointer',
             letterSpacing: 0.3, transition: 'background 0.15s', whiteSpace: 'nowrap',
+            alignSelf:     mobile ? 'flex-start' : 'auto',
           }}
         >
           {loading ? 'Analyzing…' : hasResults ? '↺ Refresh' : 'Get Recommendations'}
@@ -131,7 +155,7 @@ export default function AIInsights() {
       </div>
 
       {loading && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 14 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: mobile ? 10 : 14 }}>
           <SkeletonCard />
           <SkeletonCard />
           <SkeletonCard />
@@ -141,16 +165,16 @@ export default function AIInsights() {
       {error && !loading && (
         <div style={{
           color: C.accent, fontSize: 13, padding: '12px 16px',
-          background: '#FFF5F5', borderRadius: 6, border: `1px solid #F5C0BC`,
+          background: '#FFF5F5', borderRadius: 6, border: '1px solid #F5C0BC',
         }}>
           Error: {error}
         </div>
       )}
 
       {!loading && hasResults && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 14 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: mobile ? 10 : 14 }}>
           {recommendations.map((rec, i) => (
-            <RecommendationCard key={i} index={i} {...rec} />
+            <RecommendationCard key={i} index={i} mobile={mobile} {...rec} />
           ))}
         </div>
       )}
