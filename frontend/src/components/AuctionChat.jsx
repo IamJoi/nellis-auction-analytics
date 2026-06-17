@@ -56,12 +56,19 @@ export default function AuctionChat() {
   const bottomRef = useRef(null);
   const inputRef  = useRef(null);
 
+  // Only scroll after the user has sent at least one message (length > 1 means WELCOME + at least one turn)
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (messages.length > 1) {
+      bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [messages, loading]);
 
+  // Only auto-focus on desktop — on mobile, focusing the input triggers the virtual
+  // keyboard and causes the browser to scroll the entire page to the input field.
   useEffect(() => {
-    setTimeout(() => inputRef.current?.focus(), 80);
+    if (window.innerWidth >= 768) {
+      setTimeout(() => inputRef.current?.focus(), 80);
+    }
   }, []);
 
   async function send(text = input.trim()) {
