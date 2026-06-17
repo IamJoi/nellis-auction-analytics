@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import AIInsights from './AIInsights';
+import AuctionChat from './components/AuctionChat';
 import {
   BarChart, Bar, LineChart, Line, Cell,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
@@ -422,6 +423,8 @@ export default function App() {
       <div style={{ textAlign: 'center', color: C.muted, fontSize: 12, marginTop: 8 }}>
         Nellis Auction Analytics · 2024 · {summary.total_auctions} auctions
       </div>
+
+      <AuctionChat />
     </>
   );
 }

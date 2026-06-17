@@ -8,6 +8,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 load_dotenv()
 
@@ -26,7 +27,7 @@ app = FastAPI(title="Nellis Auction Analytics")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
@@ -316,3 +317,45 @@ def insights_risk_flags():
         f"Worst 10 combinations: {json.dumps(combo_rows[:10])}"
     )
     return {"insights": call_claude(prompt, max_tokens=1200)}
+
+
+# ─── chat endpoint ────────────────────────────────────────────────────────────
+
+class ChatMessage(BaseModel):
+    role: str
+    content: str
+
+class ChatRequest(BaseModel):
+    message: str
+    history: list[ChatMessage] = []
+
+
+@app.post("/api/chat")
+def chat(req: ChatRequest):
+    df  = load_df()
+    ctx = build_rich_context(df)
+
+    system = (
+        "You are an AI analyst for Nellis Auction. You have access to real auction "
+        "performance data below. Answer questions concisely and always reference "
+        "specific numbers from the data. If asked for recommendations, be direct.\n\n"
+        f"Current Data: {json.dumps(ctx)}"
+    )
+
+    # Strip leading assistant messages — Claude API requires conversation to start with user
+    history = [{"role": m.role, "content": m.content} for m in req.history]
+    while history and history[0]["role"] == "assistant":
+        history.pop(0)
+
+    history.append({"role": "user", "content": req.message})
+
+    try:
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=512,
+            system=system,
+            messages=history,
+        )
+        return {"reply": msg.content[0].text}
+    except anthropic.APIError as e:
+        raise HTTPException(status_code=502, detail=str(e))
